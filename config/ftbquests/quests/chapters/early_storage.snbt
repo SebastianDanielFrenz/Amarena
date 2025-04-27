@@ -1,0 +1,312 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_storage"
+	group: "11902CDC782DB34A"
+	icon: "minecraft:barrel"
+	id: "0EF3CE055355BE23"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"What it is: This is the central brain and access point of your storage network. It scans adjacent blocks (or blocks within its range if upgraded) for connected storage containers."
+				"Function: You interact with the Storage Scanner's GUI (Graphical User Interface) to see all items stored in linked modules, deposit items, withdraw items, and search/sort your inventory."
+				"Range: By default, it only scans directly adjacent blocks. It can be upgraded with Range Modules to scan a larger area (e.g., 7x7x7, 9x9x9, etc., centered on the scanner)."
+			]
+			id: "58EF885BB5DD3C56"
+			rewards: [{
+				id: "113DE7CB8655624B"
+				item: "lbu2:redstone_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0846548158F10AC5"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			description: ["Let's start simple. Craft your first storage container using Wood and a basic Chest. These look like regular chests but hold the potential for so much more. Notice the GUI is different - this is where the magic will happen! Barrels work similarly but open from the top face."]
+			id: "09827533B0B5B3B2"
+			rewards: [{
+				id: "1DB686640CDE2C52"
+				item: "lbu2:redstone_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62CB4BB23F9B7CEB"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19E570C5EB632970"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "A More Sophisticated Beginning"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["09827533B0B5B3B2"]
+			dependency_requirement: "one_completed"
+			description: ["The real power lies in upgrades! The first type increases capacity. Craft an Iron Tier Upgrade (usually needs Iron Ingots and an Upgrade Base). Apply it to your sophisticated chest/barrel by right-clicking the block with the upgrade in hand (or via the GUI) to significantly boost its storage space. Tiers go Wood -> Iron -> Gold -> Diamond -> Netherite!"]
+			id: "09A530E6DA0994A9"
+			rewards: [{
+				id: "2994FBD14083EFE1"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E5543519D0471D5"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72C4208278E9096B"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:iron_chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More Room Inside!"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["09A530E6DA0994A9"]
+			description: ["Functional upgrades add abilities. Craft a Pickup Upgrade (often needs a Hopper). Place this upgrade into one of the dedicated slots inside your sophisticated storage block's GUI. Now, any items dropped nearby will be automatically pulled into the storage! Handy for mob farms or processing outputs."]
+			id: "193EB74314D8BCF0"
+			rewards: [{
+				id: "66CF5F193345EBD6"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "397942A69CCA32EE"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			title: "Pulling Power"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09A530E6DA0994A9"]
+			description: ["Want only specific items in your container? Craft a Filter Upgrade. Insert it into an upgrade slot, then configure it in the GUI to specify which items are allowed (whitelist) or denied (blacklist). Essential for sorting systems and preventing unwanted items from entering. (Advanced filters offer more slots!)"]
+			id: "2EB853952B77F989"
+			rewards: [{
+				id: "4413F5D86DC8FA89"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7630FC85588D1268"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			title: "Keeping Things Tidy"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09A530E6DA0994A9"]
+			description: ["Need to store vast amounts of a single item, like cobblestone or logs? Craft a Stack Upgrade. Each tier dramatically increases the effective stack size within that container, allowing for massive single-item storage. Perfect for quarry outputs or wood farms. Higher tiers require previous ones!"]
+			id: "6AB9749A1D44D9EE"
+			rewards: [{
+				id: "62ABBDFFCA4BC56E"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E8D55DE4A24DFC0"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			title: "Bulk Benefits"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: ["Every adventurer needs reliable storage on the go. Craft your first basic Backpack using Leather, String, and a Chest. This simple pack is your starting point – open it up (default key 'B', but check controls!) to see its inventory and the upgrade slots that hold future potential. You can even place it in the world like a chest!"]
+			id: "6690ED60EE02BCA9"
+			rewards: [{
+				id: "4489499D616D231C"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68897981E7419CAD"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "On Your Back"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6690ED60EE02BCA9"]
+			description: ["Need more space? Upgrade your backpack! Unlike storage blocks, backpacks are upgraded directly in a crafting grid. Combine your existing backpack with Iron Ingots to craft the Iron Backpack. Each tier (Leather -> Iron -> Gold -> Diamond -> Netherite) increases inventory space and the number of available upgrade slots."]
+			id: "4211C2054CFBB6F3"
+			rewards: [{
+				id: "691F62D8D0D4F444"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2920EBCFCDA7573C"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			title: "Deeper Pockets"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4211C2054CFBB6F3"]
+			description: ["Let your backpack gather items for you! Craft a Pickup Upgrade to automatically grab items the backpack touches (when placed or held), and a Magnet Upgrade to pull nearby items directly into your pack. Install the chosen upgrade into an available slot via the backpack's GUI ('B')."]
+			id: "556E41BD5136CC2F"
+			rewards: [{
+				id: "292D40166928E3A1"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68C6676E14E86BC8"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "3C06AE1AB7CD1AF2"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+			]
+			title: "Item Vacuum"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4211C2054CFBB6F3"]
+			description: ["Getting too much junk pulled in by your Pickup/Magnet? Install a Filter Upgrade into an upgrade slot. Open the backpack's GUI and configure the filter to specify exactly which items are allowed (whitelist) or blocked (blacklist) from entering automatically. Keep your storage organized!"]
+			id: "00AF04526782F58A"
+			rewards: [{
+				id: "3BFAF36F74087CEA"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39B2A58B5BDA7282"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			title: "Selective Collection"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4211C2054CFBB6F3"]
+			description: ["Automate your inventory management! A Deposit Upgrade lets you quickly dump filtered items from your backpack into a targeted chest (Shift + Right-click). A Refill Upgrade automatically restocks items in your hotbar from the backpack's inventory. Both require configuration via the GUI. "]
+			id: "641413F1DAC3EF7B"
+			rewards: [{
+				id: "5CE333D2C718D6B0"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "36D879E38216E82F"
+					item: "sophisticatedbackpacks:deposit_upgrade"
+					type: "item"
+				}
+				{
+					id: "3FF75F7FEB84A5F5"
+					item: "sophisticatedbackpacks:refill_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4211C2054CFBB6F3"]
+			description: ["Stop manually switching tools! Install the Tool Swapper Upgrade and place your pickaxe, axe, shovel, etc., inside the backpack. When you look at a block, the upgrade will automatically equip the correct tool from the backpack into your hand (requires configuration). Incredibly useful for mining and building!"]
+			id: "5A3CDE695FEC855C"
+			rewards: [{
+				id: "74EE2C5E787149D5"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D1A69D629585B60"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			title: "The Right Tool for the Job"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4211C2054CFBB6F3"]
+			description: [
+				"Equip your backpack with truly powerful endgame utility:"
+				""
+				"    Everlasting: Prevents the backpack from being destroyed (eg in the void or in lava)"
+				""
+				"    Inception: Allows you to place other (non-inception) backpacks inside this one."
+			]
+			id: "2ABD810D024A3282"
+			rewards: [{
+				id: "45D37B2ABC868FF5"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "169B8C10A6F59EA8"
+					item: "sophisticatedbackpacks:inception_upgrade"
+					type: "item"
+				}
+				{
+					id: "14AD7DC590E1D46A"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Legendary Luggage"
+			x: 8.0d
+			y: 2.0d
+		}
+	]
+	title: "Early Storage"
+}

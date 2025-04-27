@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "11902CDC782DB34A"
+	id: "51D19C5C7FB79403"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Every grand creation starts with humble beginnings. Before we delve into the marvels of engineering, we must gather the fundamental resources nature provides. Venture out and collect Wood, Stone, and find some Iron Ore buried beneath the earth. These raw materials are the bedrock upon which we will build."]
+			id: "3F110AA956950A3A"
+			rewards: [
+				{
+					count: 4
+					id: "7EC08287EB3B2077"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6361D5C19DC708E5"
+					item: "lbu2:copper_lucky_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "66F672C219636DB3"
+					item: { Count: 10, id: "minecraft:oak_log" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1530D4BF26B43710"
+					item: { Count: 10, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0E8EC257A11D9E69"
+					item: { Count: 5, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "14551401C86A201E"
+					item: { Count: 5, id: "create:raw_zinc" }
+					type: "item"
+				}
+			]
+			title: "Gathering the Basics"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3F110AA956950A3A"]
+			description: ["Simple stone and iron aren't always enough for precise mechanical work. By combining Andesite with Iron Nuggets (or Zinc Nuggets!), you can create Andesite Alloy - a sturdy, reliable material essential for crafting many of Create's foundational machine components. Let's forge our first batch!"]
+			id: "3C2879888B3EB631"
+			rewards: [{
+				id: "6FE10293B558582D"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "3C3A4DD90981955B"
+				item: { Count: 10, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			title: "Crafting Andesite Alloys"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3C2879888B3EB631"]
+			description: ["Now that you have Andesite Alloy, you can combine it with stripped logs to create Andesite Casings (You do this by right clicking on a stripped log (in the world) with an Andesite Alloy). These robust frames form the backbone of many early-game Create machines, providing the basic structure needed to house gears, shafts, and other moving parts. Craft your first one!"]
+			id: "7BC89D17D5C5A279"
+			rewards: [{
+				id: "01F5A38CAF9C320E"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "5EF2BBF9DD537D61"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Sturdy Foundation: Andesite Casing"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7BC89D17D5C5A279"]
+			description: ["Machines need parts to function. Using Andesite Alloy, craft the basic building blocks of rotational power: Shafts to transmit motion along an axis, and Cogwheels (both large and small) to transfer power between shafts, potentially changing speed as they do. These simple pieces are the heart of kinetics."]
+			id: "6E976D401406E5D4"
+			rewards: [{
+				id: "1717045761135A40"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "730033485EB0578D"
+					item: { Count: 16, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0E26CA30D4046B7C"
+					item: { Count: 8, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "36B528C31A01B95C"
+					item: { Count: 8, id: "create:large_cogwheel" }
+					type: "item"
+				}
+			]
+			title: "Making Components"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E976D401406E5D4"]
+			description: ["Feel the power in your own hands! Craft a Hand Crank. By attaching it to a shaft or cogwheel and turning it, you can manually generate rotational force. It's not automated yet, but it's your first direct taste of setting things in motion. Give it a spin!"]
+			id: "0FCE589DF9CA7A35"
+			rewards: [{
+				id: "2C33C14E8AEFAA68"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E887EF3AAFF3FC4"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Manual Power"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FCE589DF9CA7A35"]
+			description: [
+				"Turning a crank forever is tiring. Let's harness the environment! Construct a Water Wheel. When placed correctly in flowing water, this marvel will continuously generate rotational force for you, passively powering your future contraptions. Find a suitable stream and set it up. "
+				"You can also make the stream come to you by placing the water yourself."
+			]
+			id: "337A03FE60F32ADE"
+			rewards: [{
+				id: "790E40BBC3CD4A56"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "53390D7818BC5F24"
+				item: { Count: 4, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			title: "Water Power"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["337A03FE60F32ADE"]
+			description: ["Now it's time to put rotation to work! Craft a Mechanical Press and a Depot to place beneath it. By powering the Press from above using your Water Wheel (or Hand Crank, if you must!), you can automate the process of stamping ingots into plates or applying pressure for other recipes. Witness your first automated task!"]
+			id: "13BD5B0B4EC0B25C"
+			rewards: [{
+				id: "2B7FFE374BA79E88"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EBA6D444060F9EB"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "14221349A6A3FB20"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "First Machine: The Press"
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13BD5B0B4EC0B25C"]
+			dependency_requirement: "one_completed"
+			description: ["Sometimes, power needs to change direction. Craft a Gearbox to transfer rotation straight through or turn it 90 degrees horizontally. For vertical changes, you'll need a Vertical Gearbox. Understanding how to redirect power flow is crucial for designing more complex machinery layouts."]
+			id: "30BF3644389865B7"
+			rewards: [{
+				id: "3DE18E8ACA70B5B3"
+				item: "lbu2:redstone_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "70267844C228390F"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "370D136588FBFFF1"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			title: "Gearing up"
+			x: 14.5d
+			y: 0.5d
+		}
+	]
+	title: "Create: The Dawn of Rotation"
+}

@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "11902CDC782DB34A", title: "Welcome to the early game" }
+		{ id: "1A626ECE99641E34", title: "The mid game..." }
+		{ id: "60E48B2DEA4A2B3B", title: "This is the end (game)" }
+	]
+}

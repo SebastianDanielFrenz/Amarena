@@ -3,7 +3,7 @@
 	#If TRUE, Thermal Series' Rose Gold material and recipes are enabled.
 	"Rose Gold" = true
 	#If TRUE, Thermal Series' Steel material and recipes are enabled.
-	Steel = true
+	Steel = false
 
 ["Mod Compatibility"]
 	#If TRUE, mod integration support for Biomes O' Plenty is enabled, if the mod is loaded.

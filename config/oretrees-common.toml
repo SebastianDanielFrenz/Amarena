@@ -1,0 +1,11 @@
+
+#Format:
+#[[trees]]
+#id = "sparkling"
+#color = [r,g,b]
+#
+[[trees]]
+	color = [255, 0, 0]
+	#The id of the tree. This can be anything, and is used to identify the tree. This is also used for name generation in en_us
+	id = "sparkling"
+

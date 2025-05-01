@@ -302,11 +302,11 @@
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
 				steam_engine = 4096.0
-				water_wheel = 128.0
+				water_wheel = 32.0
 				copper_valve_handle = 32.0
 				hand_crank = 32.0
 				creative_motor = 65536.0
-				large_water_wheel = 512.0
+				large_water_wheel = 128.0
 				windmill_bearing = 2048.0
 
 #.

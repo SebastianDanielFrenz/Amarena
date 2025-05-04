@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_tinkerers_path"
+	group: "11902CDC782DB34A"
+	id: "6B84FE46161A1683"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tired of the limitations of standard diamond gear? Imagine crafting tools and weapons piece by piece, choosing exactly which materials go into the head, the handle, and the binding, each lending unique properties to the final creation. With Tinkers' Construct, you become the artisan. Forget simple crafting tables; build a multi-block Smeltery to melt down metals, create powerful alloys, and cast intricate parts for gear that's truly your own design."
+				""
+				"Your journey doesn't end with crafting the tool – it's just the beginning. As you use your custom equipment, it gains experience, leveling up alongside you and unlocking slots for powerful modifiers. Add diamonds for durability, redstone for speed, or even mending moss for self-repair. Build, modify, repair, and name your creations. Step into the forge and craft tools."
+			]
+			id: "04157BD89DD68148"
+			tasks: [
+				{
+					id: "68B0E39446264DC9"
+					item: "tconstruct:part_builder"
+					type: "item"
+				}
+				{
+					id: "3C73A0D448923FAB"
+					item: "tconstruct:part_chest"
+					type: "item"
+				}
+				{
+					id: "57B83395E3911F4A"
+					item: "tconstruct:tinker_station"
+					type: "item"
+				}
+			]
+			title: "Getting Started"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "6A4EC5BCB471EAB6"
+			tasks: [
+				{
+					id: "7585F519C03C21B7"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C466F2B44E97266"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_binding"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53333E82965E824D"
+					item: {
+						Count: 1
+						id: "tconstruct:tool_handle"
+						tag: {
+							Material: "tconstruct:wood"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "459979FAE4C19C26"
+			tasks: [{
+				id: "03AAF45A7ECBCC57"
+				item: {
+					Count: 1
+					id: "tconstruct:pickaxe"
+					tag: {
+						Damage: 0
+						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:wood#oak"
+							"tconstruct:wood#oak"
+							"tconstruct:wood#oak"
+						]
+						tic_modifiers: [
+							{
+								level: 3
+								name: "tconstruct:cultivated"
+							}
+							{
+								level: 1
+								name: "tconstruct:pierce"
+							}
+						]
+						tic_persistent: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:durability": 60.0f
+							"tconstruct:mining_speed": 2.0f
+						}
+						tic_volatile_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "408E6FC47DA24D58"
+			tasks: [{
+				id: "64E1D436FCC28298"
+				item: "tconstruct:encyclopedia"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+	]
+	title: "The Tinkerer's Path"
+}

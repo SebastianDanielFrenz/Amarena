@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "transport_i"
 	group: "11902CDC782DB34A"
+	icon: "immersive_aircraft:biplane"
 	id: "72F339E2568B3CC1"
 	order_index: 4
 	quest_links: [ ]
@@ -89,6 +90,47 @@
 			}]
 			x: 3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7F425F069B619CB3"]
+			id: "2F1A51462D934F9C"
+			rewards: [{
+				id: "7053DACDB6353A20"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6609AECC922E9688"
+					item: "immersive_aircraft:steel_boiler"
+					type: "item"
+				}
+				{
+					id: "187AFF3535B964DF"
+					item: "immersive_aircraft:sturdy_pipes"
+					type: "item"
+				}
+			]
+			title: "It's upgrade time!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1A51462D934F9C"]
+			id: "472B6CC9E5019141"
+			rewards: [{
+				id: "258D8518BF001FDC"
+				item: "lbu2:lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5008564D934C9007"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			title: "All a plane could ever want to be"
+			x: 9.0d
+			y: 0.0d
 		}
 	]
 	title: "Transport I"

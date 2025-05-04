@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra_to_the_stars"
+	group: "1A626ECE99641E34"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_2_rocket"
+		tag: { }
+	}
+	id: "363A3C9B1EE31BC8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Find and extract oil from an oil source in the ocean."
+				"You'll need at least 6 buckets of oil later."
+			]
+			id: "18A178B494851912"
+			rewards: [{
+				id: "643DCDB667150AF4"
+				item: "lbu2:ocean_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E583C10E6364303"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			title: "Ocean Cleanup"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A178B494851912"]
+			description: [
+				"It's not rocket science....actually, maybe it is."
+				"Get your NASA workbench to build a rocket."
+			]
+			id: "6E144542A6AC1605"
+			rewards: [{
+				id: "2E1EAC0D85A98011"
+				item: "lbu2:metal_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DA3A4420F33B29E"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A178B494851912"]
+			id: "7DC0E56A2959EE0E"
+			rewards: [{
+				id: "23C94E2B78346E55"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "326B6672F89F9E07"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["In order to survive the cold and lifeless vacuum of space, you will need appropriate equiment. Craft a full space suit to defend against the endless void above."]
+			id: "354C11E1C437709A"
+			rewards: [{
+				id: "2300C01F5B5ED766"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "26F8B462ED92D00F"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39AD50DA96D67F76"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AFA6F684500E345"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C6CF4E7AF3149C7"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Space proofing"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["11FCF57C050BC55F"]
+			id: "41D52F9A676DB789"
+			tasks: [{
+				id: "543B41274405B7C8"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["354C11E1C437709A"]
+			description: [
+				"We need more oxygen, my lord!"
+				""
+				"Do not load the oxygen loader with Create piping. It might not work."
+			]
+			id: "292C924225289FD0"
+			rewards: [{
+				id: "201ABDF2BAAB5B38"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60E0DD59CCB27485"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E144542A6AC1605"]
+			id: "11FCF57C050BC55F"
+			tasks: [{
+				id: "090687114EAEA1C7"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["292C924225289FD0"]
+			id: "743A19CFF768D5AA"
+			rewards: [{
+				id: "33EEC791939B4D28"
+				item: "thermal:cheese_wedge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "704AC74AB2DEEFAB"
+				item: {
+					Count: 1
+					id: "ad_astra:large_gas_tank"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7DC0E56A2959EE0E"
+				"41D52F9A676DB789"
+				"743A19CFF768D5AA"
+			]
+			id: "57507458F5A3A6CB"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "2ACEA2AE274B7A33"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57507458F5A3A6CB"]
+			description: [
+				"As James May so eloquently put it..."
+				""
+				"CHEESE. *plonks cheese*"
+			]
+			id: "0397FF9B3A21D5D1"
+			rewards: [
+				{
+					id: "70B6F295A64B8AAE"
+					item: "lbu2:rainbow_lucky_block"
+					type: "item"
+				}
+				{
+					id: "322E34A6DD182409"
+					item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "686B59595EEECCFA"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57507458F5A3A6CB"]
+			id: "5DE47137D9F147D9"
+			rewards: [{
+				id: "46A6EA44AA0C2D2F"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D531E5C9F3ADBFC"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DE47137D9F147D9"]
+			id: "5E447E815ED4E711"
+			rewards: [{
+				id: "4B2AE4377D2DDA0C"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F31DEABA45BE348"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E447E815ED4E711"]
+			id: "3325DF5469D01FDB"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "01AB5B454A6CE015"
+				type: "dimension"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3325DF5469D01FDB"]
+			id: "63CB46F73A0BADD8"
+			tasks: [{
+				id: "37A13AE86AF8E36C"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "Ad Astra: To the stars I"
+}

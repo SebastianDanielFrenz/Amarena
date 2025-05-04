@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1122B375089E9BB9"]
 			description: [
 				"What it is: This is the central brain and access point of your storage network. It scans adjacent blocks (or blocks within its range if upgraded) for connected storage containers."
 				"Function: You interact with the Storage Scanner's GUI (Graphical User Interface) to see all items stored in linked modules, deposit items, withdraw items, and search/sort your inventory."

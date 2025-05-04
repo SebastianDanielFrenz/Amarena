@@ -8,7 +8,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Every grand creation starts with humble beginnings. Before we delve into the marvels of engineering, we must gather the fundamental resources nature provides. Venture out and collect Wood, Stone, and find some Iron Ore buried beneath the earth. These raw materials are the bedrock upon which we will build."]
+			description: [
+				"Step beyond the limits of redstone and delve into the satisfying world of kinetic engineering with Create! Imagine harnessing the power of windmills and water wheels, translating rotational force through intricate arrays of cogs, shafts, and belts to power incredible machines. Design visually stunning contraptions where every moving part serves a purpose, automating tasks in ways you never thought possible."
+				""
+				"Build sprawling factories with conveyor belts whisking items along complex processing lines – crushing ores, washing resources, mixing ingredients, and assembling components with mechanical arms. Create isn't just about efficiency; it's about the beauty of motion and the cleverness of design. If you yearn to build dynamic, automated systems that look as amazing as they function, then prepare to engineer your world like never before."
+				""
+				"Every grand creation starts with humble beginnings. Before we delve into the marvels of engineering, we must gather the fundamental resources nature provides. Venture out and collect Wood, Stone, and find some Iron Ore buried beneath the earth. These raw materials are the bedrock upon which we will build."
+			]
 			id: "3F110AA956950A3A"
 			rewards: [
 				{
@@ -215,6 +221,22 @@
 			title: "Gearing up"
 			x: 14.5d
 			y: 0.5d
+		}
+		{
+			description: ["To see how Creates Items are used you can hold down W in your inventory while hovering over the item to ponder its uses."]
+			id: "6969D141E19161FF"
+			rewards: [{
+				id: "65C6068BFA9C2D73"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F4AB142DBF5FBB3"
+				title: "I ponder how. I ponder why"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.5d
 		}
 	]
 	title: "Create: The Dawn of Rotation"

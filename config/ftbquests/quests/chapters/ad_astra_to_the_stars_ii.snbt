@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra_to_the_stars_ii"
+	group: "60E48B2DEA4A2B3B"
+	id: "78BF24BE850936F1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15BE4FB3D2433D7E"
+			tasks: [{
+				id: "0DEE7325EBEF91CC"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3C0EE96D8A046DAF"]
+			id: "31977EBA4DBF4CEE"
+			tasks: [{
+				id: "78E138C1220B014C"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15BE4FB3D2433D7E"
+				"6BA8BFDD436CF9B4"
+			]
+			icon: "ad_astra:venus_globe"
+			id: "3C0EE96D8A046DAF"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "56A50998A41D9F70"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6BA8BFDD436CF9B4"
+			tasks: [
+				{
+					id: "40F4CA49F4C70207"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BDDC32282D495C8"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B0DBDF6978B5006"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7077657241F48E52"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31977EBA4DBF4CEE"]
+			id: "5BED43BD0445C7DA"
+			tasks: [{
+				id: "481E42A498F1C2F2"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BED43BD0445C7DA"]
+			icon: "ad_extendra:jupiter_globe"
+			id: "19014E8134D925D2"
+			tasks: [{
+				dimension: "ad_extendra:jupiter"
+				id: "73FA9BE6B8D3F715"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "Ad astra: To the stars II"
+}

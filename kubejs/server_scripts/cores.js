@@ -47,4 +47,17 @@ ServerEvents.recipes(event => {
             C: 'kubejs:core_t1'
         }
     )
+    event.shaped(
+        Item.of('kubejs:core_t3'),
+        [
+            ' O ',
+            'RCR',
+            ' O '
+        ],
+        {
+            O: 'ad_astra:ostrum_block',
+            R: 'deeperdarker:reinforced_echo_shard',
+            C: 'kubejs:core_t2'
+        }
+    )
 })

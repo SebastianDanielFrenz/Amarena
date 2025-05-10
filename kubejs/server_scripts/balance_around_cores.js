@@ -150,4 +150,19 @@ ServerEvents.recipes(event => {
             B: 'pipez:basic_upgrade'
         }
     )
+
+    event.remove('pipez:advanced_upgrade')
+    event.shaped(
+        Item.of('pipez:advanced_upgrade'),
+        [
+            'DRD',
+            'RIR',
+            'DRD'
+        ],
+        {
+            D: 'minecraft:diamond_block',
+            R: 'minecraft:redstone_block',
+            I: 'pipez:improved_upgrade'
+        }
+    )
 })

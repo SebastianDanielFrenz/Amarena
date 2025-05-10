@@ -43,5 +43,37 @@ ServerEvents.recipes(event => {
             C: 'kubejs:core_t1'
         }
     )
+
+    event.remove('mekanism:teleportation_core')
+    event.shaped(
+        Item.of('mekanism:teleportation_core'),
+        [
+            'LRL',
+            'CDC',
+            'LRL'
+        ],
+        {
+            R: 'mekanism:alloy_atomic',
+            C: 'kubejs:core_t1',
+            L: 'minecraft:ender_pearl',
+            D: 'minecraft:diamond',
+        }
+    )
+
+    event.remove('ae2:network/blocks/inscribers')
+    event.shaped(
+        Item.of('ae2:inscriber'),
+        [
+            'IPI',
+            'C O',
+            'IPI'
+        ],
+        {
+            I: 'minecraft:iron_ingot',
+            P: 'minecraft:sticky_piston',
+            O: 'kubejs:core_t2',
+            C: 'minecraft:copper_ingot'
+        }
+    )
     
 })

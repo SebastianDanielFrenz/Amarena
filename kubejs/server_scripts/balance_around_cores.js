@@ -90,5 +90,20 @@ ServerEvents.recipes(event => {
             C: 'kubejs:core_t3'
         }
     )
+
+    event.remove('draconicevolution:components/draconium_core')
+    event.shaped(
+        Item.of('draconicevolution:draconium_core'),
+        [
+            'DGD',
+            'GCG',
+            'DGD'
+        ],
+        {
+            D: 'draconicevolution:draconium_ingot',
+            G: 'minecraft:gold_ingot',
+            C: 'kubejs:core_t3'
+        }
+    )
     
 })

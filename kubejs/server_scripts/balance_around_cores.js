@@ -135,4 +135,19 @@ ServerEvents.recipes(event => {
             T: 'mekanism:teleportation_core'
         }
     )
+
+    event.remove('pipez:improved_upgrade')
+    event.shaped(
+        Item.of('pipez:improved_upgrade'),
+        [
+            'GCG',
+            'CBC',
+            'GCG'
+        ],
+        {
+            G: 'minecraft:gold_ingot',
+            C: 'kubejs:core_t3',
+            B: 'pipez:basic_upgrade'
+        }
+    )
 })

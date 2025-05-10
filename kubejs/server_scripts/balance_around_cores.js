@@ -75,5 +75,20 @@ ServerEvents.recipes(event => {
             C: 'minecraft:copper_ingot'
         }
     )
+
+    event.remove('ae2:network/wireless_part')
+    event.shaped(
+        Item.of('ae2:wireless_receiver'),
+        [
+            ' F ',
+            'ICI',
+            ' I '
+        ],
+        {
+            I: 'minecraft:iron_ingot',
+            F: 'ae2:fluix_pearl',
+            C: 'kubejs:core_t3'
+        }
+    )
     
 })

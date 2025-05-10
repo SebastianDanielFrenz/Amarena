@@ -250,4 +250,22 @@ ServerEvents.recipes(event => {
             I: 'mekanism:ultimate_induction_cell'
         }
     )
+
+    event.remove('mekanism:digital_miner')
+    event.shaped(
+        Item.of('mekanism:digital_miner'),
+        [
+            'ACA',
+            'LRL',
+            'TST'
+        ],
+        {
+            A: 'mekanism:alloy_atomic',
+            C: 'kubejs:core_t2',
+            L: 'mekanism:logistical_sorter',
+            R: 'mekanism:robit',
+            T: 'mekanism:teleportation_core',
+            S: 'mekanism:steel_casing'
+        }
+    )
 })

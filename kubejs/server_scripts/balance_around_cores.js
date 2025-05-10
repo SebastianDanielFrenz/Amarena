@@ -165,4 +165,21 @@ ServerEvents.recipes(event => {
             I: 'pipez:improved_upgrade'
         }
     )
+
+    event.remove('rftoolsdim:dimension_builder')
+    event.shaped(
+        Item.of('rftoolsdim:dimension_builder'),
+        [
+            'EDE',
+            'CFC',
+            'AAA'
+        ],
+        {
+            E: 'ad_extendra:electrolyte_block',
+            D: 'draconicevolution:item_chaotic_energy_link',
+            F: 'rftoolsbase:machine_frame',
+            C: 'rftoolspower:dimensionalcell_advanced',
+            A: 'mekanism:pellet_antimatter'
+        }
+    )
 })

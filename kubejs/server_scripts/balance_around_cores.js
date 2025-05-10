@@ -105,5 +105,20 @@ ServerEvents.recipes(event => {
             C: 'kubejs:core_t3'
         }
     )
+
+    event.remove('mekanism:portable_teleporter')
+    event.shaped(
+        Item.of('mekanism:portable_teleporter'),
+        [
+            ' T ',
+            'BCB',
+            ' T '
+        ],
+        {
+            T: 'mekanism:energy_tablet',
+            B: 'mekanism:basic_control_circuit',
+            C: 'draconicevolution:advanced_dislocator'
+        }
+    )
     
 })

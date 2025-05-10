@@ -121,4 +121,18 @@ ServerEvents.recipes(event => {
         }
     )
     
+    event.remove('draconicevolution:tools/dislocator')
+    event.shaped(
+        Item.of('draconicevolution:dislocator'),
+        [
+            'BDB',
+            'DTD',
+            'BDB'
+        ],
+        {
+            B: 'minecraft:blaze_powder',
+            D: 'draconicevolution:draconium_dust',
+            T: 'mekanism:teleportation_core'
+        }
+    )
 })

@@ -182,4 +182,72 @@ ServerEvents.recipes(event => {
             A: 'mekanism:pellet_antimatter'
         }
     )
+
+    event.remove('mekanism:mekasuit_helmet')
+    event.shaped(
+        Item.of('mekanism:mekasuit_helmet'),
+        [
+            'HCH',
+            'HNH',
+            'PIP'
+        ],
+        {
+            H: 'mekanism:hdpe_sheet',
+            C: 'draconicevolution:chaotic_core',
+            N: 'advanced_ae:quantum_helmet',
+            P: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell'
+        }
+    )
+
+    event.remove('mekanism:mekasuit_bodyarmor')
+    event.shaped(
+        Item.of('mekanism:mekasuit_bodyarmor'),
+        [
+            'HCH',
+            'HNH',
+            'PIP'
+        ],
+        {
+            H: 'mekanism:hdpe_sheet',
+            C: 'draconicevolution:reactor_core',
+            N: 'advanced_ae:quantum_chestplate',
+            P: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell'
+        }
+    )
+
+    event.remove('mekanism:mekasuit_pants')
+    event.shaped(
+        Item.of('mekanism:mekasuit_pants'),
+        [
+            'HCH',
+            'HNH',
+            'PIP'
+        ],
+        {
+            H: 'mekanism:hdpe_sheet',
+            C: 'draconicevolution:chaotic_core',
+            N: 'advanced_ae:quantum_leggings',
+            P: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell'
+        }
+    )
+
+    event.remove('mekanism:mekasuit_boots')
+    event.shaped(
+        Item.of('mekanism:mekasuit_boots'),
+        [
+            'HCH',
+            'HNH',
+            'PIP'
+        ],
+        {
+            H: 'mekanism:hdpe_sheet',
+            C: 'draconicevolution:chaotic_core',
+            N: 'advanced_ae:quantum_boots',
+            P: 'mekanism:pellet_polonium',
+            I: 'mekanism:ultimate_induction_cell'
+        }
+    )
 })

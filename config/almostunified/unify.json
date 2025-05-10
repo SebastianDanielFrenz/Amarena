@@ -29,7 +29,8 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:{material}"
   ],
   "materials": [
     "aeternium",
@@ -51,6 +52,7 @@
     "electrum",
     "elementium",
     "emerald",
+    "ender_pearl",
     "enderium",
     "fluorite",
     "gold",
@@ -69,8 +71,10 @@
     "peridot",
     "platinum",
     "potassium_nitrate",
+    "rose_gold",
     "ruby",
     "sapphire",
+    "sawdust",
     "signalum",
     "silver",
     "steel",

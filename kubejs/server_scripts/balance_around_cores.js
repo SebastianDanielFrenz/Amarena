@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
             C: 'draconicevolution:advanced_dislocator'
         }
     )
-    
+
     event.remove('draconicevolution:tools/dislocator')
     event.shaped(
         Item.of('draconicevolution:dislocator'),
@@ -300,5 +300,11 @@ ServerEvents.recipes(event => {
             M: 'advanced_ae:quantum_upgrade_base',
             C: 'kubejs:core_t3'
         }
+    )
+
+    event.replaceInput(
+        { id: 'mekanismgenerators:fission_reactor/fuel_assembly' },
+        '#forge:ingots/steel',
+        'kubejs:core_t3'
     )
 })

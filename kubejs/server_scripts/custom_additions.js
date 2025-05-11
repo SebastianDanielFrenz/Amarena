@@ -22,4 +22,11 @@ ServerEvents.recipes(event => {
             A: 'bloodmagic:hellforgedparts'
         }
     )
+
+    event.shapeless(
+        Item.of('minecraft:clay_ball', 4),
+        [
+            'minecraft:clay'
+        ]
+    )
 })

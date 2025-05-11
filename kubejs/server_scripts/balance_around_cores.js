@@ -268,4 +268,21 @@ ServerEvents.recipes(event => {
             S: 'mekanism:steel_casing'
         }
     )
+
+    event.remove('shrink:shrinking_device')
+    event.shaped(
+        Item.of('shrink:shrinking_device'),
+        [
+            'IEI',
+            'IGI',
+            'ICI'
+        ],
+        {
+            I: 'minecraft:iron_ingot',
+            E: 'minecraft:ender_pearl',
+            G: '#forge:glass',
+            C: 'kubejs:core_t3'
+        }
+    )
+
 })

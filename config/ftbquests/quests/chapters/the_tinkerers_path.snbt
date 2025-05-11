@@ -14,6 +14,11 @@
 				"Your journey doesn't end with crafting the tool – it's just the beginning. As you use your custom equipment, it gains experience, leveling up alongside you and unlocking slots for powerful modifiers. Add diamonds for durability, redstone for speed, or even mending moss for self-repair. Build, modify, repair, and name your creations. Step into the forge and craft tools."
 			]
 			id: "04157BD89DD68148"
+			rewards: [{
+				id: "7532D95F5BBA81EA"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "68B0E39446264DC9"
@@ -30,13 +35,28 @@
 					item: "tconstruct:tinker_station"
 					type: "item"
 				}
+				{
+					count: 8L
+					id: "11B96F519FBF55C4"
+					item: { Count: 8, id: "tconstruct:pattern" }
+					type: "item"
+				}
 			]
 			title: "Getting Started"
 			x: -5.0d
 			y: -0.5d
 		}
 		{
+			description: [
+				"Tools are made up of different Parts. Let's craft all the components we need for a wooden Pickaxe."
+				"To do this we need to use a Part builder and Patterns and Wood"
+			]
 			id: "6A4EC5BCB471EAB6"
+			rewards: [{
+				id: "4286DE94AFA75597"
+				item: "lbu2:lapis_lucky_block"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7585F519C03C21B7"
@@ -76,7 +96,13 @@
 			y: -0.5d
 		}
 		{
+			description: ["You've painstakingly crafted individual parts using the Part Builder: a Pickaxe Head, a Tool Binding, and a Tool Rod. Now for the final step! Take these components to your Tinker Station. This station is designed for assembling (and later modifying) your creations. Place each part into its designated slot within the Tool Station's interface. If the parts are compatible, you'll see a preview of your finished pickaxe. Click the output slot to forge your parts into your very first custom Tinkers' tool!"]
 			id: "459979FAE4C19C26"
+			rewards: [{
+				id: "7A8C0F87FDFD5E67"
+				item: "lbu2:lapis_lucky_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "03AAF45A7ECBCC57"
 				item: {
@@ -119,13 +145,105 @@
 			y: -0.5d
 		}
 		{
+			description: ["\"Welcome to the intricate world of Tinkers' Construct! Before you start forging and smelting, you'll need guidance. Craft the 'Encyclopedia of Tinkering'. This indispensable book details material properties, tool combinations, modifier effects, and the secrets of the Smeltery. Craft it early and consult it often – it's your most valuable tool for becoming a master tinker!\""]
 			id: "408E6FC47DA24D58"
+			rewards: [{
+				id: "751C5DCB764B7BFB"
+				item: "lbu2:lapis_lucky_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64E1D436FCC28298"
 				item: "tconstruct:encyclopedia"
 				type: "item"
 			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: ["Before we can build a big smeltery we need to build a small one first. "]
+			id: "74C6190C8EBE7418"
+			rewards: [{
+				id: "21782490BEC7488E"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "6B9E5862B639CB75"
+					item: "tconstruct:grout"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "249717A6A4F2925F"
+					item: { Count: 16, id: "tconstruct:seared_brick" }
+					type: "item"
+				}
+				{
+					id: "396DECD62B567141"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "70D0D794B1241DCA"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "75B1FC3A72CD05E9"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "58F7E2A3CCEA9197"
+					item: "tconstruct:seared_basin"
+					type: "item"
+				}
+				{
+					id: "6F7FB39160F15087"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+			]
+			title: "Building the Melter"
 			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: ["Now that we have a Melter we can set our sights on a bigger forge. To build this forge we need a Smeltery Controller, Seared Bricks (minimum of 2 for the smallest size) and a Seared Fuel Tank. We can now build our Smeltery. The size of your Smeltery is up to you and how big you build it."]
+			id: "5703386E64745AF7"
+			rewards: [{
+				id: "430007AFF62DF7FC"
+				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 9L
+					id: "1733AB8F8509CAEA"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "0231CA6E9026E066"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "442664AFBC5229CC"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "22124804B227E3CC"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+			]
+			title: "Building the Smelter"
+			x: 5.0d
 			y: -0.5d
 		}
 	]

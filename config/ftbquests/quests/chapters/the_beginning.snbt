@@ -40,6 +40,58 @@
 			x: 1.5d
 			y: -2.0d
 		}
+		{
+			dependencies: ["1130379DC409FCA1"]
+			description: [
+				"Do you crave more than just mining and crafting? Do you want to lead, manage, and build something lasting? Then MineColonies is calling your name!"
+				""
+				"Step into the role of founder and governor of your very own interactive colony. This isn't just building – it's empire building."
+				""
+				"    Lead Your People: Assign jobs, manage inventories, and direct the efforts of dozens of unique NPC workers."
+				"    Strategic Depth: Balance resource production, food supplies, citizen happiness, and colony defense. Research new technologies and unlock powerful upgrades."
+				"    Automation: Why mine every block yourself? Your citizens will gather resources, craft items, and construct complex buildings for you based on your commands!"
+				"    Become the Master Architect: Utilize the powerful Build Tool to place intricate structures and watch your loyal subjects bring your blueprints to life."
+			]
+			id: "4549193F9CC841F9"
+			rewards: [{
+				id: "595780C980A7144E"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "569953A670EF51A2"
+				title: "Forge Your Own Civilization in Minecraft!"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1130379DC409FCA1"]
+			description: [
+				"Step into a world where automation is beautiful, technology is tangible, and your imagination is the only limit. Create revolutionizes how you interact with and automate your world!"
+				""
+				"Prepare to be amazed:"
+				""
+				"    Visible Mechanics: Witness the beauty of rotational power! See gears mesh, belts turn, and shafts spin as energy flows through your meticulously designed machines. No more opaque boxes – just pure, visual engineering."
+				"    Dynamic Creations: Build things that move! Elevators, rotating rooms, automated assembly lines, block-placing contraptions, tree farms that harvest themselves, and the fan-favorite, incredibly versatile TRAIN system!"
+				"    Inventive Solutions: Create encourages clever problem-solving. Design complex processing chains, intricate sorting systems, and automated workshops using a unique set of tools that reward creativity."
+				"    Build with Style: The components in Create are designed to look incredible together, enabling you to build factories and contraptions that are works of art in motion."
+			]
+			id: "4B40BA84D9881A92"
+			rewards: [{
+				id: "1B49C1C06F28CD67"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "060986966828F839"
+				title: "Experience Minecraft Technology "
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
 	]
 	title: "Introduction"
 }

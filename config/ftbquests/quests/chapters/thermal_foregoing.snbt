@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_foregoing"
+	group: "1A626ECE99641E34"
+	id: "3FF6BE9F4B67C5F6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Thermal Foregoing"
+}

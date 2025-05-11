@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "1A626ECE99641E34"
+	id: "531746D57893EFCC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "18B29CD12D5F8A11"
+			tasks: [{
+				id: "3947ECE5B625850C"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "7B2A73A1EFA88E15"
+			tasks: [{
+				id: "4D8D2BF434F9FB51"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5661238A5B6F7BE7"
+			tasks: [{
+				id: "4C97199B417BA78A"
+				item: "kubejs:core_t2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Botania"
+}

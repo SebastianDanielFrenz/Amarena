@@ -1,0 +1,48 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "1A626ECE99641E34"
+	id: "519546197AF43905"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "146AD2AC56D6F238"
+			tasks: [{
+				id: "65800104141EA61E"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "0102D3826214053C"
+			tasks: [{
+				id: "0509707B27BF37B8"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "055EE33F3AF33AD3"
+			tasks: [{
+				id: "3F68AFDECEB0D4A3"
+				item: "kubejs:core_t2"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "Blood Magic"
+}

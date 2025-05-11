@@ -131,16 +131,6 @@
 			y: 0.0d
 		}
 		{
-			id: "481005D414AB07F5"
-			tasks: [{
-				id: "47E74CB7944BDBCB"
-				title: "T1 Material"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["7438DABE78F27E5C"]
 			dependency_requirement: "one_completed"
 			description: ["Crushed ores sometimes hide additional treasures! By using an Encased Fan to blow water (or other fluids) across crushed ores dropped into it, you can wash them. This process not only cleans the primary resource but often yields valuable secondary materials, like Gold Nuggets from crushed Iron Ore, or Iron Nuggets from crushed Copper Ore. Set up your first washing station!"]
@@ -263,6 +253,36 @@
 			title: "Steam Power"
 			x: 15.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2129957D3A80DA1A"]
+			description: ["The time has come to advance to more sophisticated Technologies. Craft a T1 Core that is used in Mekanism Machines."]
+			id: "56F46D65F647C6C3"
+			rewards: [{
+				id: "694E8EC2589E2C1A"
+				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4BFCB52A092B1395"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "13C5AE96F693E10F"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "4582934DA07C3FB1"
+					item: "kubejs:core_t1"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 2.5d
 		}
 	]
 	title: "Create: Industrial Scale"

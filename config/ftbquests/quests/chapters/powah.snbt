@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "1A626ECE99641E34"
+	id: "4DAF7A4712C4B407"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Powahs Thermo Generators give you an easy way to produce a steady amount of energy. "
+				"To setup your Thermo Generator you need to place a heat source (lava) below it and give it water with a pipe."
+			]
+			id: "5C94EC7A67B5A6F8"
+			tasks: [
+				{
+					id: "6F208C10C57C6196"
+					item: "powah:thermo_generator_starter"
+					type: "item"
+				}
+				{
+					id: "75176AD0748E82E8"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "1012DD6B8069D7A6"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "51BE4B1A96DC06E1"
+			tasks: [
+				{
+					id: "095AB6A2E7A6C68A"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "6BD8F61AEB37AF13"
+					item: "powah:energizing_rod_starter"
+					type: "item"
+				}
+				{
+					id: "0C82883BB4D4A036"
+					item: "powah:steel_energized"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: ["The blazing block is a better heat source than lava which increases the amount of energy which is generated"]
+			id: "26FCC2481A57DDF7"
+			tasks: [{
+				id: "3D8B34946A2D1C65"
+				item: "powah:blazing_crystal_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "5091157727C011DF"
+			tasks: [{
+				id: "7A8B8CB8DE5810CC"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "1718146ABD5F299F"
+			tasks: [{
+				id: "39399D043F33B9C4"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "7025378E68322EBC"
+			tasks: [{
+				id: "47064174088AB60A"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "6ADBC485BE472FB4"
+			tasks: [{
+				id: "315A5BE47F662643"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "171D107738490D01"
+			tasks: [{
+				id: "460BD4611D4CBB74"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "22FC0BE0253B8B79"
+			tasks: [{
+				id: "1B6FD9C7FE47AC3B"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+	]
+	title: "Powah"
+}

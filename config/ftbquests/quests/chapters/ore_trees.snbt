@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_trees"
+	group: "1A626ECE99641E34"
+	id: "127EBB393987C995"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "3F8324F3569F00B4"
+		tasks: [{
+			id: "40F659CF4A0A4855"
+			item: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			type: "item"
+		}]
+		x: -1.5d
+		y: 0.0d
+	}]
+	title: "Ore Trees"
+}

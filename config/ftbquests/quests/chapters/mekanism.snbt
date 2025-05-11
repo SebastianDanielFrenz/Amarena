@@ -1,0 +1,164 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "1A626ECE99641E34"
+	id: "6803019D01AF276F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Osmium is a crucial resource for almost all Mekanism machines. Venture forth and mine some Osmium Ore."]
+			id: "10C791402202D6AD"
+			tasks: [{
+				count: 8L
+				id: "53F9FE0DC6078F42"
+				item: { Count: 8, id: "mekanism:raw_osmium" }
+				type: "item"
+			}]
+			title: "Osmium: The Beginning"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10C791402202D6AD"]
+			description: [
+				"Machines need power! Craft a Heat Generator. It can burn combustible materials like coal or wood to generate a small amount of energy."
+				"Alternatively you can also use the Powah mod instead to generate energy"
+			]
+			id: "23F22EF5C7171BD4"
+			tasks: [{
+				id: "2274AF92AB005E8B"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			title: "Powering Up - The Basic Way"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10C791402202D6AD"]
+			description: ["The Metallurgic Infuser is your first step into alloy creation and enriching materials. Craft one to get started. You'll also need some Iron and Coal/Charcoal for infusions."]
+			id: "5AD12E4FE3DB7E09"
+			tasks: [{
+				id: "2E5D2E197944D9E0"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Essential Metallurgy"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AD12E4FE3DB7E09"]
+			description: ["Steel is a vital component for many Mekanism machines and tools. Use your Metallurgic Infuser to combine Iron Ingots with Coal or Charcoal (as Carbon) to create Steel Blend, then smelt that into Steel Ingots."]
+			id: "79CF6E4DB2EE4FDB"
+			tasks: [{
+				id: "4F148CC6724466DB"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			title: "Making Steel"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79CF6E4DB2EE4FDB"]
+			description: ["The Enrichment Chamber is your first step towards more efficient ore processing. It can double your ingot output from ores! Craft one and power it using your Heat Generator (or a better power source if you have one)."]
+			id: "352438FBA51B1A95"
+			tasks: [{
+				id: "30317BEF7F55A978"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Double Your Fun! (4/3 times it to be exact)"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["352438FBA51B1A95"]
+			description: ["While a regular furnace works, the Energized Smelter is faster and can be powered directly by Mekanism energy."]
+			id: "62734A817D7B5967"
+			tasks: [{
+				id: "00E769F0E6EDDCA1"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			title: "Efficient Smelting"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62734A817D7B5967"]
+			dependency_requirement: "one_completed"
+			description: ["Your machines will soon demand more power than a single generator can provide consistently. Craft a Basic Energy Cube to store surplus energy."]
+			id: "331A2630BED8663C"
+			tasks: [{
+				id: "3B9E63792365FA0A"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "Storing Your Power"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["331A2630BED8663C"]
+			description: ["To transfer power from your generators and Energy Cubes to your machines, you'll need cables. Craft some Basic Universal Cables."]
+			id: "28F4F2A25C8ECBF3"
+			tasks: [{
+				count: 16L
+				id: "4BC126ED5EF68E14"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			title: "Getting Connected"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62734A817D7B5967"]
+			description: ["The crusher is used to crush a variety of items"]
+			id: "3683FFB22042AE94"
+			tasks: [{
+				id: "01F3A5D65790ED90"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			title: "Crushing It!"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"28F4F2A25C8ECBF3"
+				"3683FFB22042AE94"
+			]
+			description: ["Craft a digital Miner. This Machine uses energy to mine ores for you in radius around it. This is a great way to acquire  resources"]
+			id: "1A3AA17C70827053"
+			tasks: [{
+				id: "62FF50006A96C2C6"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23F22EF5C7171BD4"
+				"5AD12E4FE3DB7E09"
+			]
+			description: ["The next step in Mekanisms energy generation is the wind generator."]
+			id: "0426ABC3AC1330A2"
+			tasks: [{
+				id: "5DA8F54ECF2B78FE"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "Mekanism"
+}

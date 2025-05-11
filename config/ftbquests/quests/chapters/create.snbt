@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6969D141E19161FF"]
 			description: [
 				"Step beyond the limits of redstone and delve into the satisfying world of kinetic engineering with Create! Imagine harnessing the power of windmills and water wheels, translating rotational force through intricate arrays of cogs, shafts, and belts to power incredible machines. Design visually stunning contraptions where every moving part serves a purpose, automating tasks in ways you never thought possible."
 				""
@@ -223,6 +224,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["4B40BA84D9881A92"]
 			description: ["To see how Creates Items are used you can hold down W in your inventory while hovering over the item to ponder its uses."]
 			id: "6969D141E19161FF"
 			rewards: [{
@@ -235,8 +237,8 @@
 				title: "I ponder how. I ponder why"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: -3.5d
+			y: 0.5d
 		}
 	]
 	title: "Create: The Dawn of Rotation"

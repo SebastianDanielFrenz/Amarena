@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'minecraft:amethyst_block',
-            O: 'minecraft:oak_sapling',
+            O: 'oretrees:iron_sapling',
             L: 'minecraft:oak_log'
         }
     )

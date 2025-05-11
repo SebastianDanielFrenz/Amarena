@@ -1,14 +1,14 @@
 ServerEvents.recipes(event => {
     event.shaped(
-        Item.of('oretrees:ice_shard_sapling'),
+        Item.of('oretrees:osmium_sapling'),
         [
             'AAA',
             'AOA',
             ' L '
         ],
         {
-            A: 'ad_astra:permafrost',
-            O: 'oretrees:lapis_sapling',
+            A: 'mekanism:block_osmium',
+            O: 'oretrees:copper_sapling',
             L: 'minecraft:oak_log'
         }
     )

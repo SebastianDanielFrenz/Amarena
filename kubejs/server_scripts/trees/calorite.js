@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'ad_astra:calorite_block',
-            O: 'minecraft:oak_sapling',
+            O: 'oretrees:ostrum_sapling',
             L: 'minecraft:oak_log'
         }
     )

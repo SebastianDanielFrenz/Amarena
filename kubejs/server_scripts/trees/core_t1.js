@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         ],
         {
             A: 'oretrees:core_t1_essence',
-            O: 'minecraft:oak_sapling',
+            O: 'oretrees:coal_sapling',
             L: 'minecraft:oak_log'
         }
     )

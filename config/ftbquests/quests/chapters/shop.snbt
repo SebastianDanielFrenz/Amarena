@@ -1,0 +1,147 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: "60E48B2DEA4A2B3B"
+	id: "1147ABA3BF386588"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		id: "22A82613B258355E"
+		rewards: [{
+			id: "2CFD2605E87B0534"
+			item: "botanypotstiers:creative_terracotta_botany_pot"
+			type: "item"
+		}]
+		tasks: [
+			{
+				id: "14D3CA78CEF0AAFA"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_11_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}
+			{
+				count: 3L
+				id: "4D8851F4E30DFACB"
+				item: "draconicevolution:large_chaos_frag"
+				type: "item"
+			}
+			{
+				count: 5L
+				id: "5D10AF58F280373C"
+				item: { Count: 5, id: "kubejs:compressed_nitro_generator" }
+				type: "item"
+			}
+			{
+				count: 100L
+				id: "6233B0A4F82C192F"
+				item: { Count: 100, id: "kubejs:core_t3" }
+				type: "item"
+			}
+			{
+				id: "73E4C7BF2A581A49"
+				item: {
+					Count: 1
+					id: "mythicbotany:alfsteel_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "30B5C0959DEE2EED"
+				item: {
+					Count: 1
+					id: "minecolonies:plate_armor_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "7AE47DD564150323"
+				item: "minecolonies:pita_hummus"
+				type: "item"
+			}
+			{
+				id: "5B9896E8861E1DC9"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}
+			{
+				id: "761A48B534BDA613"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}
+			{
+				count: 5L
+				id: "1DB07CAC3DF0E036"
+				item: { Count: 5, id: "tconstruct:pig_iron_ingot" }
+				type: "item"
+			}
+			{
+				id: "01D9FE8B6D0558D6"
+				item: {
+					Count: 1
+					id: "mekanism:meka_tool"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "16000000"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}
+			{
+				id: "38DDEE716A209A5D"
+				item: "ae2additions:super_cell_component_65m"
+				type: "item"
+			}
+			{
+				count: 10L
+				id: "13EF796C7FC72869"
+				item: { Count: 10, id: "mekanism:pellet_antimatter" }
+				type: "item"
+			}
+			{
+				id: "52B3934C4359BD4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 3
+						}
+					}
+					id: "immersiveengineering:railgun"
+				}
+				type: "item"
+			}
+			{
+				id: "0D986F79233B7786"
+				item: "create:mechanical_arm"
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Shop"
+}

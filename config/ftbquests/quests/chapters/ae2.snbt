@@ -193,6 +193,17 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			description: ["If you unsure how to proceed the guid is there to help you"]
+			id: "60331726585037C6"
+			tasks: [{
+				id: "0C10D81FC5EEBEE2"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
 	]
 	title: "AE2"
 }

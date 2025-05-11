@@ -1,10 +1,19 @@
 coal: rare in forest biomes
-aluminium: spawns in plains biomes
-iron: gravel desert
-gravel: gravel beach
-copper: forested highlands
-gold: badlands
-redstone: volcanic peaks
-emerald: windswept spires
-lapis: glacial chasm
-sand: beach
+aluminium: minecraft plains
+iron: terralith gravel desert
+gravel: terralith gravel beach
+copper: terralith forested highlands
+gold: minecraft badlands
+redstone: terralith volcanic peaks
+emerald: terralith windswept spires
+lapis: terralith glacial chasm
+sand: minecraft beach
+stone: terralith highlands
+
+todo:
+amethyst
+glowstone
+quartz
+clay
+ancient
+diamond

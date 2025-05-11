@@ -11,4 +11,15 @@ ServerEvents.recipes(event => {
             B: 'powah:blazing_crystal_block'
         }
     )
+    event.shaped(
+        Item.of('kubejs:compressed_hellforged_parts'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A: 'bloodmagic:hellforgedparts'
+        }
+    )
 })

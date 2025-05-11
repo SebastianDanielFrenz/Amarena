@@ -3,8 +3,43 @@
 	default_quest_shape: ""
 	filename: "the_tinkerers_path"
 	group: "11902CDC782DB34A"
+	icon: {
+		Count: 1
+		id: "tconstruct:pickaxe"
+		tag: {
+			Damage: 0
+			tic_broken: 0b
+			tic_materials: [
+				"tconstruct:manyullyn"
+				"tconstruct:manyullyn"
+				"tconstruct:manyullyn"
+			]
+			tic_modifiers: [
+				{
+					level: 3
+					name: "tconstruct:insatiable"
+				}
+				{
+					level: 1
+					name: "tconstruct:pierce"
+				}
+			]
+			tic_persistent: { }
+			tic_stats: {
+				"tconstruct:attack_damage": 5.4f
+				"tconstruct:attack_speed": 1.14f
+				"tconstruct:durability": 1375.0f
+				"tconstruct:harvest_tier": "minecraft:netherite"
+				"tconstruct:mining_speed": 5.85f
+			}
+			tic_volatile_data: {
+				abilities: 1
+				upgrades: 3
+			}
+		}
+	}
 	id: "6B84FE46161A1683"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -47,6 +82,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["04157BD89DD68148"]
 			description: [
 				"Tools are made up of different Parts. Let's craft all the components we need for a wooden Pickaxe."
 				"To do this we need to use a Part builder and Patterns and Wood"
@@ -96,6 +132,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["6A4EC5BCB471EAB6"]
 			description: ["You've painstakingly crafted individual parts using the Part Builder: a Pickaxe Head, a Tool Binding, and a Tool Rod. Now for the final step! Take these components to your Tinker Station. This station is designed for assembling (and later modifying) your creations. Place each part into its designated slot within the Tool Station's interface. If the parts are compatible, you'll see a preview of your finished pickaxe. Click the output slot to forge your parts into your very first custom Tinkers' tool!"]
 			id: "459979FAE4C19C26"
 			rewards: [{
@@ -161,6 +198,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["459979FAE4C19C26"]
 			description: ["Before we can build a big smeltery we need to build a small one first. "]
 			id: "74C6190C8EBE7418"
 			rewards: [{
@@ -212,6 +250,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["74C6190C8EBE7418"]
 			description: ["Now that we have a Melter we can set our sights on a bigger forge. To build this forge we need a Smeltery Controller, Seared Bricks (minimum of 2 for the smallest size) and a Seared Fuel Tank. We can now build our Smeltery. The size of your Smeltery is up to you and how big you build it."]
 			id: "5703386E64745AF7"
 			rewards: [{

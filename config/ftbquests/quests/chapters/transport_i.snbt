@@ -5,7 +5,7 @@
 	group: "11902CDC782DB34A"
 	icon: "immersive_aircraft:biplane"
 	id: "72F339E2568B3CC1"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -131,6 +131,40 @@
 			title: "All a plane could ever want to be"
 			x: 9.0d
 			y: 0.0d
+		}
+		{
+			id: "151769F17AA5120E"
+			tasks: [
+				{
+					id: "3B405CD26ED0E1F4"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "0A3DBEA6E30920FD"
+					item: "waystones:warp_scroll"
+					type: "item"
+				}
+				{
+					id: "6F620084B6120143"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53DBDB9A28B4CCC1"
+					item: "waystones:return_scroll"
+					type: "item"
+				}
+			]
+			title: "Early Teleportation"
+			x: 9.0d
+			y: -2.0d
 		}
 	]
 	title: "Transport I"

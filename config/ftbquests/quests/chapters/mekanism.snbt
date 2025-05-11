@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "1A626ECE99641E34"
+	icon: "mekanism:atomic_disassembler"
 	id: "6803019D01AF276F"
 	order_index: 2
 	quest_links: [ ]
@@ -142,7 +143,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -158,6 +159,50 @@
 			}]
 			x: -1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3683FFB22042AE94"
+				"28F4F2A25C8ECBF3"
+			]
+			description: ["The Atomic Disassembler is a multitool with a variable mining speed. You can change the speed by crouching and scrolling while you are holding it"]
+			id: "7701AFC186D56759"
+			tasks: [{
+				id: "4B00EBE402CDDDD2"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			description: ["Wirelessly transport items and energy"]
+			id: "52D1CFA4AD666643"
+			tasks: [{
+				id: "5CA03823D057EC50"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			id: "27120D7FF5E66845"
+			tasks: [
+				{
+					id: "6C7F8F78013281C6"
+					item: "mekanism:teleporter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "15FE9ED40AF56B58"
+					item: "mekanism:teleporter_frame"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.5d
 		}
 	]
 	title: "Mekanism"

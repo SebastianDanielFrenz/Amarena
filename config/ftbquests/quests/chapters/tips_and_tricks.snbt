@@ -2,9 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tips_and_tricks"
-	group: "0D875D3DF5ADC477"
+	group: "11902CDC782DB34A"
+	icon: "immersiveengineering:light_bulb"
 	id: "76BBAFA308F80EE6"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -21,18 +22,31 @@
 		{
 			description: ["Use a builders wand to build faster"]
 			id: "4720F5DC703BAA14"
-			tasks: [{
-				id: "048DAF072663EEE2"
-				item: {
-					Count: 1
-					id: "constructionwand:diamond_wand"
-					tag: {
-						Damage: 0
-						wand_options: { }
+			tasks: [
+				{
+					id: "048DAF072663EEE2"
+					item: {
+						Count: 1
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1EA084FD434F4469"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Builders wand"
 			x: -1.5d
 			y: -2.0d
@@ -62,6 +76,270 @@
 			]
 			x: -0.5d
 			y: -1.0d
+		}
+		{
+			description: ["Mob Grinding Utils has a lot of useful items for farming mobs. "]
+			id: "30827C3891878180"
+			tasks: [{
+				id: "2182F618A3D9CBC5"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["You can upgrade your furnaces to work faster with the Iron Furnaces mod."]
+			id: "55117C9433F9874A"
+			tasks: [{
+				id: "2B31DCF367E46CAB"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: ["Tired of using coal? Use this heater to power your furnaces with FE."]
+			id: "7E98EE67FE8B78EA"
+			tasks: [
+				{
+					id: "3197A743D0DE4A5C"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "5048B9D4A0647BAD"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: ["Need energy somewhere far away from your Base? Use Flux Networks to transfer you energy."]
+			id: "39CE5ED94519354C"
+			tasks: [
+				{
+					id: "32DE4A5E956E37B0"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "643609B6D2DC7F2D"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+				{
+					id: "021AB4BB2923EE29"
+					item: "fluxnetworks:flux_controller"
+					type: "item"
+				}
+			]
+			title: "Wireless Energy Transmission"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "115BAB4050C51C8F"
+			tasks: [
+				{
+					id: "64999D5977C110C1"
+					item: "bhc:red_heart_canister"
+					type: "item"
+				}
+				{
+					id: "58CCA6089DAED209"
+					item: "bhc:yellow_heart_canister"
+					type: "item"
+				}
+				{
+					id: "3D761033AB507737"
+					item: "bhc:green_heart_canister"
+					type: "item"
+				}
+				{
+					id: "0298A6C29539B47B"
+					item: "bhc:blue_heart_canister"
+					type: "item"
+				}
+				{
+					id: "18F3302994BE8066"
+					item: "bhc:soul_heart_canister"
+					type: "item"
+				}
+				{
+					id: "37F4D80C5D454D07"
+					item: "bhc:heart_amulet"
+					type: "item"
+				}
+				{
+					id: "346426CD87EE8F2C"
+					item: "bhc:soul_heart_amulet"
+					type: "item"
+				}
+			]
+			title: "More Health"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "6362789DC9718F09"
+			tasks: [
+				{
+					id: "71F2DEC582FDE051"
+					item: "chunkloaders:basic_chunk_loader"
+					type: "item"
+				}
+				{
+					id: "5ABC140F1A63F8CE"
+					item: "chunkloaders:advanced_chunk_loader"
+					type: "item"
+				}
+				{
+					id: "098A36E2894C52C6"
+					item: "chunkloaders:ultimate_chunk_loader"
+					type: "item"
+				}
+			]
+			title: "Chunk Loading"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "3BDBFCA6D6CCC067"
+			tasks: [
+				{
+					id: "0221CF25AF2FC572"
+					item: "easy_villagers:breeder"
+					type: "item"
+				}
+				{
+					id: "25B28D35E69FA739"
+					item: "easy_villagers:incubator"
+					type: "item"
+				}
+				{
+					id: "27B2D53227E43522"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					id: "379799FE221B3019"
+					item: "easy_villagers:auto_trader"
+					type: "item"
+				}
+			]
+			title: "Easy Villagers"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["All ender chests with the same frequency share an inventory"]
+			id: "6DA350EFD2512337"
+			tasks: [{
+				id: "237B0EB2478B42DD"
+				item: {
+					Count: 1
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			title: "Item Transport"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["You can use entangled blocks to access a block from somewhere else. Can be usefull for automating some machines"]
+			id: "439A6DBDB7AFA706"
+			tasks: [
+				{
+					id: "281A3D917337C937"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "320E4C8F110036D0"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["There is a sound muffler with which you choose to turn off certain sounds. You can access it by click the speaker symbol at the top left of your inventory"]
+			id: "3E44F13BAB8D6FD2"
+			tasks: [{
+				id: "3732667F4C8F42AC"
+				title: "Sound Muffler"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "06CC76D40360434C"
+			tasks: [
+				{
+					id: "036B82030E8DA9C4"
+					item: "itemcollectors:basic_collector"
+					type: "item"
+				}
+				{
+					id: "02287854E7B6152D"
+					item: "itemcollectors:advanced_collector"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "6526DDC78AD0AD23"
+			tasks: [{
+				id: "06C349FEF17D6250"
+				item: "elevatorid:elevator_white"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "06E1A83AC7BF3C16"
+			tasks: [
+				{
+					id: "701A6893465CF2A6"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "6365A94570CF9FEC"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2C3684956C85E641"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "608FAA6152D8366D"
+					item: "pipez:universal_pipe"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.0d
 		}
 	]
 	title: "Tips and Tricks"

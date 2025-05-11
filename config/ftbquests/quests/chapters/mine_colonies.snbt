@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "mine_colonies"
 	group: "11902CDC782DB34A"
+	icon: "minecolonies:supplycampdeployer"
 	id: "6F01C21A5BFF7ED9"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{

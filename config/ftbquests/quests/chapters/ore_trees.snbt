@@ -4,7 +4,7 @@
 	filename: "ore_trees"
 	group: "1A626ECE99641E34"
 	id: "127EBB393987C995"
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [{
 		id: "3F8324F3569F00B4"

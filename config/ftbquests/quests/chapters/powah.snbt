@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "powah"
 	group: "1A626ECE99641E34"
+	icon: "powah:energizing_orb"
 	id: "4DAF7A4712C4B407"
 	order_index: 3
 	quest_links: [ ]
@@ -34,6 +35,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["5091157727C011DF"]
 			id: "51BE4B1A96DC06E1"
 			tasks: [
 				{
@@ -56,6 +58,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["51BE4B1A96DC06E1"]
 			description: ["The blazing block is a better heat source than lava which increases the amount of energy which is generated"]
 			id: "26FCC2481A57DDF7"
 			tasks: [{
@@ -67,6 +70,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5C94EC7A67B5A6F8"]
 			id: "5091157727C011DF"
 			tasks: [{
 				id: "7A8B8CB8DE5810CC"
@@ -77,6 +81,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["51BE4B1A96DC06E1"]
 			id: "1718146ABD5F299F"
 			tasks: [{
 				id: "39399D043F33B9C4"
@@ -87,6 +92,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["1718146ABD5F299F"]
 			id: "7025378E68322EBC"
 			tasks: [{
 				id: "47064174088AB60A"
@@ -97,6 +103,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["7025378E68322EBC"]
 			id: "6ADBC485BE472FB4"
 			tasks: [{
 				id: "315A5BE47F662643"
@@ -107,6 +114,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["6ADBC485BE472FB4"]
 			id: "171D107738490D01"
 			tasks: [{
 				id: "460BD4611D4CBB74"
@@ -117,6 +125,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["171D107738490D01"]
 			id: "22FC0BE0253B8B79"
 			tasks: [{
 				id: "1B6FD9C7FE47AC3B"
@@ -125,6 +134,87 @@
 			}]
 			x: 6.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["51BE4B1A96DC06E1"]
+			id: "23BC433317D5348E"
+			tasks: [{
+				id: "286A6A1668FAB22E"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23BC433317D5348E"]
+			id: "6E416A186C52054F"
+			tasks: [{
+				id: "547D70ADB8181D81"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E416A186C52054F"]
+			id: "2279369F1049021E"
+			tasks: [{
+				id: "521C1F9DC14CCC89"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2279369F1049021E"]
+			id: "75A9FEC22568C01C"
+			tasks: [{
+				id: "33537FA83E6AD86C"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75A9FEC22568C01C"]
+			id: "048B28B49D33E277"
+			tasks: [{
+				id: "74F1CFCED8AA9289"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["048B28B49D33E277"]
+			id: "17A5B912049F43D0"
+			tasks: [{
+				id: "7869108A9DCB0AE9"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"26FCC2481A57DDF7"
+				"22FC0BE0253B8B79"
+			]
+			description: ["Once you have a lot of Generators you can compress them so they cause less client lag and use them as a heat source"]
+			id: "7CB6B2A5EC924EEA"
+			tasks: [{
+				id: "63199664A8EFABCA"
+				item: "kubejs:compressed_nitro_generator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
 		}
 	]
 	title: "Powah"

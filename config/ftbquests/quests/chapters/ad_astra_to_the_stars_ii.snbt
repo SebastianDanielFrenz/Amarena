@@ -3,8 +3,20 @@
 	default_quest_shape: ""
 	filename: "ad_astra_to_the_stars_ii"
 	group: "60E48B2DEA4A2B3B"
+	icon: {
+		Count: 1
+		id: "ad_extendra:tier_11_rocket"
+		tag: {
+			BotariumData: {
+				StoredFluids: [{
+					Amount: 3000L
+					Fluid: "ad_astra:fuel"
+				}]
+			}
+		}
+	}
 	id: "78BF24BE850936F1"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

@@ -5,7 +5,7 @@
 	group: "11902CDC782DB34A"
 	icon: "minecraft:barrel"
 	id: "0EF3CE055355BE23"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "getting_to_the_late_game"
 	group: "1A626ECE99641E34"
+	icon: "kubejs:core_t3"
 	id: "341EEE47742E299F"
 	order_index: 9
 	quest_links: [ ]
@@ -30,6 +31,10 @@
 			y: -2.5d
 		}
 		{
+			dependencies: [
+				"0853E1351EFF440B"
+				"1C2FEDBB6C45B6C4"
+			]
 			id: "16D4532FF57AA2D5"
 			tasks: [{
 				id: "09FC608FA54E0DFB"
@@ -37,6 +42,26 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10609C7F8DDD809C"]
+			id: "2C1CEDB1DD090690"
+			tasks: [{
+				id: "17C9D931A10B6D49"
+				item: {
+					Count: 1
+					id: "hostilenetworks:prediction"
+					tag: {
+						data_model: {
+							id: "hostilenetworks:warden"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Automate the Warden"
+			x: 4.0d
 			y: -1.5d
 		}
 	]

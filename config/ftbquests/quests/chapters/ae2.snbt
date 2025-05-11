@@ -1,0 +1,198 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "1A626ECE99641E34"
+	icon: "ae2:crafting_terminal"
+	id: "6873894D087E21FF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6CCD3F88ECADC2BD"]
+			id: "5672ECBF9061C887"
+			tasks: [
+				{
+					id: "0806EC6A9EDF998A"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "0EDAE9A8235CB476"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "07A2EE9643B1257E"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "04BC41E53622BFE9"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_1k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "50ABDC059D1778C5"
+					item: "ae2:fluix_smart_cable"
+					type: "item"
+				}
+			]
+			title: "Basic ME System"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["709ED4349D4B8B26"]
+			id: "6CCD3F88ECADC2BD"
+			tasks: [{
+				id: "609C3B59EF4B22C5"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CCD3F88ECADC2BD"]
+			id: "7E6C799D5F5A9603"
+			tasks: [{
+				id: "139D3E49A2B3DBA9"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E6C799D5F5A9603"]
+			dependency_requirement: "one_completed"
+			id: "6902405BF7925813"
+			tasks: [{
+				id: "7C47303E45543FFB"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "709ED4349D4B8B26"
+			tasks: [
+				{
+					id: "6E79EF59151EF32B"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "23F408750CA74A88"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "5D3183CB2EC0AA8E"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5672ECBF9061C887"]
+			id: "26C4C5D78B030386"
+			tasks: [{
+				id: "6A6F0A005A649B7C"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5672ECBF9061C887"]
+			id: "2804D2AC53E472A3"
+			tasks: [{
+				id: "2EE27655615CF1BC"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2804D2AC53E472A3"]
+			id: "3CB39D8F0DBB0716"
+			tasks: [
+				{
+					id: "69A5ACA5BC6E3EC2"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "47D91F772E8892A3"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0F6AC4AB05A8A40D"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "12ABFD7212F5214D"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB39D8F0DBB0716"]
+			id: "0A07BC5B6E4E44D6"
+			tasks: [
+				{
+					id: "7B2ED2326661562F"
+					item: "advanced_ae:quantum_core"
+					type: "item"
+				}
+				{
+					id: "57B55F7B3BC09176"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5672ECBF9061C887"]
+			id: "4512186020B75B73"
+			tasks: [
+				{
+					id: "24FB596B2D98CD1D"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+				{
+					id: "0902B7AC6CD0EBA6"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "5CED1F97262F514A"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "AE2"
+}

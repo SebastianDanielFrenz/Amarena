@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mahou_tsukai"
+	group: "1A626ECE99641E34"
+	icon: "mahoutsukai:mahoujin_projector"
+	id: "2AB17F696C975679"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		id: "6E4FEB478D71182C"
+		tasks: [{
+			id: "7C8F87CB0F7F13CD"
+			item: "mahoutsukai:guidebook"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Mahou Tsukai"
+}

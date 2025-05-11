@@ -4,8 +4,17 @@
 	filename: "immersive"
 	group: "1A626ECE99641E34"
 	id: "5062443950E4E918"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "54EE8DB2B5B04458"
+		tasks: [{
+			id: "657626CABC805707"
+			item: "immersiveengineering:manual"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "Immersive"
 }

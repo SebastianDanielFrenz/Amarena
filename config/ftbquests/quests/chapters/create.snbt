@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "11902CDC782DB34A"
+	icon: "create:large_cogwheel"
 	id: "51D19C5C7FB79403"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

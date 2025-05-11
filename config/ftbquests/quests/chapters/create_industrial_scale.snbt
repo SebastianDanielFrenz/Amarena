@@ -3,8 +3,9 @@
 	default_quest_shape: ""
 	filename: "create_industrial_scale"
 	group: "11902CDC782DB34A"
+	icon: "create:crushing_wheel"
 	id: "50E00E663BD7041C"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{

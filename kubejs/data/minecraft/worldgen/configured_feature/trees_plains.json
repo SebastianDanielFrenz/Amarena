@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "oretrees:aluminium",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "oretrees:aluminium",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

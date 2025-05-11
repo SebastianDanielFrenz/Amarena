@@ -285,4 +285,20 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.remove('advanced_ae:flight_card')
+    event.shaped(
+        Item.of('advanced_ae:flight_card'),
+        [
+            'PEP',
+            'FMF',
+            'PCP'
+        ],
+        {
+            P: 'advanced_ae:quantum_alloy_plate',
+            E: 'minecraft:elytra',
+            F: 'minecraft:feather',
+            M: 'advanced_ae:quantum_upgrade_base',
+            C: 'kubejs:core_t3'
+        }
+    )
 })

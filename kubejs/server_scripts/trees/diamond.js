@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         {
             A: 'minecraft:diamond_block',
             O: 'oretrees:emerald_sapling',
-            L: 'minecraft:diamond_ore'
+            L: 'minecraft:oak_log'
         }
     )
 })

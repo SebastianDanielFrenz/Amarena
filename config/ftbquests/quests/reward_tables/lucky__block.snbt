@@ -1,0 +1,26 @@
+{
+	id: "6F5AF9AB4584B076"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block" }
+		{ item: "lbu2:lucky_block" }
+		{ item: "lbu2:diamond_lucky_block" }
+		{ item: "lbu2:copper_lucky_block" }
+		{ item: "lbu2:redstone_lucky_block" }
+		{ item: "lbu2:lapis_lucky_block" }
+		{ item: "lbu2:emerald_lucky_block" }
+		{ item: "lbu2:amethyst_lucky_block" }
+		{ item: "lbu2:obsidian_lucky_block" }
+		{ item: "lbu2:netherite_lucky_block" }
+		{ item: "lbu2:tnt_lucky_block" }
+		{ item: "lbu2:melon_lucky_block" }
+		{ item: "lbu2:frost_lucky_block" }
+		{ item: "lbu2:nether_lucky_block" }
+		{ item: "lbu2:ender_lucky_block" }
+		{ item: "lbu2:honey_lucky_block" }
+		{ item: "lbu2:sculk_lucky_block" }
+		{ item: "lbu2:slime_lucky_block" }
+	]
+	title: "lucky  block"
+}

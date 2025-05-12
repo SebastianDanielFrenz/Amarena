@@ -6,19 +6,306 @@
 	id: "127EBB393987C995"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		id: "3F8324F3569F00B4"
-		tasks: [{
-			id: "40F659CF4A0A4855"
-			item: {
-				Count: 1
-				id: "naturescompass:naturescompass"
-				tag: { }
-			}
-			type: "item"
-		}]
-		x: -1.5d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "3F8324F3569F00B4"
+			tasks: [{
+				id: "40F659CF4A0A4855"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Put an axe in your Bonsai Pot to automate the harvesting."
+				"Put a hopper into your Pot to have it push the harvest to the inventory below it."
+			]
+			id: "322FDFDEE88D4932"
+			tasks: [
+				{
+					id: "0930AE04E8F7630B"
+					item: "bonsaitrees3:bonsaipot"
+					type: "item"
+				}
+				{
+					id: "79B1F46B30836299"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: ["To be able to get fruit your Bonsai Pot needs a Beehive."]
+			id: "10BC50A99E8A9844"
+			tasks: [{
+				id: "79A6CBA774E90FAD"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			description: ["Add a looting 3 book into the Bonsai Pot to increase the yield of the harvest"]
+			id: "7BAAC8647190CEF0"
+			tasks: [{
+				id: "6A1BC55A5E886EE0"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F8324F3569F00B4"]
+			description: ["Find a Coal Sapling in a forest biome"]
+			id: "6B509D08B92477EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C2795E032EBEBD8"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [
+				{
+					biome: "minecraft:forest"
+					id: "1D36F77C34DBDEDC"
+					type: "biome"
+				}
+				{
+					id: "167514B83B8A573E"
+					item: "oretrees:coal_sapling"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F8324F3569F00B4"]
+			description: ["Find an Aluminium Sapling in a Plains biome"]
+			id: "72A33CBC4D21214D"
+			tasks: [
+				{
+					id: "0283F04048F0F228"
+					item: "oretrees:aluminium_sapling"
+					type: "item"
+				}
+				{
+					biome: "minecraft:plains"
+					id: "75D9033DB0B423D8"
+					type: "biome"
+				}
+			]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F8324F3569F00B4"]
+			description: ["Find an Iron Sapling in a Gravel Desert"]
+			id: "573C8B79F64DC830"
+			tasks: [
+				{
+					id: "4FCAC55A3340B440"
+					item: "oretrees:iron_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:gravel_desert"
+					id: "151EFEBD83F9A2E0"
+					type: "biome"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F8324F3569F00B4"]
+			description: ["Find a Gravel Sapling in a Gravel Beach"]
+			id: "2D57FE53DE0C4578"
+			tasks: [
+				{
+					id: "05C61155C5B73EB2"
+					item: "oretrees:gravel_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:gravel_beach"
+					id: "6BA1BE78A5972F5B"
+					type: "biome"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find a Copper Sapling in a Forested Highland"]
+			id: "7E1C649E88EBF10A"
+			tasks: [
+				{
+					id: "402854299BBBE06B"
+					item: "oretrees:copper_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:forested_highlands"
+					id: "6113967AC13769FE"
+					type: "biome"
+				}
+			]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find a Gold Sapling in a Badlands Biome"]
+			id: "263BCD3C8EDA16CB"
+			tasks: [
+				{
+					id: "20274E40D3AFF10D"
+					item: "oretrees:gold_sapling"
+					type: "item"
+				}
+				{
+					biome: "minecraft:badlands"
+					id: "3881A099E1F23FAC"
+					type: "biome"
+				}
+			]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find Redstone Sapling in a Volcanic Peaks Biome"]
+			id: "4A4E98CFD7CB9DC3"
+			tasks: [
+				{
+					id: "6795D599A96FE17E"
+					item: "oretrees:redstone_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:volcanic_peaks"
+					id: "6056FF477F89D70E"
+					type: "biome"
+				}
+			]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find an Emerald Sapling in a Windswept Spires Biomes"]
+			id: "7029C51A6590FCD2"
+			tasks: [
+				{
+					id: "662761821AD3CB9E"
+					item: "oretrees:emerald_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:windswept_spires"
+					id: "2E77AF9CE334EFEF"
+					type: "biome"
+				}
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find a Lapis Sapling in a Glacial Chasm Biome"]
+			id: "7443125F5A7F1AEA"
+			tasks: [
+				{
+					id: "1176D645D192D621"
+					item: "oretrees:lapis_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:glacial_chasm"
+					id: "251E382CA3992B67"
+					type: "biome"
+				}
+			]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find a Sand Sapling in a Beach Biome"]
+			id: "7B85753B2D36C9B4"
+			tasks: [
+				{
+					id: "1C42A6BC6349AA36"
+					item: "oretrees:sand_sapling"
+					type: "item"
+				}
+				{
+					biome: "minecraft:beach"
+					id: "672274A3A92572C0"
+					type: "biome"
+				}
+			]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			description: ["Find a Stone Sapling in a Highlands Biome"]
+			id: "0D8E0C72EDD4AD14"
+			tasks: [
+				{
+					id: "7C6E55CB5F59B4A5"
+					item: "oretrees:stone_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:highlands"
+					id: "4DCB0ACBB2CD0AF2"
+					type: "biome"
+				}
+			]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F8324F3569F00B4"]
+			description: ["Find a Clay Sapling in an Orchid Swamp"]
+			id: "6779B1A14A0AEED2"
+			tasks: [
+				{
+					id: "089BC5683409CB2D"
+					item: "oretrees:clay_sapling"
+					type: "item"
+				}
+				{
+					biome: "terralith:orchid_swamp"
+					id: "50FDDA26464DDE46"
+					type: "biome"
+				}
+			]
+			x: 20.5d
+			y: -2.0d
+		}
+	]
 	title: "Ore Trees"
 }

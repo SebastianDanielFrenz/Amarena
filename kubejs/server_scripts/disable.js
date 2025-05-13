@@ -11,3 +11,6 @@ ServerEvents.command('clear', event => {
         }
     }
 })
+ServerEvents.recipes(event => {
+    event.remove({ id: 'industrialforegoing:ore_laser_base' })
+})

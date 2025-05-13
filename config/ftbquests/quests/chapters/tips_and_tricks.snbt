@@ -11,6 +11,12 @@
 		{
 			description: ["You can use a mega torch to stop hostile mobs spawning in a 64 Block radius"]
 			id: "645CD6133A56F63B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62EECEFF0E67D296"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2525789099E3816F"
 				item: "torchmaster:megatorch"
@@ -22,6 +28,12 @@
 		{
 			description: ["Use a builders wand to build faster"]
 			id: "4720F5DC703BAA14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F4A61B4CC541453"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "048DAF072663EEE2"
@@ -54,6 +66,12 @@
 		{
 			description: ["Are you having trouble finding biomes or structures? Then you can use the Explorers compass to find structures and the natures compass to find biomes."]
 			id: "684210D4726EB9F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3329DD4B09136F27"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "5CCFB14081726ED7"
@@ -80,6 +98,12 @@
 		{
 			description: ["Mob Grinding Utils has a lot of useful items for farming mobs. "]
 			id: "30827C3891878180"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55E8D323C7FA6E85"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2182F618A3D9CBC5"
 				item: "mob_grinding_utils:saw"
@@ -91,6 +115,12 @@
 		{
 			description: ["You can upgrade your furnaces to work faster with the Iron Furnaces mod."]
 			id: "55117C9433F9874A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53D1162719F4D6B8"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2B31DCF367E46CAB"
 				item: "ironfurnaces:netherite_furnace"
@@ -102,6 +132,12 @@
 		{
 			description: ["Tired of using coal? Use this heater to power your furnaces with FE."]
 			id: "7E98EE67FE8B78EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27C2740778AE4F08"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3197A743D0DE4A5C"
@@ -120,6 +156,12 @@
 		{
 			description: ["Need energy somewhere far away from your Base? Use Flux Networks to transfer you energy."]
 			id: "39CE5ED94519354C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33D342C39E8F03FC"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "32DE4A5E956E37B0"
@@ -143,6 +185,12 @@
 		}
 		{
 			id: "115BAB4050C51C8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB4F96957BF6200"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "64999D5977C110C1"
@@ -186,6 +234,12 @@
 		}
 		{
 			id: "6362789DC9718F09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14C27FC34582EFF3"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "71F2DEC582FDE051"
@@ -209,6 +263,12 @@
 		}
 		{
 			id: "3BDBFCA6D6CCC067"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7777E57A3C630FE4"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0221CF25AF2FC572"
@@ -238,6 +298,12 @@
 		{
 			description: ["All ender chests with the same frequency share an inventory"]
 			id: "6DA350EFD2512337"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65C9596DFB6FFBAE"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "237B0EB2478B42DD"
 				item: {
@@ -257,6 +323,12 @@
 		{
 			description: ["You can use entangled blocks to access a block from somewhere else. Can be usefull for automating some machines"]
 			id: "439A6DBDB7AFA706"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "780FF91B6319A852"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "281A3D917337C937"
@@ -279,6 +351,12 @@
 		{
 			description: ["There is a sound muffler with which you choose to turn off certain sounds. You can access it by click the speaker symbol at the top left of your inventory"]
 			id: "3E44F13BAB8D6FD2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7343C61A1681A458"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3732667F4C8F42AC"
 				title: "Sound Muffler"
@@ -289,6 +367,12 @@
 		}
 		{
 			id: "06CC76D40360434C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79BA267D74440270"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "036B82030E8DA9C4"
@@ -306,6 +390,12 @@
 		}
 		{
 			id: "6526DDC78AD0AD23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "385098626A45B0F1"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "06C349FEF17D6250"
 				item: "elevatorid:elevator_white"
@@ -316,6 +406,12 @@
 		}
 		{
 			id: "06E1A83AC7BF3C16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1395F101CD9EB6A2"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "701A6893465CF2A6"

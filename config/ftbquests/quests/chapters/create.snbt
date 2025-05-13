@@ -18,20 +18,12 @@
 				"Every grand creation starts with humble beginnings. Before we delve into the marvels of engineering, we must gather the fundamental resources nature provides. Venture out and collect Wood, Stone, and find some Iron Ore buried beneath the earth. These raw materials are the bedrock upon which we will build."
 			]
 			id: "3F110AA956950A3A"
-			rewards: [
-				{
-					count: 4
-					id: "7EC08287EB3B2077"
-					item: "minecraft:andesite"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "6361D5C19DC708E5"
-					item: "lbu2:copper_lucky_block"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "562DA009A97E2A01"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 10L
@@ -67,9 +59,10 @@
 			description: ["Simple stone and iron aren't always enough for precise mechanical work. By combining Andesite with Iron Nuggets (or Zinc Nuggets!), you can create Andesite Alloy - a sturdy, reliable material essential for crafting many of Create's foundational machine components. Let's forge our first batch!"]
 			id: "3C2879888B3EB631"
 			rewards: [{
-				id: "6FE10293B558582D"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "69DC583BD0D45357"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				count: 10L
@@ -86,9 +79,10 @@
 			description: ["Now that you have Andesite Alloy, you can combine it with stripped logs to create Andesite Casings (You do this by right clicking on a stripped log (in the world) with an Andesite Alloy). These robust frames form the backbone of many early-game Create machines, providing the basic structure needed to house gears, shafts, and other moving parts. Craft your first one!"]
 			id: "7BC89D17D5C5A279"
 			rewards: [{
-				id: "01F5A38CAF9C320E"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "72107F728F5E6C72"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				count: 5L
@@ -105,9 +99,10 @@
 			description: ["Machines need parts to function. Using Andesite Alloy, craft the basic building blocks of rotational power: Shafts to transmit motion along an axis, and Cogwheels (both large and small) to transfer power between shafts, potentially changing speed as they do. These simple pieces are the heart of kinetics."]
 			id: "6E976D401406E5D4"
 			rewards: [{
-				id: "1717045761135A40"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "24AEB4E1C508721C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -138,9 +133,10 @@
 			description: ["Feel the power in your own hands! Craft a Hand Crank. By attaching it to a shaft or cogwheel and turning it, you can manually generate rotational force. It's not automated yet, but it's your first direct taste of setting things in motion. Give it a spin!"]
 			id: "0FCE589DF9CA7A35"
 			rewards: [{
-				id: "2C33C14E8AEFAA68"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1E0E1CFF961ACCD1"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "0E887EF3AAFF3FC4"
@@ -159,9 +155,10 @@
 			]
 			id: "337A03FE60F32ADE"
 			rewards: [{
-				id: "790E40BBC3CD4A56"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5D9A03DC11FE0569"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				count: 4L
@@ -178,9 +175,10 @@
 			description: ["Now it's time to put rotation to work! Craft a Mechanical Press and a Depot to place beneath it. By powering the Press from above using your Water Wheel (or Hand Crank, if you must!), you can automate the process of stamping ingots into plates or applying pressure for other recipes. Witness your first automated task!"]
 			id: "13BD5B0B4EC0B25C"
 			rewards: [{
-				id: "2B7FFE374BA79E88"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2C28325273CC3E75"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -204,9 +202,10 @@
 			description: ["Sometimes, power needs to change direction. Craft a Gearbox to transfer rotation straight through or turn it 90 degrees horizontally. For vertical changes, you'll need a Vertical Gearbox. Understanding how to redirect power flow is crucial for designing more complex machinery layouts."]
 			id: "30BF3644389865B7"
 			rewards: [{
-				id: "3DE18E8ACA70B5B3"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3902D0FF591D4C37"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -229,9 +228,10 @@
 			description: ["To see how Creates Items are used you can hold down W in your inventory while hovering over the item to ponder its uses."]
 			id: "6969D141E19161FF"
 			rewards: [{
-				id: "65C6068BFA9C2D73"
-				item: "lbu2:emerald_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4BDF205FF5194EFC"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "5F4AB142DBF5FBB3"

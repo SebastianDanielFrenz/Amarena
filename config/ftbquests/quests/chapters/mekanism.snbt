@@ -11,6 +11,12 @@
 		{
 			description: ["Osmium is a crucial resource for almost all Mekanism machines. Venture forth and mine some Osmium Ore."]
 			id: "10C791402202D6AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FD458CDDA272E81"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				count: 8L
 				id: "53F9FE0DC6078F42"
@@ -28,6 +34,12 @@
 				"Alternatively you can also use the Powah mod instead to generate energy"
 			]
 			id: "23F22EF5C7171BD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69116CF32D5A8DC0"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2274AF92AB005E8B"
 				item: "mekanismgenerators:heat_generator"
@@ -41,6 +53,12 @@
 			dependencies: ["10C791402202D6AD"]
 			description: ["The Metallurgic Infuser is your first step into alloy creation and enriching materials. Craft one to get started. You'll also need some Iron and Coal/Charcoal for infusions."]
 			id: "5AD12E4FE3DB7E09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61C7B4E985388D2E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E5D2E197944D9E0"
 				item: "mekanism:metallurgic_infuser"
@@ -54,6 +72,12 @@
 			dependencies: ["5AD12E4FE3DB7E09"]
 			description: ["Steel is a vital component for many Mekanism machines and tools. Use your Metallurgic Infuser to combine Iron Ingots with Coal or Charcoal (as Carbon) to create Steel Blend, then smelt that into Steel Ingots."]
 			id: "79CF6E4DB2EE4FDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14D3E7260FE00270"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4F148CC6724466DB"
 				item: "thermal:steel_ingot"
@@ -67,6 +91,12 @@
 			dependencies: ["79CF6E4DB2EE4FDB"]
 			description: ["The Enrichment Chamber is your first step towards more efficient ore processing. It can double your ingot output from ores! Craft one and power it using your Heat Generator (or a better power source if you have one)."]
 			id: "352438FBA51B1A95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A6B1B5EF52A6095"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "30317BEF7F55A978"
 				item: "mekanism:enrichment_chamber"
@@ -80,6 +110,12 @@
 			dependencies: ["352438FBA51B1A95"]
 			description: ["While a regular furnace works, the Energized Smelter is faster and can be powered directly by Mekanism energy."]
 			id: "62734A817D7B5967"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3644343139B24EE9"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "00E769F0E6EDDCA1"
 				item: "mekanism:energized_smelter"
@@ -152,6 +188,12 @@
 			]
 			description: ["The next step in Mekanisms energy generation is the wind generator."]
 			id: "0426ABC3AC1330A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47C330EF954C225F"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5DA8F54ECF2B78FE"
 				item: "mekanismgenerators:wind_generator"

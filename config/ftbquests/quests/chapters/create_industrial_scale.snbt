@@ -13,9 +13,10 @@
 			description: ["Manually moving items between machines is tedious and slow. Let's automate item transportation! Craft Conveyor Belts using Dried Kelp and Andesite Alloy (or similar recipe - check in-game). These belts, when powered by rotation, will carry items along their path, forming the logistical backbone of your burgeoning factory."]
 			id: "33230A680FEEA032"
 			rewards: [{
-				id: "6A7578067B3571C5"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6D01E814BF879139"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "4327881EF8EF1BB7"
@@ -31,9 +32,10 @@
 			description: ["Crafting wires and rods by hand can be inefficient. The Rolling Mill, an essential machine from Crafts and Additions, automates this process. Provide it with rotational power and feed it ingots (like Copper) to effortlessly produce wires or rods needed for motors, generators, and more."]
 			id: "3F3FAA45AA075F52"
 			rewards: [{
-				id: "73B2841BD38F29D0"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0202CDC744394AE1"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "734AC87E22040CC9"
@@ -49,9 +51,10 @@
 			description: ["Some recipes require ingredients to be thoroughly combined. The Mechanical Mixer, powered by rotation from above, does just that! When placed over a Basin, it can automate crafting recipes like Andesite Alloy, Brass Ingots (if a heat source like a Blaze Burner is added below the Basin!), Dough, and more. Craft the Mixer and a Whisk to get started."]
 			id: "0273DFC9758C671F"
 			rewards: [{
-				id: "6C78EA6160078F1B"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2535FCF2BB6E7E3C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -74,9 +77,10 @@
 			description: ["While Andesite and Copper have laid the foundation, unlocking Create's more sophisticated mechanisms requires a stronger, more versatile alloy: Brass. Your journey to brass begins by finding and smelting Zinc Ore. Once you have Zinc Ingots, they must be combined with Copper Ingots. Place both into a Basin, position a fueled Blaze Burner underneath to provide intense heat, and use a Mechanical Mixer spinning above to thoroughly combine the molten metals. The gleaming Brass Ingots you produce are the gateway to precision machines and advanced automation!"]
 			id: "1122B375089E9BB9"
 			rewards: [{
-				id: "2510D1AAAC882E57"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4383A1EE54A3CE4E"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				count: 8L
@@ -93,9 +97,10 @@
 			description: ["Simple furnaces provide warmth, but true industrial processes often demand intense heat! The Blaze Burner is Create's solution for providing controllable, high-temperature heat needed for things like alloying Brass, powering Steam Engines, or super-heating furnaces. To craft one, you'll first need an Empty Blaze Burner and then infuse it with the essence of the Nether by combining it with Netherrack. Prepare to handle the heat! (Remember, once crafted,  you can capture a Blaze mob within an empty one to create a heat source!)"]
 			id: "148C03F4815AC67B"
 			rewards: [{
-				id: "78658E702D00B8FF"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3AE0F879476D8534"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -117,9 +122,10 @@
 			description: ["Why settle for just one ingot per ore when you can get more? Construct a pair of Crushing Wheels. When these massive wheels spin against each other powered by rotation, they pulverize raw ores fed between them, significantly increasing the yield of resources you get after smelting. It's time to maximize efficiency!"]
 			id: "7438DABE78F27E5C"
 			rewards: [{
-				id: "467AAA73F7AC8FEE"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "567315FA3676CCEE"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				count: 2L
@@ -137,9 +143,10 @@
 			description: ["Crushed ores sometimes hide additional treasures! By using an Encased Fan to blow water (or other fluids) across crushed ores dropped into it, you can wash them. This process not only cleans the primary resource but often yields valuable secondary materials, like Gold Nuggets from crushed Iron Ore, or Iron Nuggets from crushed Copper Ore. Set up your first washing station!"]
 			id: "62B07F4716A08853"
 			rewards: [{
-				id: "3A9DE58B6A08742A"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "71788D3A1C6CF5EF"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "2E68E8CE86442C0B"
@@ -155,9 +162,10 @@
 			description: ["Let's combine our knowledge. Design and build a fully automated system that takes raw ores, sends them through Crushing Wheels, then washes the result with Encased Fans and water, and finally smelts or blasts the output into ingots. Connect everything with belts and power it all to achieve true hands-off resource production"]
 			id: "312FA43112CD7D2B"
 			rewards: [{
-				id: "23C9C006B0236C9A"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "54DB0C88E56A4488"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -182,9 +190,10 @@
 			description: ["To unlock truly advanced automation and precision machinery, you need Brass. First, create Brass Ingots by mixing Copper and Zinc in a Blaze-heated Mixer. Then, use Brass Sheets and Logs to craft Brass Casings. These are vital for housing sophisticated components like Electron Tubes and form the basis for powerful devices like Mechanical Arms and Rotation Speed Controllers."]
 			id: "2129957D3A80DA1A"
 			rewards: [{
-				id: "07AF718E9AC2CE00"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5CC2F0CA245FC9B8"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "25BC77C525A92717"
@@ -200,9 +209,10 @@
 			description: ["Surface mining and manual digging can only get you so far. The Create Ore Excavation addon allows for mining on a colossal scale! Begin by crafting the necessary components for the multiblock drill structure, such as the Drill Head, Fluid Tank, and structural supports. Prepare to tap into entire ore veins at once."]
 			id: "48BD90C89254B02E"
 			rewards: [{
-				id: "5A723E0E6C507176"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "23D5CF16514CCA46"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -229,9 +239,10 @@
 			dependencies: ["48BD90C89254B02E"]
 			id: "1E2F4C5A02EB3F67"
 			rewards: [{
-				id: "27B2AADD3C4DB45B"
-				item: "lbu2:emerald_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0359B0FC0113323F"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			subtitle: "Water Wheels and Windmills provide steady power, but for energy-hungry machines like the Ore Excavator, you'll need more torque. Construct a Steam Engine! By heating water using Blaze Burners (or other heat sources), you can generate steam to drive the engine, producing significantly more rotational force than your previous methods. Manage your heat and water supply carefully!"
 			tasks: [
@@ -260,9 +271,10 @@
 			description: ["The time has come to advance to more sophisticated Technologies. Craft a T1 Core that is used in Mekanism Machines."]
 			id: "56F46D65F647C6C3"
 			rewards: [{
-				id: "694E8EC2589E2C1A"
-				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1878AF9450959D2C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{

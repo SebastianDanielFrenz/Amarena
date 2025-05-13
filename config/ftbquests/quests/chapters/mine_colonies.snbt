@@ -12,9 +12,10 @@
 			description: ["My Lord, every great endeavor begins with a single, decisive step. Before us lies untamed land, ripe with potential. Your first task is to choose the heart of your future settlement. Craft a Supply Camp and place it where you envision your colony's center. This will be the cornerstone of all that is to come. Once placed, it will transform into your nascent Town Hall"]
 			id: "21A47CCACF90F0DB"
 			rewards: [{
-				id: "5AA338D62C98D49A"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "37B207A5E124BF1E"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "0DD81D222FF3F953"
@@ -30,9 +31,10 @@
 			description: ["A Lord is nothing without their people, and a settlement cannot build itself. Your Town Hall now stands, but it is merely a shell. Craft a Build Tool. This remarkable device will allow you to designate construction projects. Your immediate priority is to hire your first, and arguably most crucial, citizen: the Builder. Use the Town Hall interface to hire a Builder. They will be the one to bring your architectural visions to life."]
 			id: "2805DC1520B3A024"
 			rewards: [{
-				id: "227B5474C22F9157"
-				item: "lbu2:nether_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1F7FBA846ACB073A"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "48A23460C857C744"
@@ -48,9 +50,10 @@
 			description: ["To manage your colony's needs, the Clipboard displays all citizen requests, while the Resource Scroll details the materials needed for a specific builder's hut project. To activate them, you need to link the Clipboard to the town hall and the Resource Scroll to a builder's hut. This is done by holding the item and shift-right-clicking on the respective block."]
 			id: "6CCC8954F381BEB4"
 			rewards: [{
-				id: "00FD235E8B4743FA"
-				item: "lbu2:honey_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2553249A327B534E"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -77,9 +80,10 @@
 			description: ["Your new Builder is eager to begin, but even the most dedicated worker requires shelter. A Builder's Hut is paramount. This will be their workshop and their home. Use your Build Tool to select the location for the Builder's Hut. Once you've chosen a suitable spot, instruct your Builder through the Town Hall or the Builder's Hut block to begin construction. They will inform you of the resources required"]
 			id: "6A9B3F46B5B09E34"
 			rewards: [{
-				id: "4638D508EA04E668"
-				item: "lbu2:emerald_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "58F7BBD9503D4FD3"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "3F7EE81859160285"
@@ -94,9 +98,10 @@
 			description: ["The Domum Ornamentum mod introduces a vast array of craftable blocks through the Architect's Cutter. This tool allows you to apply the textures of other materials or blocks onto a base block, effectively generating a virtually limitless variety of building blocks. To use the Architect's Cutter, you place a 'template' block in the initial slot and then insert the desired skinning materials into the side or bottom slots. The Minecolonies mod heavily utilizes these customized blocks; you can find out how to craft a specific block by hovering over it in the Minecolonies building materials list."]
 			id: "047E8F8751D4A874"
 			rewards: [{
-				id: "5337FD82A5F5F2B3"
-				item: "lbu2:obsidian_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "175218162EF00D18"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "4EF0C1E50C516985"
@@ -117,9 +122,10 @@
 			description: ["To manage resources for your colonists, the Warehouse provides central storage for their items and your supplies. For efficient distribution, the Courier's Hut enables couriers to transport these goods to and from various locations. Additionally, the Postbox facilitates direct delivery of items to you, while the Stash allows for items to be sent directly to the Warehouse. Couriers will automatically determine their delivery routes."]
 			id: "6B61FD72F701881D"
 			rewards: [{
-				id: "27D1D19A01D2CD4F"
-				item: "lbu2:nether_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "77C1764BF806B750"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -160,9 +166,10 @@
 			]
 			id: "45CBF4F8AB195238"
 			rewards: [{
-				id: "08CA767CD87C537C"
-				item: "lbu2:melon_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "64C66B03CADD2E74"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -193,9 +200,10 @@
 			]
 			id: "11EA846C74807B9E"
 			rewards: [{
-				id: "6C4A95B81D63AF96"
-				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "555A06FF35061164"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "706D897F9060032B"
@@ -223,9 +231,10 @@
 			]
 			id: "2A5AECE6D8587715"
 			rewards: [{
-				id: "2073C26DE97C2E0B"
-				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "6F6772928208428F"
+				table_id: 8024000200115007606L
+				type: "loot"
 			}]
 			tasks: [
 				{
@@ -248,9 +257,10 @@
 			description: ["Craft a T1 Core and thus unlock new Technology."]
 			id: "29C326DFA0C5C5A9"
 			rewards: [{
-				id: "6599BB69AE1647DB"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "641A93E11B6E6428"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "6D46E6D7AB42ECA8"

@@ -11,9 +11,10 @@
 			description: ["In this modpack there is a progression through different modpacks. Some requirements have been changed from the mod default so its recommended to follow the quests as you progress through the mods."]
 			id: "0DA5F20D42793BB2"
 			rewards: [{
-				id: "14D85E73C15A0139"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1EFCA60246A9044F"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "3176CA3F87E9A319"
@@ -28,9 +29,10 @@
 			description: ["To progress in most Mods you will require Technology cores like (T1 Core) which require you to play certain mods. The first core requires either Create or Minecolonies so its recommended to start out with one of those two mods."]
 			id: "1130379DC409FCA1"
 			rewards: [{
-				id: "6BB8F3F6263F247A"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "46DC8DA8E157F08D"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "1F68F4BA4945DFB2"
@@ -54,9 +56,10 @@
 			]
 			id: "4549193F9CC841F9"
 			rewards: [{
-				id: "595780C980A7144E"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3C04C4A1282C6E5C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "569953A670EF51A2"
@@ -80,9 +83,10 @@
 			]
 			id: "4B40BA84D9881A92"
 			rewards: [{
-				id: "1B49C1C06F28CD67"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0F1F37BD162BCFC9"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "060986966828F839"

@@ -3,7 +3,6 @@
 	loot_size: 1
 	order_index: 1
 	rewards: [
-		{ item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block" }
 		{ item: "lbu2:lucky_block" }
 		{ item: "lbu2:diamond_lucky_block" }
 		{ item: "lbu2:copper_lucky_block" }

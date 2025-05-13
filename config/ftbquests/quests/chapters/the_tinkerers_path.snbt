@@ -50,9 +50,10 @@
 			]
 			id: "04157BD89DD68148"
 			rewards: [{
-				id: "7532D95F5BBA81EA"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "491F3D6533ECABC3"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -89,9 +90,10 @@
 			]
 			id: "6A4EC5BCB471EAB6"
 			rewards: [{
-				id: "4286DE94AFA75597"
-				item: "lbu2:lapis_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "75FC692D64D3688C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -136,9 +138,10 @@
 			description: ["You've painstakingly crafted individual parts using the Part Builder: a Pickaxe Head, a Tool Binding, and a Tool Rod. Now for the final step! Take these components to your Tinker Station. This station is designed for assembling (and later modifying) your creations. Place each part into its designated slot within the Tool Station's interface. If the parts are compatible, you'll see a preview of your finished pickaxe. Click the output slot to forge your parts into your very first custom Tinkers' tool!"]
 			id: "459979FAE4C19C26"
 			rewards: [{
-				id: "7A8C0F87FDFD5E67"
-				item: "lbu2:lapis_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "33263C649C89D60B"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "03AAF45A7ECBCC57"
@@ -185,9 +188,10 @@
 			description: ["\"Welcome to the intricate world of Tinkers' Construct! Before you start forging and smelting, you'll need guidance. Craft the 'Encyclopedia of Tinkering'. This indispensable book details material properties, tool combinations, modifier effects, and the secrets of the Smeltery. Craft it early and consult it often – it's your most valuable tool for becoming a master tinker!\""]
 			id: "408E6FC47DA24D58"
 			rewards: [{
-				id: "751C5DCB764B7BFB"
-				item: "lbu2:lapis_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4B49629E64FCA9ED"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "64E1D436FCC28298"
@@ -202,9 +206,10 @@
 			description: ["Before we can build a big smeltery we need to build a small one first. "]
 			id: "74C6190C8EBE7418"
 			rewards: [{
-				id: "21782490BEC7488E"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4A1A1E633BABF9F2"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -254,9 +259,10 @@
 			description: ["Now that we have a Melter we can set our sights on a bigger forge. To build this forge we need a Smeltery Controller, Seared Bricks (minimum of 2 for the smallest size) and a Seared Fuel Tank. We can now build our Smeltery. The size of your Smeltery is up to you and how big you build it."]
 			id: "5703386E64745AF7"
 			rewards: [{
-				id: "430007AFF62DF7FC"
-				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1706E780149FA866"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{

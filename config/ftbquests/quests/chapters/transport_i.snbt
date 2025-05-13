@@ -12,9 +12,10 @@
 			description: ["Walking is slow... but the skies are calling! Let’s start by crafting a simple aircraft that will help you explore much faster than your tired feet ever could."]
 			id: "113581AAF9B4E522"
 			rewards: [{
-				id: "28A1E3503020284A"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1CAFB68FEA3D63CD"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "5205616FA96FE9E4"
@@ -30,9 +31,10 @@
 			description: ["Time to get airborne! Build your very first true flying machine. Simple, yes — but much faster than the pedal copter. The world feels much smaller from the skies!"]
 			id: "7F425F069B619CB3"
 			rewards: [{
-				id: "2E8A8E58F29474A6"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "198A35AE433F7B3C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "753AB89180C51A0F"
@@ -46,9 +48,10 @@
 			dependencies: ["113581AAF9B4E522"]
 			id: "556A8142995D0EE3"
 			rewards: [{
-				id: "6C6D5B7E83F19A95"
-				item: "lbu2:redstone_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "1DD86C6A213CEB7C"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "146EB2201A12419D"
@@ -62,9 +65,10 @@
 			dependencies: ["556A8142995D0EE3"]
 			id: "2692FCA3885BD415"
 			rewards: [{
-				id: "6FFE6ED958776527"
-				item: "lbu2:amethyst_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "49721A9202A3AAEA"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "3D4071BD1963E9CC"
@@ -79,9 +83,10 @@
 			description: ["Stacking blocks by hand is slow and dangerous when working high up. Why risk falling to your doom? Build a Quadcopter - the perfect tool for hovering in place and building towering structures with ease!"]
 			id: "48787E9A4C0689C4"
 			rewards: [{
-				id: "7FD761FB40DD611A"
-				type: "xp"
-				xp: 100
+				exclude_from_claim_all: true
+				id: "1420F785794A9C4A"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "53E32667AF7A1E0A"
@@ -95,9 +100,10 @@
 			dependencies: ["7F425F069B619CB3"]
 			id: "2F1A51462D934F9C"
 			rewards: [{
-				id: "7053DACDB6353A20"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "111561A73B351E17"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -119,9 +125,10 @@
 			dependencies: ["2F1A51462D934F9C"]
 			id: "472B6CC9E5019141"
 			rewards: [{
-				id: "258D8518BF001FDC"
-				item: "lbu2:lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4901AD264427F5AD"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "5008564D934C9007"
@@ -134,6 +141,12 @@
 		}
 		{
 			id: "151769F17AA5120E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "427A0967ED097CA6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3B405CD26ED0E1F4"

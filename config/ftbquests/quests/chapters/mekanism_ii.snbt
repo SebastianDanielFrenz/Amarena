@@ -3,9 +3,173 @@
 	default_quest_shape: ""
 	filename: "mekanism_ii"
 	group: "60E48B2DEA4A2B3B"
+	icon: "mekanismgenerators:fusion_reactor_port"
 	id: "53221FA42724702C"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Build a Fissile Reactor"]
+			id: "588301EA46A352CD"
+			tasks: [
+				{
+					id: "5354AA500D4DB435"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "28C439F77FCA94AB"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "3077E10511696E5B"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "227482D11A12E329"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "707C15B2D77EF0A7"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "1A4FF4893C32EDC2"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "428902E0947FE032"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["The last step before Fissile Fuel"]
+			id: "365E6203D690D3EA"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:uranium_hexafluoride"
+				id: "76161C0A5B52EEC8"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "7707FFFE55E69F0D"
+			tasks: [{
+				id: "37F727F9193D501F"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "1AF2D41391C407F4"
+			tasks: [{
+				id: "4BE432A3DED29DBA"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6009C6EF84A96930"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78B263134AEB23A4"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0736DD83384B1183"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "4770AB8A68D72757"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "2A3CB7FEEC3094F7"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "53A57D10BAAEE83A"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+				{
+					id: "1B1106650C457910"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+			]
+			title: "Meka Suit"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "6A6DF051399B5D41"
+			tasks: [
+				{
+					id: "3BE1DB126A2AD62D"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "413C0BACA5EC58F5"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+				{
+					id: "62A156B2D61C4335"
+					item: "mekanismgenerators:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "45428D32EFE63BC0"
+					item: {
+						Count: 1
+						id: "mekanismgenerators:hohlraum"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 10L
+										gasName: "mekanismgenerators:fusion_fuel"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "mekanismgenerators:fusion_fuel"
+					id: "78B16F0F18D29BAF"
+					type: "fluid"
+				}
+			]
+			title: "Fusion Reactor"
+			x: 7.5d
+			y: -1.0d
+		}
+	]
 	title: "Mekanism II"
 }

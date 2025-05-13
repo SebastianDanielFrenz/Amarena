@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "perspatium:venera",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 244973482,
+
+    "spacing": 60,
+
+    "separation": 18,
+
+    "type": "minecraft:random_spread"
+  }
+}

@@ -3,9 +3,110 @@
 	default_quest_shape: ""
 	filename: "rf_tools"
 	group: "60E48B2DEA4A2B3B"
+	icon: "rftoolsdim:dimension_builder"
 	id: "64ED0FC22B10D63A"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "16D4F00BF64FC805"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F139D9918509D84"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6323972B51CA2870"
+					item: "rftoolsdim:dimension_builder"
+					type: "item"
+				}
+				{
+					id: "0A3E09CCABC0EAF5"
+					item: "rftoolsdim:empty_dimension_tab"
+					type: "item"
+				}
+				{
+					id: "644DDA03A702FD3E"
+					item: "rftoolsdim:dimension_builder"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "303628F63D03A785"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "619010F9206E6639"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09C287906F17C1B7"
+				item: "rftoolsdim:dimension_editor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "73359A702F942C2C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "244AB25D1ADC1B64"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [{
+				id: "56B4C7C8EFB23785"
+				item: "rftoolsdim:dimlet_workbench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "2EB402A54393DA1A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44F13C4FBC309FB6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1ADEDD99F9AAC4D5"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "2C3B9A852A906808"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7D98C9732B462D6A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "793AE1A4F61DCF37"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11EEC857F1323B3C"
+				item: "rftoolsdim:phased_field_generator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
 	title: "RFTools Dimensions"
 }

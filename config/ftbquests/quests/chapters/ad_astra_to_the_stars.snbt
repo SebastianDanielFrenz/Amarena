@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "363A3C9B1EE31BC8"
-	order_index: 8
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,10 +19,9 @@
 			]
 			id: "18A178B494851912"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "4138F867AE631233"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "643DCDB667150AF4"
+				item: "lbu2:ocean_lucky_block"
+				type: "item"
 			}]
 			tasks: [{
 				id: "6E583C10E6364303"
@@ -41,10 +40,9 @@
 			]
 			id: "6E144542A6AC1605"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "5250F2E65E4B4004"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "2E1EAC0D85A98011"
+				item: "lbu2:metal_lucky_block"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2DA3A4420F33B29E"
@@ -56,18 +54,26 @@
 		}
 		{
 			dependencies: ["18A178B494851912"]
+			description: ["Your rocket needs fuel. Therefore, machinery to produce and load fuel is required."]
 			id: "7DC0E56A2959EE0E"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "349E358FCEC108AA"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
-			tasks: [{
-				id: "326B6672F89F9E07"
-				item: "ad_astra:fuel_refinery"
+				id: "23C94E2B78346E55"
+				item: "lbu2:copper_lucky_block"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "326B6672F89F9E07"
+					item: "ad_astra:fuel_refinery"
+					type: "item"
+				}
+				{
+					id: "61593D895BEDB6DD"
+					item: "ad_astra_giselle_addon:fuel_loader"
+					type: "item"
+				}
+			]
+			title: "Rocket Fuel"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -75,10 +81,9 @@
 			description: ["In order to survive the cold and lifeless vacuum of space, you will need appropriate equiment. Craft a full space suit to defend against the endless void above."]
 			id: "354C11E1C437709A"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "0DC94BA3C1412D85"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "2300C01F5B5ED766"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
 			}]
 			tasks: [
 				{
@@ -132,13 +137,12 @@
 		}
 		{
 			dependencies: ["11FCF57C050BC55F"]
+			description: [
+				"Mankind has looked upon the night sky for millenia. You're gonna find out exactly what is out there."
+				""
+				"Craft a Tier 1 rocket for the first leg of your space adventure, the moon."
+			]
 			id: "41D52F9A676DB789"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "711D9F5BF9E6F086"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				id: "543B41274405B7C8"
 				item: {
@@ -148,6 +152,7 @@
 				}
 				type: "item"
 			}]
+			title: "Almost there"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -160,10 +165,9 @@
 			]
 			id: "292C924225289FD0"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "3876849ECA7C5818"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "201ABDF2BAAB5B38"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
 			}]
 			tasks: [{
 				id: "60E0DD59CCB27485"
@@ -175,13 +179,12 @@
 		}
 		{
 			dependencies: ["6E144542A6AC1605"]
+			description: [
+				"To launch your rocket, you'll need a launch pad. The launch pad is a 3x3 multiblock."
+				""
+				"Remember to keep the sky above clear!"
+			]
 			id: "11FCF57C050BC55F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1221E9453EF17CAC"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				id: "090687114EAEA1C7"
 				item: "ad_astra:launch_pad"
@@ -192,12 +195,16 @@
 		}
 		{
 			dependencies: ["292C924225289FD0"]
+			description: [
+				"To increase your chances for survival in space, you should always carry ample oxygen with you."
+				""
+				"Craft a large oxygen tank as a spare to carry around on your expeditions."
+			]
 			id: "743A19CFF768D5AA"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "58A4B7AAF705D519"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "33EEC791939B4D28"
+				item: "thermal:cheese_wedge"
+				type: "item"
 			}]
 			tasks: [{
 				id: "704AC74AB2DEEFAB"
@@ -224,34 +231,43 @@
 				"41D52F9A676DB789"
 				"743A19CFF768D5AA"
 			]
+			description: [
+				"One large step for mankind."
+				""
+				"Take your rocket, load it with 3 buckets of fuel, make sure you have a space suit on and enough oxygen to last a while, and off you go!"
+			]
+			icon: "ad_astra:moon_globe"
 			id: "57507458F5A3A6CB"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "35159F7F91E7D52F"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "342FBE477B882842"
+				item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
+				type: "item"
 			}]
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "2ACEA2AE274B7A33"
+				title: "Fly to the moon"
 				type: "dimension"
 			}]
+			title: "One small step for man"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["57507458F5A3A6CB"]
 			description: [
+				"Mine cheese ore on the moon. Yes, you read correctly."
+				""
 				"As James May so eloquently put it..."
 				""
 				"CHEESE. *plonks cheese*"
 			]
 			id: "0397FF9B3A21D5D1"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "7FEF07E2B5507601"
-				table_id: 8024000200115007606L
-				type: "random"
+				count: 16
+				id: "70B6F295A64B8AAE"
+				item: "minecraft:cooked_beef"
+				type: "item"
 			}]
 			tasks: [{
 				id: "686B59595EEECCFA"
@@ -263,12 +279,12 @@
 		}
 		{
 			dependencies: ["57507458F5A3A6CB"]
+			description: ["While you are on the moon, look for any deposits of dash ore. They can be found under the surface and in structures."]
 			id: "5DE47137D9F147D9"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "747CD237957FCA05"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "46A6EA44AA0C2D2F"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
 			}]
 			tasks: [{
 				id: "7D531E5C9F3ADBFC"
@@ -280,12 +296,16 @@
 		}
 		{
 			dependencies: ["5DE47137D9F147D9"]
+			description: [
+				"It is time for the second step in your journey of space exploration: Mars."
+				""
+				"Build a Tier 2 rocket."
+			]
 			id: "5E447E815ED4E711"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "63402CB8CF4C8D5B"
-				table_id: 8024000200115007606L
-				type: "random"
+				id: "4B2AE4377D2DDA0C"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1F31DEABA45BE348"
@@ -301,30 +321,23 @@
 		}
 		{
 			dependencies: ["5E447E815ED4E711"]
+			description: ["What wonders will you find on the mysterious red planet?"]
+			icon: "ad_astra:mars_globe"
 			id: "3325DF5469D01FDB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10801472ED26F9AF"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "01AB5B454A6CE015"
+				title: "Fly to mars"
 				type: "dimension"
 			}]
+			title: "A bigger stap for mankind"
 			x: 21.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3325DF5469D01FDB"]
+			description: ["For the Tier 3 rocket, you will need Ostrum. Mine Ostrum on Mars while your oxygen still lasts."]
 			id: "63CB46F73A0BADD8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4AF644578B4E70C3"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				id: "37A13AE86AF8E36C"
 				item: "ad_astra:ostrum_ingot"
@@ -332,6 +345,155 @@
 			}]
 			x: 24.0d
 			y: 0.0d
+		}
+		{
+			description: ["Who do those graves belong to? Hmmm........"]
+			id: "3E0454FAEC8DDBD2"
+			rewards: [{
+				id: "5B3D7C594761909B"
+				item: "lbu2:moon_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DD93260124F3E15"
+				structure: "perspatium:moon_grave"
+				title: "Find a lunar grave"
+				type: "structure"
+			}]
+			title: "Lunar remnants"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			description: ["Towers dot the surface of the moon. Inside reside the bravest of residents, those fighting for survival in the tough environment of the lunar surface."]
+			id: "6181322F9B275C83"
+			rewards: [{
+				count: 2
+				id: "6BFFABB954952DBE"
+				item: "lbu2:moon_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D3552325C3D242C"
+				structure: "ad_astra:lunar_tower"
+				title: "Find a lunar tower"
+				type: "structure"
+			}]
+			title: "Outpost on the moon"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Dungeon.....   The word one conjures a sense of exitment and adventure, doesn't it?"
+				""
+				"Under the lunar surface and sometimes above, you can find dungeons."
+			]
+			id: "50ABE9A4DE02A6DD"
+			rewards: [{
+				count: 6
+				id: "595A70CE252F751B"
+				item: "lbu2:moon_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "365CAE39734C2270"
+				structure: "ad_astra:moon_dungeon"
+				title: "Find a moon dungeon"
+				type: "structure"
+			}]
+			title: "Danger amidst the gray"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Find flora and water deposits on the moon."
+				"This finding could bring about scientific advances!"
+			]
+			id: "42BDA506F6699814"
+			rewards: [{
+				count: 5
+				id: "1C813C858F55F59D"
+				item: "lbu2:moon_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EA1451F2304B48A"
+				structure: "ad_extendra:moon_mushroom_spot"
+				title: "Find water on the moon"
+				type: "structure"
+			}]
+			title: "Lunar flora"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Far below the surface, the daily life of a lunar inhabitant takes place, shielded from cosmic rays and extreme temperature variations."
+				""
+				"Find and explore a lunar village."
+			]
+			id: "38DF465863A2F915"
+			rewards: [{
+				id: "18D1C14BC4F4D690"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "76A6EC2E2A7C3187"
+				structure: "ad_astra:lunarian_village"
+				title: "Find a lunarian village"
+				type: "structure"
+			}]
+			title: "Bunker"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The moon is dotted with remnants of exploration by intelligent life forms. Find a radio tower."
+				""
+				"Enter by the front door, set the radio to 25% and select Mission Control. Enjoy!"
+			]
+			id: "1048BA5763583B2C"
+			rewards: [{
+				count: 2
+				id: "071F7E98D2ECA1AA"
+				item: "lbu2:moon_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A671AD22AE17D6D"
+				structure: "perspatium:radio_tower"
+				title: "Find a radio tower on the moon"
+				type: "structure"
+			}]
+			title: "Remnants of lunar exploration"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Wispers of curious structures of unknown use dotting the deserts have reached your ears. The locals speak of times long past where big fire spitting cylinders climb to the skies."
+				""
+				"Find a Ruined Space Center to obtain a radio."
+			]
+			id: "60BBD6C298174BC6"
+			rewards: [{
+				id: "0F3E4A4F5CD560B9"
+				item: "lbu2:sun_lucky_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03283A2CCE457EAD"
+				structure: "perspatium:ruined_space_center"
+				title: "Find a ruined Space Center"
+				type: "structure"
+			}]
+			title: "Earthly Remnants"
+			x: 12.0d
+			y: 1.5d
 		}
 	]
 	title: "Ad Astra: To the stars I"

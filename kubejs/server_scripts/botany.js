@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
                 T: 'minecraft:' + color + type,
                 B: 'minecraft:beehive',
                 P: 'bonsaitrees3:bonsaipot',
-                C: 'kubejs:core_t1',
+                C: 'kubejs:core_t3',
                 A: 'minecraft:netherite_axe'
             }
         )

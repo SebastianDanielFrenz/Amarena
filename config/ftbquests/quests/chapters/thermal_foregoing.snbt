@@ -14,6 +14,12 @@
 	quests: [
 		{
 			id: "4754806F845189C7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BF187A17B8F5270"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0086BA97CD26DF99"
 				item: {
@@ -29,6 +35,12 @@
 		{
 			dependencies: ["4754806F845189C7"]
 			id: "66F28AE458C77FC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123C6D1C9F842971"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "21CBFA331A1B3AB4"
 				item: {
@@ -44,6 +56,12 @@
 		{
 			dependencies: ["66F28AE458C77FC8"]
 			id: "4CBD2CEA3C4B4222"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1909402DA693A1E6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "285C78243BCF5F91"
 				item: {
@@ -59,6 +77,12 @@
 		{
 			dependencies: ["4CBD2CEA3C4B4222"]
 			id: "65F708AB59C9FA1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F324A8BFBB9B357"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3C18EB6D01B368A3"
 				item: {
@@ -74,6 +98,12 @@
 		{
 			dependencies: ["65F708AB59C9FA1D"]
 			id: "4BFA6AFABF4EF67F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3557760BF6C27596"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2080EDA124072E60"
 				item: {
@@ -89,6 +119,12 @@
 		{
 			description: ["Some ingots have to be blended and don't naturally occur in the world"]
 			id: "153BC599ED9BDDE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5266C668095658FE"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "010FD6752C99AAE6"
@@ -108,6 +144,12 @@
 		{
 			description: ["This machine lets you grow crops. "]
 			id: "1C3957A569C7A8B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0444B1F3EB65657A"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "320903950D0AD60F"
 				item: "thermal:machine_insolator"

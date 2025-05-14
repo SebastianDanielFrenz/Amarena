@@ -130,6 +130,12 @@
 			dependency_requirement: "one_completed"
 			description: ["Your machines will soon demand more power than a single generator can provide consistently. Craft a Basic Energy Cube to store surplus energy."]
 			id: "331A2630BED8663C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "671035B2915B741C"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3B9E63792365FA0A"
 				item: "mekanism:basic_energy_cube"
@@ -143,6 +149,12 @@
 			dependencies: ["331A2630BED8663C"]
 			description: ["To transfer power from your generators and Energy Cubes to your machines, you'll need cables. Craft some Basic Universal Cables."]
 			id: "28F4F2A25C8ECBF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B548C96A0A05087"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "4BC126ED5EF68E14"
@@ -157,6 +169,12 @@
 			dependencies: ["62734A817D7B5967"]
 			description: ["The crusher is used to crush a variety of items"]
 			id: "3683FFB22042AE94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022BBA1061973B65"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "01F3A5D65790ED90"
 				item: "mekanism:crusher"
@@ -173,6 +191,12 @@
 			]
 			description: ["Craft a digital Miner. This Machine uses energy to mine ores for you in radius around it. This is a great way to acquire  resources"]
 			id: "1A3AA17C70827053"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E7C35739D52432D"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "62FF50006A96C2C6"
 				item: "mekanism:digital_miner"
@@ -209,6 +233,12 @@
 			]
 			description: ["The Atomic Disassembler is a multitool with a variable mining speed. You can change the speed by crouching and scrolling while you are holding it"]
 			id: "7701AFC186D56759"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34463806E14F1120"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4B00EBE402CDDDD2"
 				item: "mekanism:atomic_disassembler"
@@ -220,6 +250,12 @@
 		{
 			description: ["Wirelessly transport items and energy"]
 			id: "52D1CFA4AD666643"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10930261AF7CFC42"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5CA03823D057EC50"
 				item: "mekanism:quantum_entangloporter"
@@ -230,6 +266,12 @@
 		}
 		{
 			id: "27120D7FF5E66845"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C28199B603F6F6D"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "6C7F8F78013281C6"

@@ -14,6 +14,12 @@
 				"To setup your Thermo Generator you need to place a heat source (lava) below it and give it water with a pipe."
 			]
 			id: "5C94EC7A67B5A6F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "679A6DF9B52E66F1"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "6F208C10C57C6196"
@@ -37,6 +43,12 @@
 		{
 			dependencies: ["5091157727C011DF"]
 			id: "51BE4B1A96DC06E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59BC3CCDC589A1CF"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "095AB6A2E7A6C68A"
@@ -61,6 +73,12 @@
 			dependencies: ["51BE4B1A96DC06E1"]
 			description: ["The blazing block is a better heat source than lava which increases the amount of energy which is generated"]
 			id: "26FCC2481A57DDF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "426CF74E9F1AE532"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3D8B34946A2D1C65"
 				item: "powah:blazing_crystal_block"
@@ -72,6 +90,12 @@
 		{
 			dependencies: ["5C94EC7A67B5A6F8"]
 			id: "5091157727C011DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34F21051E0FA7C6D"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7A8B8CB8DE5810CC"
 				item: "powah:thermo_generator_basic"
@@ -83,6 +107,12 @@
 		{
 			dependencies: ["51BE4B1A96DC06E1"]
 			id: "1718146ABD5F299F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54F124F496BE9705"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "39399D043F33B9C4"
 				item: "powah:thermo_generator_hardened"
@@ -94,6 +124,12 @@
 		{
 			dependencies: ["1718146ABD5F299F"]
 			id: "7025378E68322EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00CCB32847A2F68E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "47064174088AB60A"
 				item: "powah:thermo_generator_blazing"
@@ -105,6 +141,12 @@
 		{
 			dependencies: ["7025378E68322EBC"]
 			id: "6ADBC485BE472FB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02417273C2222844"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "315A5BE47F662643"
 				item: "powah:thermo_generator_niotic"
@@ -116,6 +158,12 @@
 		{
 			dependencies: ["6ADBC485BE472FB4"]
 			id: "171D107738490D01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15CFB85DBB94876F"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "460BD4611D4CBB74"
 				item: "powah:thermo_generator_spirited"
@@ -127,6 +175,12 @@
 		{
 			dependencies: ["171D107738490D01"]
 			id: "22FC0BE0253B8B79"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23183BD967C1A1E6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1B6FD9C7FE47AC3B"
 				item: "powah:thermo_generator_nitro"
@@ -138,6 +192,12 @@
 		{
 			dependencies: ["51BE4B1A96DC06E1"]
 			id: "23BC433317D5348E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "379432ACA276059E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "286A6A1668FAB22E"
 				item: "powah:energizing_rod_basic"
@@ -149,6 +209,12 @@
 		{
 			dependencies: ["23BC433317D5348E"]
 			id: "6E416A186C52054F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24202019C927E877"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "547D70ADB8181D81"
 				item: "powah:energizing_rod_hardened"
@@ -160,6 +226,12 @@
 		{
 			dependencies: ["6E416A186C52054F"]
 			id: "2279369F1049021E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50AD3E1EB4CAC1B0"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "521C1F9DC14CCC89"
 				item: "powah:energizing_rod_blazing"
@@ -171,6 +243,12 @@
 		{
 			dependencies: ["2279369F1049021E"]
 			id: "75A9FEC22568C01C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "419FCE070716CFE6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "33537FA83E6AD86C"
 				item: "powah:energizing_rod_niotic"
@@ -182,6 +260,12 @@
 		{
 			dependencies: ["75A9FEC22568C01C"]
 			id: "048B28B49D33E277"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F7AF1C0B64461BF"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "74F1CFCED8AA9289"
 				item: "powah:energizing_rod_spirited"
@@ -193,6 +277,12 @@
 		{
 			dependencies: ["048B28B49D33E277"]
 			id: "17A5B912049F43D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "654D349656AC1213"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7869108A9DCB0AE9"
 				item: "powah:energizing_rod_nitro"
@@ -208,6 +298,12 @@
 			]
 			description: ["Once you have a lot of Generators you can compress them so they cause less client lag and use them as a heat source"]
 			id: "7CB6B2A5EC924EEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55FDB8DFDE7BC7B2"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "63199664A8EFABCA"
 				item: "kubejs:compressed_nitro_generator"

@@ -8,6 +8,12 @@
 	quest_links: [ ]
 	quests: [{
 		id: "54EE8DB2B5B04458"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "3A006DD682415CA8"
+			table_id: 8024000200115007606L
+			type: "random"
+		}]
 		tasks: [{
 			id: "657626CABC805707"
 			item: "immersiveengineering:manual"

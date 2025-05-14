@@ -11,6 +11,12 @@
 		{
 			dependencies: ["6CCD3F88ECADC2BD"]
 			id: "5672ECBF9061C887"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01E3AC38879E98C1"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0806EC6A9EDF998A"
@@ -49,6 +55,12 @@
 		{
 			dependencies: ["709ED4349D4B8B26"]
 			id: "6CCD3F88ECADC2BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D02085309444588"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "609C3B59EF4B22C5"
 				item: "ae2:inscriber"
@@ -60,6 +72,12 @@
 		{
 			dependencies: ["6CCD3F88ECADC2BD"]
 			id: "7E6C799D5F5A9603"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69CFDEBF744967D3"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "139D3E49A2B3DBA9"
 				item: "expatternprovider:ex_inscriber"
@@ -72,6 +90,12 @@
 			dependencies: ["7E6C799D5F5A9603"]
 			dependency_requirement: "one_completed"
 			id: "6902405BF7925813"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C289D000F27E15E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7C47303E45543FFB"
 				item: "advanced_ae:reaction_chamber"
@@ -82,6 +106,12 @@
 		}
 		{
 			id: "709ED4349D4B8B26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "532B377812755A8F"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "6E79EF59151EF32B"
@@ -105,6 +135,12 @@
 		{
 			dependencies: ["5672ECBF9061C887"]
 			id: "26C4C5D78B030386"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DC9ABEDE26F7B39"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6A6F0A005A649B7C"
 				item: "expatternprovider:ex_drive"
@@ -116,6 +152,12 @@
 		{
 			dependencies: ["5672ECBF9061C887"]
 			id: "2804D2AC53E472A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C7D23439FB9A3B6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2EE27655615CF1BC"
 				item: "ae2:crafting_terminal"
@@ -127,6 +169,12 @@
 		{
 			dependencies: ["2804D2AC53E472A3"]
 			id: "3CB39D8F0DBB0716"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10778A1C132AB6A6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "69A5ACA5BC6E3EC2"
@@ -148,6 +196,11 @@
 					item: "ae2:pattern_access_terminal"
 					type: "item"
 				}
+				{
+					id: "66F36560A5650BEB"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
 			]
 			x: 4.0d
 			y: 0.0d
@@ -155,6 +208,12 @@
 		{
 			dependencies: ["3CB39D8F0DBB0716"]
 			id: "0A07BC5B6E4E44D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9B9A79C7FE55DE"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7B2ED2326661562F"
@@ -166,6 +225,11 @@
 					item: "expatternprovider:ex_pattern_access_part"
 					type: "item"
 				}
+				{
+					id: "46FB3E127D7CAE76"
+					item: "expatternprovider:ex_molecular_assembler"
+					type: "item"
+				}
 			]
 			x: 4.0d
 			y: 2.0d
@@ -173,6 +237,12 @@
 		{
 			dependencies: ["5672ECBF9061C887"]
 			id: "4512186020B75B73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "703CCA306166E88A"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "24FB596B2D98CD1D"
@@ -196,6 +266,12 @@
 		{
 			description: ["If you unsure how to proceed the guid is there to help you"]
 			id: "60331726585037C6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F6903B75565C689"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0C10D81FC5EEBEE2"
 				item: "ae2:guide"

@@ -5,28 +5,15 @@
 	group: "60E48B2DEA4A2B3B"
 	icon: {
 		Count: 1
-		id: "ad_extendra:tier_11_rocket"
-		tag: {
-			BotariumData: {
-				StoredFluids: [{
-					Amount: 3000L
-					Fluid: "ad_astra:fuel"
-				}]
-			}
-		}
+		id: "ad_astra:tier_4_rocket"
+		tag: { }
 	}
 	id: "78BF24BE850936F1"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			id: "15BE4FB3D2433D7E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22A901A225E616A5"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0DEE7325EBEF91CC"
 				item: {
@@ -42,12 +29,6 @@
 		{
 			dependencies: ["3C0EE96D8A046DAF"]
 			id: "31977EBA4DBF4CEE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C13F4745EA202F3"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				id: "78E138C1220B014C"
 				item: "ad_astra:calorite_ingot"
@@ -63,12 +44,6 @@
 			]
 			icon: "ad_astra:venus_globe"
 			id: "3C0EE96D8A046DAF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "56B00D2484DA27F4"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "56A50998A41D9F70"
@@ -79,12 +54,6 @@
 		}
 		{
 			id: "6BA8BFDD436CF9B4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "308D4BEB6736FD57"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [
 				{
 					id: "40F4CA49F4C70207"
@@ -135,14 +104,11 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["31977EBA4DBF4CEE"]
+			dependencies: [
+				"31977EBA4DBF4CEE"
+				"03283A2CCE457EAD"
+			]
 			id: "5BED43BD0445C7DA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "65F88E3AA3E62E39"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				id: "481E42A498F1C2F2"
 				item: {
@@ -159,19 +125,316 @@
 			dependencies: ["5BED43BD0445C7DA"]
 			icon: "ad_extendra:jupiter_globe"
 			id: "19014E8134D925D2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0069FFEB777DEE9E"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
 			tasks: [{
 				dimension: "ad_extendra:jupiter"
 				id: "73FA9BE6B8D3F715"
 				type: "dimension"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5125CA9E88FCDA33"]
+			id: "12DE8F4CEC12A50F"
+			tasks: [{
+				id: "21430D17BB4BF834"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_5_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19014E8134D925D2"]
+			id: "5125CA9E88FCDA33"
+			tasks: [{
+				id: "62275D6BB8EA64B7"
+				item: "ad_extendra:juperium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12DE8F4CEC12A50F"]
+			icon: "ad_extendra:saturn_globe"
+			id: "1739584B0C497609"
+			tasks: [{
+				dimension: "ad_extendra:saturn"
+				id: "353F71E6C91675BC"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1739584B0C497609"]
+			id: "0A3421C3720B5CE7"
+			tasks: [{
+				id: "45924E8D2F8ADFC3"
+				item: "ad_extendra:saturlyte_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A3421C3720B5CE7"]
+			id: "508ED3A7BA8EA81A"
+			tasks: [{
+				id: "0077D91D19C607A6"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_6_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["508ED3A7BA8EA81A"]
+			icon: "ad_extendra:uranus_globe"
+			id: "479A5F77F37A6471"
+			tasks: [{
+				dimension: "ad_extendra:uranus"
+				id: "71D682B0F9FC6095"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["479A5F77F37A6471"]
+			id: "337C0D590D7C0F70"
+			tasks: [{
+				id: "5C7C4385C12DE742"
+				item: "ad_extendra:uranium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["337C0D590D7C0F70"]
+			id: "45DF3F3EDC2C0FF2"
+			tasks: [{
+				id: "645FD6989682A06A"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_7_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45DF3F3EDC2C0FF2"]
+			icon: "ad_extendra:neptune_globe"
+			id: "5A69A82ABB3C40ED"
+			tasks: [{
+				dimension: "ad_extendra:neptune"
+				id: "431E7D1C02B78798"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A69A82ABB3C40ED"]
+			id: "5308BC3CB868A595"
+			tasks: [{
+				id: "6DB1206670EBE786"
+				item: "ad_extendra:neptunium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5308BC3CB868A595"]
+			id: "232E394DE8DEE872"
+			tasks: [{
+				id: "11EAA066F5C0BBF9"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_8_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["232E394DE8DEE872"]
+			icon: "ad_extendra:orcus_globe"
+			id: "5B4A479F327BD394"
+			tasks: [{
+				dimension: "ad_extendra:orcus"
+				id: "2D5D37E4A4A66F6A"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B4A479F327BD394"]
+			id: "46323473C6D9C55B"
+			tasks: [{
+				id: "0A8BC5383A69431D"
+				item: "ad_extendra:radium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["46323473C6D9C55B"]
+			id: "2EAA561B4D925E2A"
+			tasks: [{
+				id: "4FDE60A0ED2F138E"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_9_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2EAA561B4D925E2A"]
+			icon: "ad_extendra:pluto_globe"
+			id: "35DBAC2C9900D559"
+			tasks: [{
+				dimension: "ad_extendra:pluto"
+				id: "53C148649BE6D6B0"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["35DBAC2C9900D559"]
+			id: "5F4CC012CAA02970"
+			tasks: [{
+				id: "33BECEB77B406BB9"
+				item: "ad_extendra:plutonium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5F4CC012CAA02970"]
+			id: "55967634D9E0606F"
+			tasks: [{
+				id: "01937AC8782D6DB2"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_10_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["55967634D9E0606F"]
+			icon: "ad_extendra:sedna_globe"
+			id: "5FE1A3147B04B9CC"
+			tasks: [{
+				dimension: "ad_extendra:sedna"
+				id: "5504366E65E980ED"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5FE1A3147B04B9CC"]
+			id: "2F39DE1940F290E6"
+			tasks: [{
+				id: "727E94D29A9CBABC"
+				item: "ad_extendra:electrolyte_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2F39DE1940F290E6"]
+			id: "0BEC5F8EFA69547B"
+			tasks: [{
+				id: "506465197AA0682B"
+				item: {
+					Count: 1
+					id: "ad_extendra:tier_11_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
 		}
 	]
 	title: "Ad astra: To the stars II"

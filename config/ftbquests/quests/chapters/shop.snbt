@@ -3,10 +3,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "shop"
-	group: "60E48B2DEA4A2B3B"
+	group: "0D875D3DF5ADC477"
 	icon: "minecraft:gold_ingot"
 	id: "1147ABA3BF386588"
-	order_index: 5
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

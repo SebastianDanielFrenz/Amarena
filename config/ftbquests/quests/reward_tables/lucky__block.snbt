@@ -39,6 +39,22 @@
 		{ item: "lbu2:weapon_lucky_block" }
 		{ item: "lbu2:ninja_lucky_block" }
 		{ item: "lbu2:rainbow_lucky_block" }
+		{ item: "lbu2:nebula_lucky_block" }
+		{ item: "lbu2:dungeons_lucky_block" }
+		{ item: "lbu2:legendary_lucky_block" }
+		{ item: "lbu2:nightmare_lucky_block" }
+		{ item: "lbu2:skeletal_lucky_block" }
+		{ item: "lbu2:wave_lucky_block" }
+		{ item: "lbu2:caro_lucky_block" }
+		{ item: "lbu2:crystal_lucky_block" }
+		{ item: "lbu2:halloween_lucky_block" }
+		{ item: "lbu2:nuclear_lucky_block" }
+		{ item: "lbu2:christmas_lucky_block" }
+		{ item: "lbu2:hardlight_lucky_block" }
+		{ item: "lbu2:volcano_lucky_block" }
+		{ item: "lbu2:darkheart_lucky_block" }
+		{ item: "lbu2:baleful_lucky_block" }
+		{ item: "lbu2:cyber_lucky_block" }
 	]
 	title: "lucky  block"
 }

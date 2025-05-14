@@ -19,9 +19,10 @@
 			]
 			id: "18A178B494851912"
 			rewards: [{
-				id: "643DCDB667150AF4"
-				item: "lbu2:ocean_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "4138F867AE631233"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "6E583C10E6364303"
@@ -40,9 +41,10 @@
 			]
 			id: "6E144542A6AC1605"
 			rewards: [{
-				id: "2E1EAC0D85A98011"
-				item: "lbu2:metal_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "5250F2E65E4B4004"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "2DA3A4420F33B29E"
@@ -56,9 +58,10 @@
 			dependencies: ["18A178B494851912"]
 			id: "7DC0E56A2959EE0E"
 			rewards: [{
-				id: "23C94E2B78346E55"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "349E358FCEC108AA"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "326B6672F89F9E07"
@@ -72,9 +75,10 @@
 			description: ["In order to survive the cold and lifeless vacuum of space, you will need appropriate equiment. Craft a full space suit to defend against the endless void above."]
 			id: "354C11E1C437709A"
 			rewards: [{
-				id: "2300C01F5B5ED766"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "0DC94BA3C1412D85"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [
 				{
@@ -129,6 +133,12 @@
 		{
 			dependencies: ["11FCF57C050BC55F"]
 			id: "41D52F9A676DB789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "711D9F5BF9E6F086"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "543B41274405B7C8"
 				item: {
@@ -150,9 +160,10 @@
 			]
 			id: "292C924225289FD0"
 			rewards: [{
-				id: "201ABDF2BAAB5B38"
-				item: "lbu2:copper_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3876849ECA7C5818"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "60E0DD59CCB27485"
@@ -165,6 +176,12 @@
 		{
 			dependencies: ["6E144542A6AC1605"]
 			id: "11FCF57C050BC55F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1221E9453EF17CAC"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "090687114EAEA1C7"
 				item: "ad_astra:launch_pad"
@@ -177,9 +194,10 @@
 			dependencies: ["292C924225289FD0"]
 			id: "743A19CFF768D5AA"
 			rewards: [{
-				id: "33EEC791939B4D28"
-				item: "thermal:cheese_wedge"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "58A4B7AAF705D519"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "704AC74AB2DEEFAB"
@@ -207,6 +225,12 @@
 				"743A19CFF768D5AA"
 			]
 			id: "57507458F5A3A6CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35159F7F91E7D52F"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "2ACEA2AE274B7A33"
@@ -223,18 +247,12 @@
 				"CHEESE. *plonks cheese*"
 			]
 			id: "0397FF9B3A21D5D1"
-			rewards: [
-				{
-					id: "70B6F295A64B8AAE"
-					item: "lbu2:rainbow_lucky_block"
-					type: "item"
-				}
-				{
-					id: "322E34A6DD182409"
-					item: "ultimate_lucky_block_byctoilcha:ultimate_lucky_block"
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FEF07E2B5507601"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "686B59595EEECCFA"
 				item: "ad_astra:cheese"
@@ -247,9 +265,10 @@
 			dependencies: ["57507458F5A3A6CB"]
 			id: "5DE47137D9F147D9"
 			rewards: [{
-				id: "46A6EA44AA0C2D2F"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "747CD237957FCA05"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "7D531E5C9F3ADBFC"

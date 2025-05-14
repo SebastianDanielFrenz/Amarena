@@ -141,7 +141,13 @@
 					item: "create:mechanical_arm"
 					type: "item"
 				}
+				{
+					id: "7275AD86B3AB7104"
+					item: "botanypotstiers:ultra_terracotta_botany_pot"
+					type: "item"
+				}
 			]
+			title: "Creative Botany Pot"
 			x: 0.0d
 			y: 0.0d
 		}

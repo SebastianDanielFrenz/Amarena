@@ -189,7 +189,7 @@
 				"28F4F2A25C8ECBF3"
 				"3683FFB22042AE94"
 			]
-			description: ["Craft a digital Miner. This Machine uses energy to mine ores for you in radius around it. This is a great way to acquire  resources"]
+			description: ["Craft a digital Miner. This Machine uses energy to mine ores for you in radius around it. This is a great way to acquire resources"]
 			id: "1A3AA17C70827053"
 			rewards: [{
 				exclude_from_claim_all: true

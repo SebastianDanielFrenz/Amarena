@@ -10,6 +10,12 @@
 	quests: [
 		{
 			id: "7C980B15E2FDD5CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4592647B7D330667"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F7315977BA7E1C7"
 				item: "draconicevolution:draconium_core"
@@ -21,6 +27,12 @@
 		{
 			dependencies: ["7C980B15E2FDD5CA"]
 			id: "7D204A13AB23B18D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E22A47F1B1D18D8"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7E68694E09B7E3C8"
 				item: "draconicevolution:wyvern_core"
@@ -35,6 +47,12 @@
 				"1AB87494137F3513"
 			]
 			id: "7239E8782A673D5A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30104ECCC97C68DE"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "243E6DBAADDD9C43"
 				item: "draconicevolution:awakened_core"
@@ -50,6 +68,12 @@
 				"2AD80471CD21065F"
 			]
 			id: "0982C97BF51DEE70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3611DDB5D4851723"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6D6316744C4BB2BD"
 				item: "draconicevolution:chaotic_core"
@@ -61,6 +85,12 @@
 		{
 			icon: "draconicevolution:crafting_core"
 			id: "270865E805C9E5F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C7E84A38AF22ABF"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "2233DC8E5BFE4F32"
@@ -80,6 +110,12 @@
 		{
 			dependencies: ["270865E805C9E5F5"]
 			id: "1478C44070BFA557"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "032D67489F47D210"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "060D08A1E9E48B01"
 				item: "draconicevolution:wyvern_crafting_injector"
@@ -91,6 +127,12 @@
 		{
 			dependencies: ["1478C44070BFA557"]
 			id: "57270F4C241977C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AF963966458876D"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2AB7019FA26A975F"
 				item: "draconicevolution:awakened_crafting_injector"
@@ -105,6 +147,12 @@
 				"2AD80471CD21065F"
 			]
 			id: "4F3F2AC1778DFF1C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0687BF74050579EC"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "664C420007A585EC"
 				item: "draconicevolution:chaotic_crafting_injector"
@@ -121,6 +169,12 @@
 				"Be careful though, once the shards are taken, the island will blow up."
 			]
 			id: "2AD80471CD21065F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2337C41A4B98FBAE"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				count: 5L
 				id: "129DE41CE72BB4D0"
@@ -132,6 +186,12 @@
 		}
 		{
 			id: "421D8366D467EEDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C329882796ECEAD"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "draconicevolution:draconic_guardian"
 				icon: "draconicadditions:chaos_heart"
@@ -140,7 +200,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -2.5d
 		}
 		{
@@ -151,6 +211,12 @@
 			]
 			icon: "draconicevolution:reactor_core"
 			id: "17CE1594146A3CDD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55C35A17939BCD45"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "09453A642B612FB3"
@@ -166,13 +232,19 @@
 			]
 			title: "Draconic Reactor"
 			x: 3.5d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7D204A13AB23B18D"]
 			description: ["There is a very good energy storage called the Energy Cube. On it's lower levels it is simply a large storage, but on the highest tier it can store virtually infinite energy."]
 			icon: "draconicevolution:energy_core"
 			id: "09AE75FB7B04540A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B6467F0FC78CC15"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "37F18504639AD497"
@@ -199,13 +271,19 @@
 				}
 			]
 			x: -1.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2340C9DCF0918C99"]
 			description: ["Kill the Ender Dragon and get it's heart to start with Draconic Evolution."]
 			icon: "minecraft:dragon_head"
 			id: "6299998195CB80F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B36FC25763D1058"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					entity: "minecraft:ender_dragon"
@@ -227,6 +305,12 @@
 		{
 			description: ["You need quite a few dragon hearts for Draconic Evolution. Reviving the Ender Dragon is quite a crucial part, place 4 end crystals on the bedrock platform edges in the end."]
 			id: "2340C9DCF0918C99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "508DE65EFB52AB3E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				count: 4L
 				id: "477E61E8F70DA802"
@@ -243,6 +327,12 @@
 				"6299998195CB80F0"
 			]
 			id: "1AB87494137F3513"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237C092D63E44A92"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				count: 4L
 				id: "3B460F94EED27C6A"
@@ -251,6 +341,98 @@
 			}]
 			x: 0.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["0982C97BF51DEE70"]
+			description: ["The Endgame Weapons of Draconic. Pretty decent..."]
+			id: "36B8CA9E36CD6695"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45BA80187883E234"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3659A1AEB6954A46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: { }
+									provider_id: [I;
+										-227116555
+										1879523596
+										-2068408619
+										954705415
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_bow"
+					}
+					type: "item"
+				}
+				{
+					id: "0D70F68F9B07F68A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								energy: {
+									energy: 0
+								}
+								module_host: {
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+									provider_id: [I;
+										371459876
+										-1198829848
+										-1900815341
+										-2059935543
+									]
+								}
+							}
+						}
+						id: "draconicevolution:chaotic_staff"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C980B15E2FDD5CA"]
+			description: [
+				"You can create mob spawners by right clicking a vanilla spawner with a core."
+				""
+				"The better the core, the better the spawner!"
+			]
+			id: "45164DF0E16A18A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E288C944736FC0E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BB0BAACFB24D851"
+				item: "draconicevolution:stabilized_spawner"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
 		}
 	]
 	title: "Draconic Evolution"

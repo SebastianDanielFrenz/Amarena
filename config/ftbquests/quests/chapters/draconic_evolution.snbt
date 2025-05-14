@@ -3,9 +3,255 @@
 	default_quest_shape: ""
 	filename: "draconic_evolution"
 	group: "60E48B2DEA4A2B3B"
+	icon: "draconicevolution:dragon_heart"
 	id: "68E778A590926FED"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7C980B15E2FDD5CA"
+			tasks: [{
+				id: "6F7315977BA7E1C7"
+				item: "draconicevolution:draconium_core"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C980B15E2FDD5CA"]
+			id: "7D204A13AB23B18D"
+			tasks: [{
+				id: "7E68694E09B7E3C8"
+				item: "draconicevolution:wyvern_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7D204A13AB23B18D"
+				"1AB87494137F3513"
+			]
+			id: "7239E8782A673D5A"
+			tasks: [{
+				id: "243E6DBAADDD9C43"
+				item: "draconicevolution:awakened_core"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7239E8782A673D5A"
+				"57270F4C241977C4"
+				"2AD80471CD21065F"
+			]
+			id: "0982C97BF51DEE70"
+			tasks: [{
+				id: "6D6316744C4BB2BD"
+				item: "draconicevolution:chaotic_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			icon: "draconicevolution:crafting_core"
+			id: "270865E805C9E5F5"
+			tasks: [
+				{
+					id: "2233DC8E5BFE4F32"
+					item: "draconicevolution:basic_crafting_injector"
+					type: "item"
+				}
+				{
+					id: "1154ED18353F8B53"
+					item: "draconicevolution:crafting_core"
+					type: "item"
+				}
+			]
+			title: "Basic Fusion Crafting"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["270865E805C9E5F5"]
+			id: "1478C44070BFA557"
+			tasks: [{
+				id: "060D08A1E9E48B01"
+				item: "draconicevolution:wyvern_crafting_injector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1478C44070BFA557"]
+			id: "57270F4C241977C4"
+			tasks: [{
+				id: "2AB7019FA26A975F"
+				item: "draconicevolution:awakened_crafting_injector"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"57270F4C241977C4"
+				"2AD80471CD21065F"
+			]
+			id: "4F3F2AC1778DFF1C"
+			tasks: [{
+				id: "664C420007A585EC"
+				item: "draconicevolution:chaotic_crafting_injector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["421D8366D467EEDE"]
+			description: [
+				"The Chaos Shards can be found inside the Chaos Guardian's island in the center."
+				""
+				"Be careful though, once the shards are taken, the island will blow up."
+			]
+			id: "2AD80471CD21065F"
+			tasks: [{
+				count: 5L
+				id: "129DE41CE72BB4D0"
+				item: { Count: 5, id: "draconicevolution:chaos_shard" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "421D8366D467EEDE"
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: "draconicadditions:chaos_heart"
+				id: "518EAE4B42DB429C"
+				title: "Kill the Chaos Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2AD80471CD21065F"]
+			description: [
+				"Danger. May cause your base to blow up. Entirely."
+				"{image:kubejs:textures/quests/draconic_crater.png width:200 height:112 align:center}"
+			]
+			icon: "draconicevolution:reactor_core"
+			id: "17CE1594146A3CDD"
+			tasks: [
+				{
+					id: "09453A642B612FB3"
+					item: "draconicevolution:reactor_core"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A20E51697AC18EB"
+					item: { Count: 4, id: "draconicevolution:reactor_stabilizer" }
+					type: "item"
+				}
+			]
+			title: "Draconic Reactor"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D204A13AB23B18D"]
+			description: ["There is a very good energy storage called the Energy Cube. On it's lower levels it is simply a large storage, but on the highest tier it can store virtually infinite energy."]
+			icon: "draconicevolution:energy_core"
+			id: "09AE75FB7B04540A"
+			tasks: [
+				{
+					id: "37F18504639AD497"
+					item: "draconicevolution:energy_core"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1223970FA55E9759"
+					item: { Count: 2, id: "draconicevolution:energy_pylon" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0DA4EBFFF24A3BA5"
+					item: { Count: 2, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "34ABCDD8FDC989DB"
+					item: { Count: 4, id: "draconicevolution:energy_core_stabilizer" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2340C9DCF0918C99"]
+			description: ["Kill the Ender Dragon and get it's heart to start with Draconic Evolution."]
+			icon: "minecraft:dragon_head"
+			id: "6299998195CB80F0"
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					icon: "minecraft:dragon_head"
+					id: "05F9A12DB386009B"
+					title: "Kill the Ender Dragon"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "440CB67C4944A931"
+					item: "draconicevolution:dragon_heart"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			description: ["You need quite a few dragon hearts for Draconic Evolution. Reviving the Ender Dragon is quite a crucial part, place 4 end crystals on the bedrock platform edges in the end."]
+			id: "2340C9DCF0918C99"
+			tasks: [{
+				count: 4L
+				id: "477E61E8F70DA802"
+				item: { Count: 4, id: "minecraft:end_crystal" }
+				type: "item"
+			}]
+			title: "Revive the Ender Dragon"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1478C44070BFA557"
+				"6299998195CB80F0"
+			]
+			id: "1AB87494137F3513"
+			tasks: [{
+				count: 4L
+				id: "3B460F94EED27C6A"
+				item: { Count: 4, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
 	title: "Draconic Evolution"
 }

@@ -21,6 +21,12 @@
 	quests: [
 		{
 			id: "15BE4FB3D2433D7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22A901A225E616A5"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0DEE7325EBEF91CC"
 				item: {
@@ -36,6 +42,12 @@
 		{
 			dependencies: ["3C0EE96D8A046DAF"]
 			id: "31977EBA4DBF4CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C13F4745EA202F3"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "78E138C1220B014C"
 				item: "ad_astra:calorite_ingot"
@@ -51,6 +63,12 @@
 			]
 			icon: "ad_astra:venus_globe"
 			id: "3C0EE96D8A046DAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56B00D2484DA27F4"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "ad_astra:venus"
 				id: "56A50998A41D9F70"
@@ -61,6 +79,12 @@
 		}
 		{
 			id: "6BA8BFDD436CF9B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "308D4BEB6736FD57"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "40F4CA49F4C70207"
@@ -113,6 +137,12 @@
 		{
 			dependencies: ["31977EBA4DBF4CEE"]
 			id: "5BED43BD0445C7DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F88E3AA3E62E39"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "481E42A498F1C2F2"
 				item: {
@@ -129,6 +159,12 @@
 			dependencies: ["5BED43BD0445C7DA"]
 			icon: "ad_extendra:jupiter_globe"
 			id: "19014E8134D925D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0069FFEB777DEE9E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "ad_extendra:jupiter"
 				id: "73FA9BE6B8D3F715"

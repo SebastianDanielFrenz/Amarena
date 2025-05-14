@@ -10,6 +10,12 @@
 	quests: [
 		{
 			id: "0853E1351EFF440B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F2D7CC8D1442EF6"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				entity: "minecraft:warden"
 				id: "7B9A82AAFA1848AB"
@@ -22,6 +28,12 @@
 		}
 		{
 			id: "1C2FEDBB6C45B6C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FAC8BF11AAFCCC4"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "256231B8F989DB3D"
 				item: "ad_astra:ostrum_block"
@@ -36,6 +48,12 @@
 				"1C2FEDBB6C45B6C4"
 			]
 			id: "16D4532FF57AA2D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2858FD676FC53505"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "09FC608FA54E0DFB"
 				item: "kubejs:core_t3"
@@ -47,6 +65,12 @@
 		{
 			dependencies: ["10609C7F8DDD809C"]
 			id: "2C1CEDB1DD090690"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2045846C64EDA33B"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "17C9D931A10B6D49"
 				item: {

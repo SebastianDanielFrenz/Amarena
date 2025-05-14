@@ -282,9 +282,10 @@
 			dependencies: ["5DE47137D9F147D9"]
 			id: "5E447E815ED4E711"
 			rewards: [{
-				id: "4B2AE4377D2DDA0C"
-				item: "lbu2:diamond_lucky_block"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "63402CB8CF4C8D5B"
+				table_id: 8024000200115007606L
+				type: "random"
 			}]
 			tasks: [{
 				id: "1F31DEABA45BE348"
@@ -301,6 +302,12 @@
 		{
 			dependencies: ["5E447E815ED4E711"]
 			id: "3325DF5469D01FDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10801472ED26F9AF"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "01AB5B454A6CE015"
@@ -312,6 +319,12 @@
 		{
 			dependencies: ["3325DF5469D01FDB"]
 			id: "63CB46F73A0BADD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AF644578B4E70C3"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "37A13AE86AF8E36C"
 				item: "ad_astra:ostrum_ingot"

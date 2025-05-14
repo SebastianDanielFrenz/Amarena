@@ -10,6 +10,12 @@
 	quests: [
 		{
 			id: "146AD2AC56D6F238"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B6D998FE5678B9A"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "65800104141EA61E"
 				item: {
@@ -26,6 +32,12 @@
 		}
 		{
 			id: "0102D3826214053C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14022B97AEEE63FB"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0509707B27BF37B8"
 				item: "bloodmagic:reinforcedslate"
@@ -36,6 +48,12 @@
 		}
 		{
 			id: "055EE33F3AF33AD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30DC3C71FD89FE42"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F68AFDECEB0D4A3"
 				item: "kubejs:core_t2"

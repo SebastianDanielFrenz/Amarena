@@ -9,6 +9,12 @@
 	quest_links: [ ]
 	quests: [{
 		id: "6E4FEB478D71182C"
+		rewards: [{
+			exclude_from_claim_all: true
+			id: "5F7E0BA4EA3398D3"
+			table_id: 8024000200115007606L
+			type: "random"
+		}]
 		tasks: [{
 			id: "7C8F87CB0F7F13CD"
 			item: "mahoutsukai:guidebook"

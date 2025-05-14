@@ -11,6 +11,12 @@
 		{
 			description: ["Build a Fissile Reactor"]
 			id: "588301EA46A352CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7761E3AC3C554829"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "5354AA500D4DB435"
@@ -54,6 +60,12 @@
 		{
 			description: ["The last step before Fissile Fuel"]
 			id: "365E6203D690D3EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A3652125F114D7E"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				amount: 1000L
 				fluid: "mekanism:uranium_hexafluoride"
@@ -64,7 +76,17 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"588301EA46A352CD"
+				"365E6203D690D3EA"
+			]
 			id: "7707FFFE55E69F0D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ABA944E12C9E096"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "37F727F9193D501F"
 				item: "mekanism:pellet_polonium"
@@ -74,7 +96,17 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"588301EA46A352CD"
+				"365E6203D690D3EA"
+			]
 			id: "1AF2D41391C407F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2770A4CB77026946"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4BE432A3DED29DBA"
 				item: "mekanism:pellet_plutonium"
@@ -84,6 +116,10 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"7707FFFE55E69F0D"
+				"1AF2D41391C407F4"
+			]
 			id: "6009C6EF84A96930"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -120,10 +156,20 @@
 			]
 			title: "Meka Suit"
 			x: 5.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"7707FFFE55E69F0D"
+				"1AF2D41391C407F4"
+			]
 			id: "6A6DF051399B5D41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F5DDDAF8FB8E817"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3BE1DB126A2AD62D"
@@ -167,8 +213,8 @@
 				}
 			]
 			title: "Fusion Reactor"
-			x: 7.5d
-			y: -1.0d
+			x: 5.0d
+			y: -2.0d
 		}
 	]
 	title: "Mekanism II"

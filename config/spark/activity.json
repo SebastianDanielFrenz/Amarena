@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "BrickStacker_S",
+      "uniqueId": "a2ffff01-21e3-49d9-9a61-beeab6f2fe42"
+    },
+    "time": 1747239474645,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/c82qotgmDw"
+    }
+  }
+]

@@ -11,6 +11,7 @@
 	quests: [
 		{
 			can_repeat: true
+			icon: "botanypotstiers:creative_terracotta_botany_pot"
 			id: "22A82613B258355E"
 			rewards: [{
 				id: "2CFD2605E87B0534"

@@ -20,6 +20,16 @@
 		{ item: "lbu2:honey_lucky_block" }
 		{ item: "lbu2:sculk_lucky_block" }
 		{ item: "lbu2:slime_lucky_block" }
+		{ item: "lbu2:jade_lucky_block" }
+		{ item: "lbu2:gem_lucky_block" }
+		{ item: "lbu2:metal_lucky_block" }
+		{ item: "lbu2:ocean_lucky_block" }
+		{ item: "lbu2:electro_lucky_block" }
+		{ item: "lbu2:sun_lucky_block" }
+		{ item: "lbu2:moon_lucky_block" }
+		{ item: "lbu2:weapon_lucky_block" }
+		{ item: "lbu2:ninja_lucky_block" }
+		{ item: "lbu2:rainbow_lucky_block" }
 	]
 	title: "lucky  block"
 }

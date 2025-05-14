@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "ore_trees"
 	group: "1A626ECE99641E34"
+	icon: "bonsaitrees3:bonsaipot"
 	id: "127EBB393987C995"
 	order_index: 7
 	quest_links: [ ]
@@ -103,6 +104,7 @@
 				}
 				type: "item"
 			}]
+			title: "Better Bonsai Harvest"
 			x: 0.5d
 			y: 2.5d
 		}

@@ -1,27 +1,27 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "thermal_foregoing"
+	filename: "thermal_series"
 	group: "1A626ECE99641E34"
 	icon: {
 		Count: 1
 		id: "simplyjetpacks:jetpack_te1"
 		tag: { }
 	}
-	id: "3FF6BE9F4B67C5F6"
+	id: "6EFD865F0A03AE4A"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "4754806F845189C7"
+			id: "60AC581270C6C17B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0BF187A17B8F5270"
+				id: "629974493F62FFDE"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
-				id: "0086BA97CD26DF99"
+				id: "03E631391259AAD5"
 				item: {
 					Count: 1
 					id: "simplyjetpacks:jetpack_te1"
@@ -33,16 +33,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4754806F845189C7"]
-			id: "66F28AE458C77FC8"
+			dependencies: ["60AC581270C6C17B"]
+			id: "3FDB168172B231C6"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "123C6D1C9F842971"
+				id: "619E5CAFED6FF398"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
-				id: "21CBFA331A1B3AB4"
+				id: "621B47F8A27E3049"
 				item: {
 					Count: 1
 					id: "simplyjetpacks:jetpack_te2"
@@ -54,16 +54,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["66F28AE458C77FC8"]
-			id: "4CBD2CEA3C4B4222"
+			id: "28C16E9BE7D924DD"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "1909402DA693A1E6"
+				id: "0ED93C533F607DD5"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
-				id: "285C78243BCF5F91"
+				id: "6730ADCD1D5CDCE7"
 				item: {
 					Count: 1
 					id: "simplyjetpacks:jetpack_te3"
@@ -75,16 +74,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4CBD2CEA3C4B4222"]
-			id: "65F708AB59C9FA1D"
+			id: "39BBFA5F6AF421DB"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0F324A8BFBB9B357"
+				id: "2AAFA94E3615A669"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
-				id: "3C18EB6D01B368A3"
+				id: "6BB5653147A01118"
 				item: {
 					Count: 1
 					id: "simplyjetpacks:jetpack_te4"
@@ -96,16 +94,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["65F708AB59C9FA1D"]
-			id: "4BFA6AFABF4EF67F"
+			id: "29633B18B14FA907"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "3557760BF6C27596"
+				id: "3BED50BBD871BE3B"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
-				id: "2080EDA124072E60"
+				id: "3E1B7F9220A515CB"
 				item: {
 					Count: 1
 					id: "simplyjetpacks:jetpack_te5"
@@ -118,21 +115,21 @@
 		}
 		{
 			description: ["Some ingots have to be blended and don't naturally occur in the world"]
-			id: "153BC599ED9BDDE8"
+			id: "199E264C68CAFEA4"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "5266C668095658FE"
+				id: "347A6904A8647059"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [
 				{
-					id: "010FD6752C99AAE6"
+					id: "07F9687962F88BEC"
 					item: "thermal:electrum_dust"
 					type: "item"
 				}
 				{
-					id: "1BF514AD9CDC659F"
+					id: "7617A3C2694FBA09"
 					item: "thermal:electrum_ingot"
 					type: "item"
 				}
@@ -143,15 +140,15 @@
 		}
 		{
 			description: ["This machine lets you grow crops. "]
-			id: "1C3957A569C7A8B0"
+			id: "03E93CEBBC1AE8D2"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "0444B1F3EB65657A"
+				id: "434F3DA480C31F08"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
-				id: "320903950D0AD60F"
+				id: "2F494280FE301803"
 				item: "thermal:machine_insolator"
 				type: "item"
 			}]

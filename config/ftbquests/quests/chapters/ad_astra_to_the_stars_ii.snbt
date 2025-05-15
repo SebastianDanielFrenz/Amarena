@@ -692,7 +692,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["68C4B7303A3D3B9D"]
+			dependencies: ["5D7ED5EEE8A492B0"]
 			id: "39D07EF36DC810C4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -706,23 +706,53 @@
 				type: "structure"
 			}]
 			x: 15.0d
-			y: 12.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["55967634D9E0606F"]
-			id: "68C4B7303A3D3B9D"
+			dependencies: ["0BEC5F8EFA69547B"]
+			id: "5D7ED5EEE8A492B0"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "22F11A9C77F5A751"
+				id: "4074FB262156F41D"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
 			tasks: [{
 				dimension: "ad_astra:glacio"
-				id: "3B8AC3F60F3506D2"
+				icon: "ad_astra:glacio_globe"
+				id: "0E6293C91F0E592A"
 				type: "dimension"
 			}]
 			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0BEC5F8EFA69547B"]
+			id: "248D2136E8ABD95F"
+			tasks: [{
+				dimension: "ad_extendra:b"
+				icon: "ad_extendra:b_globe"
+				id: "1B49584D46874A91"
+				type: "dimension"
+			}]
+			x: 12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5D7ED5EEE8A492B0"]
+			id: "191BB9C574AD48FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0472B5943D388A32"
+				table_id: 8024000200115007606L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B6D688CBFED5744"
+				item: "ad_astra:glacian_fur"
+				type: "item"
+			}]
+			x: 15.0d
 			y: 12.0d
 		}
 	]

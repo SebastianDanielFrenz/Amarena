@@ -17,9 +17,7 @@
     "spaceMuffler": true,
     "radio": {
         // Range: 0 - 100
-        "volume": 30,
-        "favorites": [
-            "https://ice2.somafm.com/missioncontrol-128-mp3"
-        ]
+        "volume": 50,
+        "favorites": []
     }
 }

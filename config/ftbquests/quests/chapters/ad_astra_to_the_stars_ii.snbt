@@ -13,6 +13,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["This Tier 3 Rocket can bring you to Venus. You'll need to mine metals from Mars to assemble it."]
 			id: "15BE4FB3D2433D7E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -34,6 +35,7 @@
 		}
 		{
 			dependencies: ["3C0EE96D8A046DAF"]
+			description: ["Calorite can be found on Venus. It is used to craft the Tier 4 rocket, acid rain proof your armor or craft a Jet Suit."]
 			id: "31977EBA4DBF4CEE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -54,6 +56,14 @@
 				"15BE4FB3D2433D7E"
 				"6BA8BFDD436CF9B4"
 			]
+			description: [
+				"Fly to venus. Ensure you are wearing the netherite space suit and have sufficient oxygen. You'll have hit the mines again."
+				""
+				"&oSo we back in the mine&r"
+				"&oGot our pickaxe&r"
+				"&oswinging from side to side&r"
+				"&oside-side to side&r"
+			]
 			icon: "ad_astra:venus_globe"
 			id: "3C0EE96D8A046DAF"
 			rewards: [{
@@ -71,6 +81,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["The hostile environment of Venus is not suited for human activity. Copious amounts of greenhouse gases turn a frosty -41°C to an average surface temperature of 464°C. It is literal hell out there. And you want to go there? Craft some protection!"]
 			id: "6BA8BFDD436CF9B4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -129,6 +140,11 @@
 		}
 		{
 			dependencies: ["31977EBA4DBF4CEE"]
+			description: [
+				"A small step yada yada yada"
+				""
+				"You know the drill."
+			]
 			id: "5BED43BD0445C7DA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -150,6 +166,11 @@
 		}
 		{
 			dependencies: ["5BED43BD0445C7DA"]
+			description: [
+				"It is time for your first adventure out of the inner solar system."
+				""
+				"Head to the gas giant Jupiter, the planet that failed to be a star."
+			]
 			icon: "ad_extendra:jupiter_globe"
 			id: "19014E8134D925D2"
 			rewards: [{
@@ -168,6 +189,7 @@
 		}
 		{
 			dependencies: ["5125CA9E88FCDA33"]
+			description: ["Another one. How would have guessed."]
 			id: "12DE8F4CEC12A50F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -196,6 +218,11 @@
 		}
 		{
 			dependencies: ["19014E8134D925D2"]
+			description: [
+				"I wonder why Jupiterium is only found on Jupiter........."
+				""
+				"Actually, don't think about it."
+			]
 			id: "5125CA9E88FCDA33"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -248,6 +275,11 @@
 		}
 		{
 			dependencies: ["0A3421C3720B5CE7"]
+			description: [
+				"More rocket more better."
+				""
+				"Go on, craft it. You know you want it."
+			]
 			id: "508ED3A7BA8EA81A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -311,6 +343,7 @@
 		}
 		{
 			dependencies: ["337C0D590D7C0F70"]
+			description: ["Bigger number better"]
 			id: "45DF3F3EDC2C0FF2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -374,6 +407,7 @@
 		}
 		{
 			dependencies: ["5308BC3CB868A595"]
+			description: ["We soon hope to invent even bigger numbers, so bigger customer buy more numbers."]
 			id: "232E394DE8DEE872"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -437,6 +471,11 @@
 		}
 		{
 			dependencies: ["46323473C6D9C55B"]
+			description: [
+				"Is there really anything more to be said?"
+				""
+				"Make it. Do it."
+			]
 			id: "2EAA561B4D925E2A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -483,6 +522,7 @@
 		}
 		{
 			dependencies: ["35DBAC2C9900D559"]
+			description: ["Don't ask why Plutonium is the ingot found on Pluto. Just don't."]
 			id: "5F4CC012CAA02970"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -500,6 +540,7 @@
 		}
 		{
 			dependencies: ["5F4CC012CAA02970"]
+			description: ["At least this is the second to last one have to make. Rejoice???"]
 			id: "55967634D9E0606F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -563,6 +604,7 @@
 		}
 		{
 			dependencies: ["2F39DE1940F290E6"]
+			description: ["This is THE rocket. It will take you anywhere you could possibly want to be in this small galaxy."]
 			id: "0BEC5F8EFA69547B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -591,6 +633,7 @@
 		}
 		{
 			dependencies: ["31977EBA4DBF4CEE"]
+			description: ["Ever wanted to fly like iron man? Try it, it's fun."]
 			id: "27B1ABF5F63C2DF8"
 			rewards: [{
 				exclude_from_claim_all: true

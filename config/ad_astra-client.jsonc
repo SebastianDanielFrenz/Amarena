@@ -18,6 +18,8 @@
     "radio": {
         // Range: 0 - 100
         "volume": 50,
-        "favorites": []
+        "favorites": [
+            "https://ice2.somafm.com/missioncontrol-128-mp3"
+        ]
     }
 }

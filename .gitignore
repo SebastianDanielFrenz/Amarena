@@ -1,7 +1,8 @@
 /*
 !/scripts
 !/config
-/config/jei/world/local/New_World/bookmarks.ini
+/config/jei/world/local
+/config/jei/ingredient-list-mod-sort-order.ini
 !/kubejs
 !/defaultconfigs
 !/curseforgepageassets

@@ -1,4 +1,5 @@
 {
+	icon: "lbu2:lucky_block"
 	id: "6F5AF9AB4584B076"
 	loot_crate: {
 		color: 16777215
@@ -56,5 +57,5 @@
 		{ item: "lbu2:baleful_lucky_block" }
 		{ item: "lbu2:cyber_lucky_block" }
 	]
-	title: "lucky  block"
+	title: "Lucky Block"
 }

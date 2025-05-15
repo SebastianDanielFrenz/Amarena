@@ -1,0 +1,252 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lucky_blocks"
+	group: "0D875D3DF5ADC477"
+	id: "7D125F92D525D490"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5ABD996288C9C58D"
+		rewards: [
+			{
+				exclude_from_claim_all: true
+				id: "1838572E2580EC7D"
+				table_id: 8024000200115007606L
+				type: "all_table"
+			}
+			{
+				count: 10
+				id: "6DEC087C7D4360C0"
+				item: {
+					Count: 1
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "lucky_block"
+					}
+				}
+				type: "item"
+			}
+		]
+		tasks: [
+			{
+				id: "2E9AD5102DA163A9"
+				item: "lbu2:diamond_lucky_block"
+				type: "item"
+			}
+			{
+				id: "108D622C27F58D89"
+				item: "lbu2:lucky_block"
+				type: "item"
+			}
+			{
+				id: "43EB7CF467FFEFFA"
+				item: "lbu2:rainbow_lucky_block"
+				type: "item"
+			}
+			{
+				id: "63E540FE2AEDD459"
+				item: "lbu2:copper_lucky_block"
+				type: "item"
+			}
+			{
+				id: "21F254D5C3EB36BE"
+				item: "lbu2:redstone_lucky_block"
+				type: "item"
+			}
+			{
+				id: "1DB7124C0A2B7766"
+				item: "lbu2:lapis_lucky_block"
+				type: "item"
+			}
+			{
+				id: "52F8CD57596075B9"
+				item: "lbu2:emerald_lucky_block"
+				type: "item"
+			}
+			{
+				id: "01DACAEEE889B85F"
+				item: "lbu2:amethyst_lucky_block"
+				type: "item"
+			}
+			{
+				id: "7E2A08E520AAC686"
+				item: "lbu2:obsidian_lucky_block"
+				type: "item"
+			}
+			{
+				id: "5A0CD6C2588C250D"
+				item: "lbu2:netherite_lucky_block"
+				type: "item"
+			}
+			{
+				id: "5A3C4A6DFF30DEF2"
+				item: "lbu2:tnt_lucky_block"
+				type: "item"
+			}
+			{
+				id: "70477841D49DA773"
+				item: "lbu2:melon_lucky_block"
+				type: "item"
+			}
+			{
+				id: "0F5E029DB81A6103"
+				item: "lbu2:frost_lucky_block"
+				type: "item"
+			}
+			{
+				id: "42B7E1B61F0FE4D2"
+				item: "lbu2:nether_lucky_block"
+				type: "item"
+			}
+			{
+				id: "2FBEEE652A5B90D2"
+				item: "lbu2:ender_lucky_block"
+				type: "item"
+			}
+			{
+				id: "51E0DBB4CF959518"
+				item: "lbu2:honey_lucky_block"
+				type: "item"
+			}
+			{
+				id: "2FD81FF18B83CA0A"
+				item: "lbu2:sculk_lucky_block"
+				type: "item"
+			}
+			{
+				id: "7C607F378C1A01A9"
+				item: "lbu2:slime_lucky_block"
+				type: "item"
+			}
+			{
+				id: "5EF4B3F182276467"
+				item: "lbu2:jade_lucky_block"
+				type: "item"
+			}
+			{
+				id: "2395AE0B174F8067"
+				item: "lbu2:gem_lucky_block"
+				type: "item"
+			}
+			{
+				id: "69029298397E602E"
+				item: "lbu2:metal_lucky_block"
+				type: "item"
+			}
+			{
+				id: "26A38BBE06042481"
+				item: "lbu2:ocean_lucky_block"
+				type: "item"
+			}
+			{
+				id: "7B6D8A6E23102558"
+				item: "lbu2:electro_lucky_block"
+				type: "item"
+			}
+			{
+				id: "6729CF6B191F8F89"
+				item: "lbu2:sun_lucky_block"
+				type: "item"
+			}
+			{
+				id: "291AD9D532439A8E"
+				item: "lbu2:moon_lucky_block"
+				type: "item"
+			}
+			{
+				id: "24490AE4D30B830B"
+				item: "lbu2:weapon_lucky_block"
+				type: "item"
+			}
+			{
+				id: "421D9E56F2A4B697"
+				item: "lbu2:ninja_lucky_block"
+				type: "item"
+			}
+			{
+				id: "24CC18024AC299C9"
+				item: "lbu2:skeletal_lucky_block"
+				type: "item"
+			}
+			{
+				id: "797F3BF4B519F7C5"
+				item: "lbu2:nightmare_lucky_block"
+				type: "item"
+			}
+			{
+				id: "7EEA5A22A6075621"
+				item: "lbu2:legendary_lucky_block"
+				type: "item"
+			}
+			{
+				id: "2C63752123B5BEFB"
+				item: "lbu2:dungeons_lucky_block"
+				type: "item"
+			}
+			{
+				id: "0A1C61AE3D406BE6"
+				item: "lbu2:crystal_lucky_block"
+				type: "item"
+			}
+			{
+				id: "5473762D42781F47"
+				item: "lbu2:caro_lucky_block"
+				type: "item"
+			}
+			{
+				id: "68F56FCCF505140D"
+				item: "lbu2:wave_lucky_block"
+				type: "item"
+			}
+			{
+				id: "78F302F6AAE2AC27"
+				item: "lbu2:nebula_lucky_block"
+				type: "item"
+			}
+			{
+				id: "37C9461AD5B05A6C"
+				item: "lbu2:halloween_lucky_block"
+				type: "item"
+			}
+			{
+				id: "19D9AE4D85205CF7"
+				item: "lbu2:nuclear_lucky_block"
+				type: "item"
+			}
+			{
+				id: "5BCDC189385C78E3"
+				item: "lbu2:christmas_lucky_block"
+				type: "item"
+			}
+			{
+				id: "427E6AB004E8FAA9"
+				item: "lbu2:hardlight_lucky_block"
+				type: "item"
+			}
+			{
+				id: "36279C45C6330F82"
+				item: "lbu2:volcano_lucky_block"
+				type: "item"
+			}
+			{
+				id: "516EAB709D966324"
+				item: "lbu2:cyber_lucky_block"
+				type: "item"
+			}
+			{
+				id: "0055710A937DF820"
+				item: "lbu2:baleful_lucky_block"
+				type: "item"
+			}
+			{
+				id: "04371ED8E506D275"
+				item: "lbu2:darkheart_lucky_block"
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Lucky Blocks"
+}

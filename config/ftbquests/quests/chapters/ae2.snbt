@@ -5,7 +5,7 @@
 	group: "1A626ECE99641E34"
 	icon: "ae2:crafting_terminal"
 	id: "6873894D087E21FF"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -264,7 +264,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["If you unsure how to proceed the guid is there to help you"]
+			description: ["If you unsure how to proceed the guide is there to help you"]
 			id: "60331726585037C6"
 			rewards: [{
 				exclude_from_claim_all: true

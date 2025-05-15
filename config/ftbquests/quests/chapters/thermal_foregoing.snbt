@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "3FF6BE9F4B67C5F6"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -159,5 +159,5 @@
 			y: 3.0d
 		}
 	]
-	title: "Thermal Foregoing"
+	title: "Thermal Series"
 }

@@ -3,11 +3,13 @@
 	default_quest_shape: ""
 	filename: "ore_trees"
 	group: "1A626ECE99641E34"
+	icon: "bonsaitrees3:bonsaipot"
 	id: "127EBB393987C995"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Craft a Natures Compass so you can easily find the biomes in which Ore Trees can be found. Not all of them can be found. Some need to be crafted"]
 			id: "3F8324F3569F00B4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -102,12 +104,14 @@
 				}
 				type: "item"
 			}]
+			title: "Better Bonsai Harvest"
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Coal Sapling in a forest biome"]
+			icon: "oretrees:coal_sapling"
 			id: "6B509D08B92477EF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -127,12 +131,14 @@
 					type: "item"
 				}
 			]
+			title: "Coal Sapling"
 			x: 11.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find an Aluminium Sapling in a Plains biome"]
+			icon: "oretrees:aluminium_sapling"
 			id: "72A33CBC4D21214D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -158,6 +164,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find an Iron Sapling in a Gravel Desert"]
+			icon: "oretrees:iron_sapling"
 			id: "573C8B79F64DC830"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -183,6 +190,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Gravel Sapling in a Gravel Beach"]
+			icon: "oretrees:gravel_sapling"
 			id: "2D57FE53DE0C4578"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -208,6 +216,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Copper Sapling in a Forested Highland"]
+			icon: "oretrees:copper_sapling"
 			id: "7E1C649E88EBF10A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -233,6 +242,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Gold Sapling in a Badlands Biome"]
+			icon: "oretrees:gold_sapling"
 			id: "263BCD3C8EDA16CB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -258,6 +268,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find Redstone Sapling in a Volcanic Peaks Biome"]
+			icon: "oretrees:redstone_sapling"
 			id: "4A4E98CFD7CB9DC3"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -283,6 +294,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find an Emerald Sapling in a Windswept Spires Biomes"]
+			icon: "oretrees:emerald_sapling"
 			id: "7029C51A6590FCD2"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -308,6 +320,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Lapis Sapling in a Glacial Chasm Biome"]
+			icon: "oretrees:lapis_sapling"
 			id: "7443125F5A7F1AEA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -333,6 +346,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Sand Sapling in a Beach Biome"]
+			icon: "oretrees:sand_sapling"
 			id: "7B85753B2D36C9B4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -358,6 +372,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Stone Sapling in a Highlands Biome"]
+			icon: "oretrees:stone_sapling"
 			id: "0D8E0C72EDD4AD14"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -383,6 +398,7 @@
 		{
 			dependencies: ["3F8324F3569F00B4"]
 			description: ["Find a Clay Sapling in an Orchid Swamp"]
+			icon: "oretrees:clay_sapling"
 			id: "6779B1A14A0AEED2"
 			rewards: [{
 				exclude_from_claim_all: true

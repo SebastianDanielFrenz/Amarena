@@ -1,7 +1,16 @@
 {
 	id: "6F5AF9AB4584B076"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "lucky_block"
+	}
 	loot_size: 1
-	order_index: 1
+	order_index: 0
 	rewards: [
 		{ item: "lbu2:lucky_block" }
 		{ item: "lbu2:diamond_lucky_block" }
@@ -20,6 +29,32 @@
 		{ item: "lbu2:honey_lucky_block" }
 		{ item: "lbu2:sculk_lucky_block" }
 		{ item: "lbu2:slime_lucky_block" }
+		{ item: "lbu2:jade_lucky_block" }
+		{ item: "lbu2:gem_lucky_block" }
+		{ item: "lbu2:metal_lucky_block" }
+		{ item: "lbu2:ocean_lucky_block" }
+		{ item: "lbu2:electro_lucky_block" }
+		{ item: "lbu2:sun_lucky_block" }
+		{ item: "lbu2:moon_lucky_block" }
+		{ item: "lbu2:weapon_lucky_block" }
+		{ item: "lbu2:ninja_lucky_block" }
+		{ item: "lbu2:rainbow_lucky_block" }
+		{ item: "lbu2:nebula_lucky_block" }
+		{ item: "lbu2:dungeons_lucky_block" }
+		{ item: "lbu2:legendary_lucky_block" }
+		{ item: "lbu2:nightmare_lucky_block" }
+		{ item: "lbu2:skeletal_lucky_block" }
+		{ item: "lbu2:wave_lucky_block" }
+		{ item: "lbu2:caro_lucky_block" }
+		{ item: "lbu2:crystal_lucky_block" }
+		{ item: "lbu2:halloween_lucky_block" }
+		{ item: "lbu2:nuclear_lucky_block" }
+		{ item: "lbu2:christmas_lucky_block" }
+		{ item: "lbu2:hardlight_lucky_block" }
+		{ item: "lbu2:volcano_lucky_block" }
+		{ item: "lbu2:darkheart_lucky_block" }
+		{ item: "lbu2:baleful_lucky_block" }
+		{ item: "lbu2:cyber_lucky_block" }
 	]
 	title: "lucky  block"
 }

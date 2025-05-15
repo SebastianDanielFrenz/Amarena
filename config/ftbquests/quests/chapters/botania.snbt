@@ -5,10 +5,17 @@
 	group: "1A626ECE99641E34"
 	icon: "botania:black_lotus"
 	id: "531746D57893EFCC"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Craft a Lexica Botania "
+				""
+				"This item tracks your progress through the Botania and MythicBotany mods."
+				""
+				"It also acts like a wiki."
+			]
 			id: "18B29CD12D5F8A11"
 			tasks: [{
 				id: "3947ECE5B625850C"
@@ -19,24 +26,721 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"128B42159E347820"
+				"274BCB75DDAF52B9"
+			]
 			id: "7B2A73A1EFA88E15"
-			tasks: [{
-				id: "4D8D2BF434F9FB51"
-				item: "botania:manasteel_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
+			tasks: [
+				{
+					count: 8L
+					id: "4D8D2BF434F9FB51"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "41DECDA9D4CE2539"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "2381EFF46D9C5678"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					id: "4CD511F79E1E7700"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			title: "Infusing Mana"
+			x: -2.5d
+			y: 10.0d
 		}
 		{
-			id: "5661238A5B6F7BE7"
+			dependencies: ["18B29CD12D5F8A11"]
+			id: "5B6C95E39EB4990D"
 			tasks: [{
-				id: "4C97199B417BA78A"
-				item: "kubejs:core_t2"
+				advancement: "botania:main/flower_pickup"
+				criterion: ""
+				id: "794AEEBA40266D32"
+				type: "advancement"
+			}]
+			title: "Mystical Flowers"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18B29CD12D5F8A11"]
+			id: "5B4AD4792C613419"
+			tasks: [{
+				id: "70D7C9CD28E9E895"
+				item: "botania:apothecary_default"
 				type: "item"
 			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B4AD4792C613419"
+				"5B6C95E39EB4990D"
+			]
+			id: "622155D84D495FE6"
+			tasks: [{
+				id: "5B4D96287B5324B8"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["622155D84D495FE6"]
+			id: "7C4D5918A3DE9FAD"
+			tasks: [
+				{
+					count: 16L
+					id: "05B0FBE5ED8D3847"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "000A5494A6EDAA83"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			title: "Purification"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B6C95E39EB4990D"]
+			description: ["A convenient way to store your mystical flowers."]
+			id: "39FCFA8B530A4826"
+			tasks: [{
+				id: "7C96B858DB2B6BA1"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C4D5918A3DE9FAD"]
+			id: "274BCB75DDAF52B9"
+			tasks: [
+				{
+					id: "4FB5563BAB5A78E1"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "152591BCD929294B"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "181AF59C42188967"
+					item: {
+						Count: 1
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Basics of Mana Manipulation"
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7C4D5918A3DE9FAD"]
+			description: ["Use any generating flower to generate some mana and store it in a mana pool."]
+			id: "128B42159E347820"
+			tasks: [{
+				advancement: "botania:main/generating_flower"
+				criterion: ""
+				id: "025E5D25AC1F8BEB"
+				type: "advancement"
+			}]
+			title: "The Basics of Mana Generation"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["128B42159E347820"]
+			id: "170105189024FFFD"
+			tasks: [{
+				id: "0FF992114CF39A33"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			title: "Better Mana Generation I"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["274BCB75DDAF52B9"]
+			id: "4AD7B67FA3E89077"
+			tasks: [{
+				id: "4122C936FBB7592A"
+				item: "botania:spark"
+				type: "item"
+			}]
+			title: "Faster Mana Transfer I"
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7B2A73A1EFA88E15"]
+			id: "5318994DD6B58B9A"
+			tasks: [{
+				id: "59B4922DFF594FD1"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			title: "Creating Runes"
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["274BCB75DDAF52B9"]
+			id: "6B8A29330414A6C4"
+			tasks: [{
+				advancement: "botania:main/functional_flower"
+				criterion: ""
+				id: "6B8F12BAAF7D69C6"
+				type: "advancement"
+			}]
+			title: "Power a Flower with Mana"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5318994DD6B58B9A"]
+			description: ["To forge Terrasteel, place a Mana Steel Ingot, a Mana Pearl, and a Mana Diamond on the Terrestrial Agglomeration Plate, with a Mana Pool nearby supplying mana via Sparks."]
+			id: "6882696D5D8A8AEB"
+			tasks: [{
+				id: "53137BA35022F216"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "Terrasteel"
+			x: -2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5318994DD6B58B9A"]
+			id: "0878CDBEF50E348C"
+			tasks: [{
+				id: "302E14C18907C340"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			title: "Better Mana Generation II"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6882696D5D8A8AEB"]
+			description: ["Don't forget to trade your Lexica Botania."]
+			id: "6C0AD2BC4E7AE097"
+			tasks: [
+				{
+					advancement: "botania:main/elf_portal_open"
+					criterion: ""
+					id: "13947FAC1B649701"
+					type: "advancement"
+				}
+				{
+					count: 2L
+					id: "7584A9BA8B00AB56"
+					item: { Count: 2, id: "botania:natura_pylon" }
+					type: "item"
+				}
+				{
+					id: "0AA67474D988D7AB"
+					item: "botania:alfheim_portal"
+					type: "item"
+				}
+			]
+			title: "A Gateway to Alfheim"
+			x: -2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7B2A73A1EFA88E15"]
+			description: ["Mana Lenses are upgrades that modify how Mana Spreaders behave, improving efficiency or changing functionality."]
+			id: "3D4F8BB0B7C3097E"
+			tasks: [{
+				id: "61F161A6940CEE6B"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			title: "Better Mana Manipulation I"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6C0AD2BC4E7AE097"]
+			id: "41541416E7039953"
+			tasks: [
+				{
+					count: 16L
+					id: "4D35DE5A91EDE348"
+					item: { Count: 16, id: "botania:dreamwood_log" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "74B6507D59849284"
+					item: { Count: 16, id: "botania:dragonstone" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7343CD518AA37811"
+					item: { Count: 16, id: "botania:elementium_ingot" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "56358B5524FC7158"
+					item: { Count: 16, id: "botania:pixie_dust" }
+					type: "item"
+				}
+			]
+			title: "Trading with the Elves"
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["41541416E7039953"]
+			id: "0A8FEA2B35DA79FB"
+			tasks: [{
+				id: "5B548E9ECCF11F15"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			title: "Better Mana Manipulation II"
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["41541416E7039953"]
+			description: ["Using a Mana Infuser, create some Alfsteel."]
+			id: "583071B45F65F5BC"
+			tasks: [{
+				id: "69E17135A48B5522"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "Terrasteel, but Elven"
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["583071B45F65F5BC"]
+			id: "7EFF8B6045EFF308"
+			tasks: [
+				{
+					count: 4L
+					id: "12ED62A5E5CAB109"
+					item: { Count: 4, id: "botania:gaia_pylon" }
+					type: "item"
+				}
+				{
+					id: "3E0590527D424F42"
+					item: "botania:terrasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "743596BE139FCEB4"
+					item: "botania:life_essence"
+					type: "item"
+				}
+			]
+			title: "The Guardian of Gaia I"
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7EFF8B6045EFF308"]
+			id: "764BDA582D9F6BE6"
+			tasks: [
+				{
+					id: "329C1B8B7811355D"
+					item: "botania:gaia_ingot"
+					type: "item"
+				}
+				{
+					advancement: "botania:challenge/gaia_guardian_hardmode"
+					criterion: ""
+					id: "272546BAC383D6B7"
+					type: "advancement"
+				}
+			]
+			title: "The Guardian of Gaia II"
+			x: -2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"7EFF8B6045EFF308"
+				"0A8FEA2B35DA79FB"
+			]
+			id: "02C9C1DF15C0B693"
+			tasks: [{
+				id: "4D6EF40F17931940"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			title: "Better Mana Manipulation III"
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"41541416E7039953"
+				"4AD7B67FA3E89077"
+			]
+			id: "7ADC77A56785AD3B"
+			tasks: [
+				{
+					id: "24D383FADAB2D738"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+				{
+					id: "3CE370E7B7267E1F"
+					item: "botania:spark_upgrade_recessive"
+					type: "item"
+				}
+			]
+			title: "Faster Mana Transfer II"
+			x: -6.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["41541416E7039953"]
+			description: ["The Corporea Network is Botania’s advanced, magical item request system. Using Corporea Sparks and Index/Interceptors, it allows you to remotely request, sort, and transport items between inventories with precision."]
+			id: "1B1A7CC0903594DD"
+			tasks: [{
+				id: "021C46097495E9B4"
+				item: "botania:corporea_spark_master"
+				type: "item"
+			}]
+			title: "Inventory Managment"
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["764BDA582D9F6BE6"]
+			id: "111B3EDD54126039"
+			tasks: [{
+				id: "7C6BBC9EE97A07AA"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "Relics of the Aesir"
+			x: -2.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["7EFF8B6045EFF308"]
+			description: ["Generate Mana using the Dandelifeon."]
+			hide_until_deps_complete: true
+			id: "14D35192B2EA662A"
+			tasks: [{
+				id: "2592B4CB228DBA03"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			title: "C'est la Vie"
+			x: -5.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5318994DD6B58B9A"]
+			id: "75A72AA303D946AC"
+			tasks: [{
+				id: "56AD9CC3E272CCBB"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			title: "Better Potions"
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["41541416E7039953"]
+			id: "0BE79F870CD2804D"
+			tasks: [{
+				id: "5157B00CB4112D6E"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			title: "Ex Nihilo"
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7B2A73A1EFA88E15"]
+			description: ["Mana Enchanting uses a Mana Enchanter to apply enchantments to items using mana instead of experience. Enchanted Books are NOT consumed during the process and may be used again."]
+			id: "23B9E28E563E47C7"
+			tasks: [{
+				count: 6L
+				id: "0A1711EF15E7D1DF"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			title: "Enchanting with Mana"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["75A72AA303D946AC"]
+			id: "457B2BF209D4022A"
+			tasks: [{
+				id: "6E32D5CE5D132FFB"
+				item: "botania:blood_pendant"
+				type: "item"
+			}]
+			title: "Permanent Potion Effects"
 			x: 2.5d
-			y: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7EFF8B6045EFF308"]
+			description: ["The Flügel Tiara enables flight."]
+			id: "22CDECBA34974245"
+			tasks: [{
+				id: "6E9395BBE762917A"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Spread your Wings"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["6B8A29330414A6C4"]
+			id: "214A7BF17677F2B9"
+			tasks: [{
+				id: "43810D76AC3FFBB6"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			title: "Ore Generation"
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6B8A29330414A6C4"]
+			id: "5CEAAAA7837F5672"
+			tasks: [{
+				id: "2CB46B05AA2D514F"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			title: "All in One Mob Farm"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6B8A29330414A6C4"]
+			id: "593BF5DFEF43218F"
+			tasks: [{
+				id: "0CA4E458A0825F61"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			title: "Faster Growth"
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5318994DD6B58B9A"]
+			id: "3DF6E1BAF59E04B1"
+			tasks: [{
+				id: "5948D6A128C8016E"
+				title: "Botania Trinkets"
+				type: "checkmark"
+			}]
+			title: "Trinkets"
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7B2A73A1EFA88E15"]
+			description: ["Some items require mana to function."]
+			id: "303F12FA80B78478"
+			tasks: [
+				{
+					id: "17E01E1D7E96295B"
+					item: "botania:mana_ring"
+					type: "item"
+				}
+				{
+					id: "455C2C45343C640A"
+					item: "botania:aura_ring"
+					type: "item"
+				}
+			]
+			title: "Inventory Mana Storage I"
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6882696D5D8A8AEB"
+				"303F12FA80B78478"
+			]
+			id: "5E28D01D53784D2B"
+			tasks: [
+				{
+					id: "014774558BAE001D"
+					item: "botania:mana_ring_greater"
+					type: "item"
+				}
+				{
+					id: "57899CB721FAFE14"
+					item: "botania:aura_ring_greater"
+					type: "item"
+				}
+			]
+			title: "Inventory Mana Storage II"
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "6C4A031BF7215DA2"
+			tasks: [{
+				id: "47CC05D6CB0E2A2F"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			title: "Faster Walking"
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "7697E099F8409151"
+			tasks: [{
+				id: "442812EDF2514737"
+				item: "botania:magnet_ring"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "614CD44E2047849E"
+			tasks: [{
+				id: "2BD23B4ACD8970BA"
+				item: {
+					Count: 1
+					id: "botania:reach_ring"
+					tag: {
+						baubleUUID: [I;
+							1934699040
+							-847690633
+							-2089136916
+							914360907
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "39B9A97D4676D8B5"
+			tasks: [{
+				id: "376C0368395FB0A0"
+				item: "botania:super_lava_pendant"
+				type: "item"
+			}]
+			title: "Fire Resistance"
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "1F7DA054B5F46C02"
+			tasks: [{
+				id: "4EC616032DFBE7CD"
+				item: {
+					Count: 1
+					id: "botania:knockback_belt"
+					tag: {
+						baubleUUID: [I;
+							-1390169202
+							325075239
+							-1969908940
+							-313946373
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Knockback Resistance"
+			x: 4.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "42D3AA553D1FE8BF"
+			tasks: [
+				{
+					id: "3F2E1A8DB8574388"
+					item: "botania:holy_cloak"
+					type: "item"
+				}
+				{
+					id: "02464DA01F377D38"
+					item: "botania:unholy_cloak"
+					type: "item"
+				}
+				{
+					id: "5D5E11F6009138C2"
+					item: "botania:balance_cloak"
+					type: "item"
+				}
+			]
+			title: "Cloaks of Judgment"
+			x: 2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["3DF6E1BAF59E04B1"]
+			id: "5E18DF0F1219ABAB"
+			tasks: [{
+				id: "4AB9D2552E685D44"
+				item: "botania:cloud_pendant"
+				type: "item"
+			}]
+			title: "Double Jump"
+			x: 3.5d
+			y: 18.5d
 		}
 	]
 	title: "Botania"

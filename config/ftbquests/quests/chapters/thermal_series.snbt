@@ -54,6 +54,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3FDB168172B231C6"]
 			id: "28C16E9BE7D924DD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -74,6 +75,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["28C16E9BE7D924DD"]
 			id: "39BBFA5F6AF421DB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -94,6 +96,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["39BBFA5F6AF421DB"]
 			id: "29633B18B14FA907"
 			rewards: [{
 				exclude_from_claim_all: true

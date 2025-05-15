@@ -1,4 +1,41 @@
 JEIEvents.hideItems(event => {
     event.hide('industrialforegoing:ore_laser_base')
     event.hide('draconicevolution:info_tablet')
+
+    /**
+     * @param {Internal.ItemStack_} item 
+     */
+    function disable(item) {
+        event.hide(item)
+    }
+    disable('lbu2:error_lucky_block')
+    disable('lbu2:hacker_lucky_block')
+    disable('lbu2:entropy_lucky_block')
+    disable('lbu2:original_lucky_block')
+    disable('lbu2:eclipse_lucky_block')
+    disable('lbu2:bloodmoon_lucky_block')
+    disable('lbu2:yin_yang_lucky_block')
+    disable('lbu2:murder_drones_lucky_block')
+    disable('lbu2:tf_2_lucky_block')
+    disable('lbu2:console_lucky_block')
+    disable('lbu2:pillager_lucky_block')
+    disable('lbu2:dimensional_lucky_block')
+    disable('lbu2:classic_lucky_block')
+    disable('lbu2:invisible_lucky_block')
+    disable('lbu2:creeper_lucky_block')
+    disable('lbu2:corrupted_lucky_block')
+    disable('lbu2:desert_lucky_block')
+    disable('lbu2:limbus_company_lucky_block')
+    disable('lbu2:mars_lucky_block')
+    disable('lbu2:soul_lucky_block')
+    disable('lbu2:wither_lucky_block')
+    disable('lbu2:inverted_lucky_block')
+    disable('lbu2:cookie_lucky_block')
+    disable('lbu2:cave_lucky_block')
+    disable('lbu2:forest_lucky_block')
+    disable('lbu2:unstable_lucky_block')
+    disable('lbu2:machine_lucky_block')
+    disable('lbu2:pickle_lucky_block')
+    disable('lbu2:blaze_lucky_block')
+    disable('lbu2:etherial_lucky_block')
 })

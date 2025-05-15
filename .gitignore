@@ -1,11 +1,5 @@
 /*
-!/scripts
 !/config
-/config/jei/world/local/*
-/config/jei/ingredient-list-mod-sort-order.ini
-/config/fml.toml
-/config/fabric/indigo-renderer.properties
-
 !/kubejs
 !/defaultconfigs
 !/curseforgepageassets

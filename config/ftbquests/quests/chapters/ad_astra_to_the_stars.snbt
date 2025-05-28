@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "363A3C9B1EE31BC8"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -137,10 +137,13 @@
 			]
 			title: "Space proofing"
 			x: 3.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["11FCF57C050BC55F"]
+			dependencies: [
+				"11FCF57C050BC55F"
+				"29FE13F4A675906D"
+			]
 			description: [
 				"Mankind has looked upon the night sky for millenia. You're gonna find out exactly what is out there."
 				""
@@ -186,7 +189,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6E144542A6AC1605"]
@@ -241,7 +244,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -298,7 +301,11 @@
 		}
 		{
 			dependencies: ["57507458F5A3A6CB"]
-			description: ["While you are on the moon, look for any deposits of dash ore. They can be found under the surface and in structures."]
+			description: [
+				"While you are on the moon, look for any deposits of dash ore. They can be found under the surface and in structures."
+				""
+				"Ideally, your mining process is automated at this point."
+			]
 			id: "5DE47137D9F147D9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -315,11 +322,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5DE47137D9F147D9"]
+			dependencies: [
+				"5DE47137D9F147D9"
+				"1048BA5763583B2C"
+			]
 			description: [
 				"It is time for the second step in your journey of space exploration: Mars."
 				""
-				"Build a Tier 2 rocket."
+				"Build a Tier 2 rocket. If you're missing a radio, grab one from an abandoned radio tower on the moon."
 			]
 			id: "5E447E815ED4E711"
 			rewards: [{
@@ -345,12 +355,19 @@
 			description: ["What wonders will you find on the mysterious red planet?"]
 			icon: "ad_astra:mars_globe"
 			id: "3325DF5469D01FDB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10801472ED26F9AF"
-				table_id: 8024000200115007606L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10801472ED26F9AF"
+					table_id: 8024000200115007606L
+					type: "random"
+				}
+				{
+					id: "1632DBF7E96DD839"
+					item: "ad_astra:mars_globe"
+					type: "item"
+				}
+			]
 			tasks: [{
 				dimension: "ad_astra:mars"
 				id: "01AB5B454A6CE015"
@@ -537,23 +554,32 @@
 				"Wispers of curious structures of unknown use dotting the deserts have reached your ears. The locals speak of times long past where big fire spitting cylinders climb to the skies."
 				""
 				"Find a Ruined Space Center to obtain a radio."
+				""
+				"Hint: Use your explorer's compass"
 			]
-			id: "60BBD6C298174BC6"
+			id: "29FE13F4A675906D"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "52782DB093370A75"
+				id: "1758B02572ADA738"
 				table_id: 8024000200115007606L
 				type: "random"
 			}]
-			tasks: [{
-				id: "03283A2CCE457EAD"
-				structure: "perspatium:ruined_space_center"
-				title: "Find a ruined Space Center"
-				type: "structure"
-			}]
-			title: "Earthly Remnants"
-			x: 12.0d
-			y: 1.5d
+			tasks: [
+				{
+					id: "0822A3D3C3719A99"
+					structure: "perspatium:ruined_space_center"
+					title: "Find a ruined space center"
+					type: "structure"
+				}
+				{
+					id: "6F3A9B53235524F8"
+					item: "ad_astra:radio"
+					type: "item"
+				}
+			]
+			title: "Find remnants of space exploration"
+			x: 6.0d
+			y: 2.0d
 		}
 	]
 	title: "Ad Astra: To the stars I"

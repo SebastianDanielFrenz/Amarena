@@ -755,6 +755,196 @@
 			x: 15.0d
 			y: 12.0d
 		}
+		{
+			id: "2A5F1F23DCF612F9"
+			tasks: [{
+				id: "1DBCB59003269BD6"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "739A11E564BFB992"
+			tasks: [{
+				id: "1C9C45B54C9BF4EC"
+				item: "ad_astra:moon_globe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "27A24BC9432AC046"
+			tasks: [{
+				id: "0CB8F7B62AAA5097"
+				item: "ad_astra:mars_globe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "40F94E48363207CB"
+			tasks: [{
+				id: "4B42555051FEB1CD"
+				item: "ad_astra:venus_globe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "70476FEAC758E731"
+			tasks: [{
+				id: "1296256795C272D5"
+				item: "ad_astra:mercury_globe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "1C483EB05383694A"
+			tasks: [{
+				id: "34F3A17E6DF1266B"
+				item: "ad_extendra:jupiter_globe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "769D82C5E85FEC94"
+			tasks: [{
+				id: "0A4DAA1E9DFD20DE"
+				item: "ad_extendra:saturn_globe"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			id: "13E561160950DAD3"
+			tasks: [{
+				id: "3F174B7B5643E0F9"
+				item: "ad_extendra:uranus_globe"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			id: "6C04B54F64138283"
+			tasks: [{
+				id: "443FB0AD65D2D810"
+				item: "ad_extendra:neptune_globe"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			id: "034B02983E7AC6BF"
+			tasks: [{
+				id: "643C679E8B947663"
+				item: "ad_extendra:orcus_globe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			id: "48CAE55934CCEDC0"
+			tasks: [{
+				id: "024AF16325D3EE19"
+				item: "ad_extendra:pluto_globe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.5d
+		}
+		{
+			id: "0AC7927F27DEB7E7"
+			tasks: [{
+				id: "6499419FEB8E379A"
+				item: "ad_extendra:sedna_globe"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			id: "12AA21C43BF2338B"
+			tasks: [{
+				id: "14B49057941F36A8"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.5d
+		}
+		{
+			id: "57866E7A35A38E0C"
+			tasks: [{
+				id: "2C1FB703F5D63EC1"
+				item: "ad_extendra:b_globe"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -5.0d
+		}
+		{
+			id: "01726AD0AB9B778B"
+			tasks: [{
+				id: "20A3A3D174413F32"
+				item: "ad_extendra:ceres_globe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			id: "7FDDFBF4BB82769D"
+			tasks: [{
+				id: "74F064856EBED1B0"
+				item: "ad_extendra:gonggong_globe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -5.0d
+		}
+		{
+			id: "33F60B26EA65DB20"
+			tasks: [{
+				id: "4E5381FA072B537E"
+				item: "ad_extendra:haumea_globe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.0d
+		}
+		{
+			id: "4D288471DF36B389"
+			tasks: [{
+				id: "47DBFD4C8E78F859"
+				item: "ad_extendra:makemake_globe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			id: "064786CB2E180267"
+			tasks: [{
+				id: "264C8F7C34F010D0"
+				item: "ad_extendra:quaoar_globe"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.0d
+		}
 	]
 	title: "Ad astra: To the stars II"
 }
